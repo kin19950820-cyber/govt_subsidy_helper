@@ -1,0 +1,163 @@
+[
+  {
+    "url": "https://www.wfsfaa.gov.hk/",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:08.826Z",
+    "notes": ""
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/en/sfo/index.htm",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:09.696Z",
+    "notes": ""
+  },
+  {
+    "url": "https://ess.wfsfaa.gov.hk/",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:12.968Z",
+    "notes": ""
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:14.093Z",
+    "notes": ""
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/en/sfo/primarysecondary/tt/overview.php",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:16.112Z",
+    "notes": ""
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/en/sfo/preprimary/index.htm",
+    "type": "page",
+    "status": null,
+    "fetched_at": "2026-06-22T13:59:54.677Z",
+    "notes": "scheme source: KCFRS"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/en/index.htm",
+    "type": "page",
+    "status": null,
+    "fetched_at": "2026-06-22T13:59:54.677Z",
+    "notes": "scheme source: WFA"
+  },
+  {
+    "url": "https://www.swd.gov.hk/en/index/site_pubsvc/page_socsecu/sub_comprehens/",
+    "type": "page",
+    "status": null,
+    "fetched_at": "2026-06-22T13:59:54.677Z",
+    "notes": "scheme source: CSSA"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/en/wfao/wfas/forms.php",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:18.397Z",
+    "notes": ""
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/en/sfo/preprimary/kcfr/forms.php",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:20.372Z",
+    "notes": ""
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/en/sfo/primarysecondary/tt/forms.php",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:22.199Z",
+    "notes": ""
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/en/sfo/primarysecondary/faeaec/forms.php",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:24.341Z",
+    "notes": ""
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/en/sfo/primarysecondary/yjd/forms.php",
+    "type": "page",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:26.136Z",
+    "notes": ""
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA001B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:28.683Z",
+    "notes": "downloaded (490770 bytes)"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA200B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:30.371Z",
+    "notes": "downloaded (887138 bytes)"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA002B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:33.451Z",
+    "notes": "downloaded (445077 bytes)"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA004B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:35.166Z",
+    "notes": "downloaded (193246 bytes)"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA005B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:36.225Z",
+    "notes": "downloaded (249330 bytes)"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA006B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:38.569Z",
+    "notes": "downloaded (301901 bytes)"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA007B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:40.530Z",
+    "notes": "downloaded (8214568 bytes)"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA008B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:42.180Z",
+    "notes": "downloaded (552361 bytes)"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA009B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:44.153Z",
+    "notes": "downloaded (782867 bytes)"
+  },
+  {
+    "url": "https://www.wfsfaa.gov.hk/wfao/pdf/WFA100B.pdf",
+    "type": "pdf",
+    "status": 200,
+    "fetched_at": "2026-06-22T13:59:46.283Z",
+    "notes": "downloaded (375047 bytes)"
+  }
+]

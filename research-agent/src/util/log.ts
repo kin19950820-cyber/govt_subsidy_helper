@@ -1,0 +1,8 @@
+const ts = () => new Date().toISOString();
+
+export const log = {
+  info: (...a: unknown[]) => console.log(`[${ts()}] [info]`, ...a),
+  warn: (...a: unknown[]) => console.warn(`[${ts()}] [warn]`, ...a),
+  error: (...a: unknown[]) => console.error(`[${ts()}] [error]`, ...a),
+  url: (...a: unknown[]) => console.log(`[${ts()}] [url ]`, ...a),
+};

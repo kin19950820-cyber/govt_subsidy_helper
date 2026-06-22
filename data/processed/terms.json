@@ -1,0 +1,93 @@
+[
+  {
+    "term_en": "means test",
+    "term_zh": "入息審查",
+    "simple_explanation_zh": "政府睇下你屋企賺幾多錢，再決定可唔可以攞資助、攞幾多。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/primarysecondary/tt/overview.php",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "household",
+    "term_zh": "家庭 / 住戶",
+    "simple_explanation_zh": "住埋一齊、一齊使錢同分擔開支嘅一家人。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/primarysecondary/tt/overview.php",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "applicant",
+    "term_zh": "申請人",
+    "simple_explanation_zh": "填表去申請資助嗰個人，通常係爸爸媽媽或者監護人。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "student-applicant",
+    "term_zh": "學生申請人",
+    "simple_explanation_zh": "資助係為佢而申請嘅嗰個學生。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "eligible household",
+    "term_zh": "合資格住戶",
+    "simple_explanation_zh": "符合到政府條件、可以攞資助嗰戶人。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/primarysecondary/tt/overview.php",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "correspondence address",
+    "term_zh": "通訊地址",
+    "simple_explanation_zh": "政府寄信俾你嘅地址，要填一個收到信嘅地方。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "residential address",
+    "term_zh": "住址",
+    "simple_explanation_zh": "你實際住緊嘅地方。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "supporting documents",
+    "term_zh": "證明文件",
+    "simple_explanation_zh": "用嚟證明你講嘅嘢係真嘅文件，例如身份證、收入證明。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/primarysecondary/tt/overview.php",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "SFO E-link",
+    "term_zh": "學資處電子通",
+    "simple_explanation_zh": "學生資助處嘅網上系統，可以喺度交申請同睇進度。",
+    "source_url": "https://ess.wfsfaa.gov.hk/",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "iAM Smart / iAM Smart+",
+    "term_zh": "智方便 / 智方便+",
+    "simple_explanation_zh": "政府嘅手機應用程式，可以用嚟登入同網上簽名，慳返填表時間。",
+    "source_url": "https://www.iamsmart.gov.hk/",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "full grant / half grant",
+    "term_zh": "全額 / 半額資助",
+    "simple_explanation_zh": "全額即係攞足；半額即係攞一半，視乎你屋企收入。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/primarysecondary/tt/overview.php",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "continuing applicant",
+    "term_zh": "舊生 / 繼續申請人",
+    "simple_explanation_zh": "之前已經申請過、今年再申請嘅人。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  },
+  {
+    "term_en": "first-time applicant",
+    "term_zh": "首次申請人",
+    "simple_explanation_zh": "第一次申請呢個資助嘅人。",
+    "source_url": "https://www.wfsfaa.gov.hk/en/sfo/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.677Z"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "hk-subsidy-research-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Crawler/research agent that reads official WFSFAA sources and produces structured HK student subsidy data for the webapp.",
+  "type": "module",
+  "scripts": {
+    "crawl": "tsx src/index.ts crawl",
+    "extract": "tsx src/index.ts extract",
+    "build": "tsx src/index.ts build",
+    "all": "tsx src/index.ts all",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.4"
+  }
+}

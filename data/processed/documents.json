@@ -1,0 +1,312 @@
+[
+  {
+    "scheme_code": "TA",
+    "seq": 1,
+    "document_label": "申請人身份證明文件",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "TA",
+    "seq": 2,
+    "document_label": "學生身份證明 / 出生證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "TA",
+    "seq": 3,
+    "document_label": "住址證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "TA",
+    "seq": 4,
+    "document_label": "家庭成員入息證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "TA",
+    "seq": 5,
+    "document_label": "銀行戶口資料（用作發放津貼）",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "STS",
+    "seq": 1,
+    "document_label": "申請人身份證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "STS",
+    "seq": 2,
+    "document_label": "學生證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "STS",
+    "seq": 3,
+    "document_label": "住址證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "STS",
+    "seq": 4,
+    "document_label": "入息證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "STS",
+    "seq": 5,
+    "document_label": "銀行戶口資料",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "IA",
+    "seq": 1,
+    "document_label": "申請人身份證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "IA",
+    "seq": 2,
+    "document_label": "學生證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "IA",
+    "seq": 3,
+    "document_label": "住址證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "IA",
+    "seq": 4,
+    "document_label": "入息或綜援證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "IA",
+    "seq": 5,
+    "document_label": "銀行戶口資料",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "KCFRS",
+    "seq": 1,
+    "document_label": "申請人身份證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "KCFRS",
+    "seq": 2,
+    "document_label": "子女出生證明 / 身份證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "KCFRS",
+    "seq": 3,
+    "document_label": "住址證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "KCFRS",
+    "seq": 4,
+    "document_label": "入息證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "KCFRS",
+    "seq": 5,
+    "document_label": "銀行戶口資料",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "KGSE",
+    "seq": 1,
+    "document_label": "與學費減免計劃相同的文件",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/en/resources/forms/form.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "WFA",
+    "seq": 1,
+    "document_label": "申請人及住戶成員身份證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/wfao/en/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "WFA",
+    "seq": 2,
+    "document_label": "入息證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/wfao/en/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "WFA",
+    "seq": 3,
+    "document_label": "工時證明（如糧單 / 僱主證明）",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/wfao/en/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "WFA",
+    "seq": 4,
+    "document_label": "住址證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/wfao/en/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "WFA",
+    "seq": 5,
+    "document_label": "在學子女學生證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/wfao/en/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "WFA",
+    "seq": 6,
+    "document_label": "銀行戶口資料",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.wfsfaa.gov.hk/wfao/en/index.htm",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "CSSA",
+    "seq": 1,
+    "document_label": "申請人及家庭成員身份證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.swd.gov.hk/en/index/site_pubsvc/page_socsecu/sub_comprehens/",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "CSSA",
+    "seq": 2,
+    "document_label": "在學子女學生證明",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.swd.gov.hk/en/index/site_pubsvc/page_socsecu/sub_comprehens/",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "CSSA",
+    "seq": 3,
+    "document_label": "綜援相關文件",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.swd.gov.hk/en/index/site_pubsvc/page_socsecu/sub_comprehens/",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  },
+  {
+    "scheme_code": "CSSA",
+    "seq": 4,
+    "document_label": "銀行戶口資料",
+    "required": true,
+    "confidence": "medium",
+    "needs_review": true,
+    "source_url": "https://www.swd.gov.hk/en/index/site_pubsvc/page_socsecu/sub_comprehens/",
+    "last_checked_at": "2026-06-22T13:59:54.675Z"
+  }
+]
