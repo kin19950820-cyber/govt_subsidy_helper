@@ -1,0 +1,152 @@
+-- =============================================================
+-- 初始種子資料 (seed)
+-- 6 個常見學生津貼。官方連結為佔位符，可由 admin 後台更新。
+-- 喺 schema.sql + rls.sql 之後執行。
+-- =============================================================
+
+insert into public.subsidy_schemes
+  (id, slug, name_zh, name_en, category, summary, suitable_for, not_suitable_for,
+   eligibility, documents, steps, official_url, form_url, department, phone,
+   last_verified, disclaimer, rule, active)
+values
+-- 1. 學校書簿津貼
+('11111111-1111-1111-1111-111111111111',
+ 'school-textbook-assistance',
+ '學校書簿津貼計劃',
+ 'School Textbook Assistance Scheme',
+ '上學開支',
+ '幫低收入家庭俾返書簿同部分學習雜費。合資格學生可以攞全額或半額津貼。',
+ '就讀小學或中學、家庭收入較低嘅學生。',
+ '正領取綜援嘅家庭（綜援已包學校相關津貼，唔需要重複申請）。',
+ '["學生就讀本地小學或中學日校","通過學生資助處嘅家庭入息審查","並非正領取綜援"]'::jsonb,
+ '["applicant_id","student_id","student_proof","address_proof","income_proof","bank_account"]'::jsonb,
+ '[{"order":1,"text":"第一步：先睇你屋企有冇讀緊小學或中學嘅學生。"},{"order":2,"text":"第二步：準備身份證、學生證明、住址證明、收入證明。"},{"order":3,"text":"第三步：填學生資助處「學生資助計劃」綜合申請表。"},{"order":4,"text":"第四步：連同文件副本郵寄或網上交俾學生資助處。"},{"order":5,"text":"第五步：等政府審查，再睇通知書知結果同金額。"}]'::jsonb,
+ 'https://www.wfsfaa.gov.hk/sfo/tc/index.htm',
+ 'https://www.wfsfaa.gov.hk/sfo/tc/postsecondary/fafs/forms.htm',
+ '在學資助處（學生資助處）',
+ '2802 2345',
+ '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"gradeLevels":["primary","secondary"],"maxIncomeBand":"20k_30k","excludeIfCssa":true,"boostSingleParent":true,"boostNewArrival":true}'::jsonb,
+ true),
+
+-- 2. 學生車船津貼
+('22222222-2222-2222-2222-222222222222',
+ 'student-travel-subsidy',
+ '學生車船津貼計劃',
+ 'Student Travel Subsidy Scheme',
+ '交通開支',
+ '幫住得遠、要搭車返學嘅低收入學生，補貼部分車船交通費。',
+ '需要搭車船返學、屋企收入較低嘅學生。',
+ '住喺學校附近、唔使付車費，或可步行返學嘅學生。',
+ '["學生就讀本地日校（小學至大專）","居住地距離學校較遠、需要付公共交通費","通過家庭入息審查"]'::jsonb,
+ '["applicant_id","student_id","student_proof","address_proof","income_proof","bank_account"]'::jsonb,
+ '[{"order":1,"text":"第一步：睇下個學生係咪要搭車船先返到學校。"},{"order":2,"text":"第二步：準備身份證、學生證明、住址證明、收入證明。"},{"order":3,"text":"第三步：填學生資助處「學生資助計劃」申請表。"},{"order":4,"text":"第四步：交俾學生資助處。"},{"order":5,"text":"第五步：等通知，批咗就會過數入你銀行戶口。"}]'::jsonb,
+ 'https://www.wfsfaa.gov.hk/sfo/tc/index.htm',
+ 'https://www.wfsfaa.gov.hk/sfo/tc/primarysecondary/sts/intro.htm',
+ '在學資助處（學生資助處）',
+ '2802 2345',
+ '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"gradeLevels":["primary","secondary","tertiary"],"maxIncomeBand":"20k_30k","travelRelated":true,"boostSingleParent":true,"boostNewArrival":true}'::jsonb,
+ true),
+
+-- 3. 上網費津貼
+('33333333-3333-3333-3333-333333333333',
+ 'internet-access-subsidy',
+ '上網費津貼計劃',
+ 'Subsidy Scheme for Internet Access Charges',
+ '上學開支',
+ '幫有學生嘅低收入家庭，補貼部分屋企上網費，方便網上學習。',
+ '屋企有學生、需要上網做功課或網上學習嘅低收入家庭。',
+ '家庭收入較高、或者已無在學子女嘅家庭。',
+ '["家庭有就讀中小學或以下嘅學生","正領取綜援，或通過家庭入息審查","每戶一年一次定額津貼"]'::jsonb,
+ '["applicant_id","student_id","student_proof","address_proof","income_proof","bank_account"]'::jsonb,
+ '[{"order":1,"text":"第一步：睇下屋企有冇學生要上網學習。"},{"order":2,"text":"第二步：準備身份證、學生證明、住址證明、收入或綜援證明。"},{"order":3,"text":"第三步：填上網費津貼申請表。"},{"order":4,"text":"第四步：交俾學生資助處或指定機構。"},{"order":5,"text":"第五步：等通知，批咗會發放定額津貼。"}]'::jsonb,
+ 'https://www.wfsfaa.gov.hk/sfo/tc/index.htm',
+ 'https://www.wfsfaa.gov.hk/sfo/tc/primarysecondary/itssa/intro.htm',
+ '在學資助處（學生資助處）',
+ '2802 2345',
+ '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"gradeLevels":["kindergarten","primary","secondary"],"maxIncomeBand":"20k_30k","internetRelated":true,"boostNewArrival":true}'::jsonb,
+ true),
+
+-- 4. 幼稚園及幼兒中心學費減免
+('44444444-4444-4444-4444-444444444444',
+ 'kindergarten-fee-remission',
+ '幼稚園及幼兒中心學費減免計劃',
+ 'Kindergarten and Child Care Centre Fee Remission Scheme',
+ '上學開支',
+ '幫有幼稚園或幼兒中心小朋友嘅低收入家庭，減免部分學費。',
+ '有就讀幼稚園或幼兒中心子女、收入較低嘅家庭。',
+ '子女已升上小學或以上、或者收入超出上限嘅家庭。',
+ '["子女就讀參加計劃嘅幼稚園或幼兒中心","通過家庭入息審查","可申請全免或半免學費"]'::jsonb,
+ '["applicant_id","student_id","student_proof","address_proof","income_proof","bank_account"]'::jsonb,
+ '[{"order":1,"text":"第一步：睇下你個小朋友係咪讀緊幼稚園或幼兒中心。"},{"order":2,"text":"第二步：準備身份證、出世紙、住址證明、收入證明。"},{"order":3,"text":"第三步：填學費減免申請表。"},{"order":4,"text":"第四步：交俾學生資助處。"},{"order":5,"text":"第五步：等通知，批咗會直接減學費。"}]'::jsonb,
+ 'https://www.wfsfaa.gov.hk/sfo/tc/index.htm',
+ 'https://www.wfsfaa.gov.hk/sfo/tc/preprimary/kcfrs/intro.htm',
+ '在學資助處（學生資助處）',
+ '2802 2345',
+ '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"gradeLevels":["kindergarten"],"maxIncomeBand":"30k_40k","boostSingleParent":true,"boostNewArrival":true}'::jsonb,
+ true),
+
+-- 5. 綜援學生相關支援
+('55555555-5555-5555-5555-555555555555',
+ 'cssa-student-support',
+ '綜援學生相關支援',
+ 'Comprehensive Social Security Assistance (Student-related)',
+ '綜合援助',
+ '已領取綜援嘅家庭，子女讀書嘅學習津貼通常已經包喺綜援度，毋須另外申請書簿等津貼。',
+ '正領取綜援、有在學子女嘅家庭。',
+ '未領取綜援嘅家庭（應改為申請學生資助計劃）。',
+ '["家庭正領取綜援","有就讀幼稚園至大專嘅在學子女","學習開支津貼隨綜援個案發放"]'::jsonb,
+ '["applicant_id","student_id","student_proof","cssa_proof","bank_account"]'::jsonb,
+ '[{"order":1,"text":"第一步：確認你屋企正領緊綜援。"},{"order":2,"text":"第二步：準備綜援文件、學生證明、身份證。"},{"order":3,"text":"第三步：向你個案嘅社會保障部職員講有在學子女。"},{"order":4,"text":"第四步：交學生相關證明俾社會福利署。"},{"order":5,"text":"第五步：學習津貼會隨綜援一齊發放。"}]'::jsonb,
+ 'https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/',
+ 'https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/sub_comprehens/',
+ '社會福利署',
+ '2343 2255',
+ '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"requiresCssa":true,"boostSen":true,"boostSingleParent":true}'::jsonb,
+ true),
+
+-- 6. 在職家庭津貼
+('66666666-6666-6666-6666-666666666666',
+ 'working-family-allowance',
+ '在職家庭津貼計劃',
+ 'Working Family Allowance Scheme',
+ '綜合援助',
+ '幫有人返工但收入唔高嘅家庭。除咗家庭津貼，仲有兒童津貼幫補在學子女開支。',
+ '有家庭成員返工、收入唔高、又有在學子女嘅家庭。',
+ '正領取綜援嘅家庭（綜援同在職家庭津貼唔可以同時領取）。',
+ '["家庭有成員達到每月工時要求","家庭收入及資產低於上限","並非領取綜援"]'::jsonb,
+ '["applicant_id","student_id","student_proof","address_proof","income_proof","bank_account","tenancy_agreement"]'::jsonb,
+ '[{"order":1,"text":"第一步：睇下屋企有冇人返緊工，又有冇在學子女。"},{"order":2,"text":"第二步：準備身份證、入息證明、工時證明、住址證明。"},{"order":3,"text":"第三步：填在職家庭津貼申請表。"},{"order":4,"text":"第四步：交俾在職家庭津貼辦事處。"},{"order":5,"text":"第五步：等通知，批咗會按月或一筆過過數。"}]'::jsonb,
+ 'https://www.wfsfaa.gov.hk/wfao/tc/index.htm',
+ 'https://www.wfsfaa.gov.hk/wfao/tc/application/forms.htm',
+ '在職家庭津貼辦事處',
+ '2558 3000',
+ '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"maxIncomeBand":"30k_40k","excludeIfCssa":true,"boostSingleParent":true,"boostNewArrival":true}'::jsonb,
+ true)
+
+on conflict (id) do nothing;
+
+-- ---------- 同步寫入 normalized 文件表（可選用） ----------
+insert into public.subsidy_documents (scheme_id, document_key, required)
+select s.id, doc.value::text, true
+from public.subsidy_schemes s,
+     lateral jsonb_array_elements_text(s.documents) as doc(value)
+on conflict do nothing;
+
+-- ---------- 設定管理員（請改成你自己嘅 auth user id） ----------
+-- 1) 先用 App 嘅電郵登入流程登入一次，喺 Supabase Auth → Users 搵到你嘅 UUID
+-- 2) 解除下面註解並填入你嘅 UUID + email，再執行：
+-- insert into public.admin_users (user_id, email)
+-- values ('00000000-0000-0000-0000-000000000000', 'you@example.com')
+-- on conflict (user_id) do nothing;
