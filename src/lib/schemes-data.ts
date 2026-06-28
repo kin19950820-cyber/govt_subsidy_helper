@@ -43,7 +43,7 @@ export const SCHEMES: SubsidyScheme[] = [
       { order: 5, text: "第五步：等政府審查，再睇通知書知結果同金額。" },
     ],
     officialUrl: "https://www.wfsfaa.gov.hk/sfo/tc/index.htm",
-    formUrl: "https://www.wfsfaa.gov.hk/sfo/tc/postsecondary/fafs/forms.htm",
+    formUrl: "https://www.wfsfaa.gov.hk/sfo/tc/primarysecondary/tt/forms.php",
     department: "在學資助處（學生資助處）",
     phone: "2802 2345",
     lastVerified: "2026-06-01",
