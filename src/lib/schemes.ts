@@ -10,6 +10,7 @@ function mapRow(row: any): SubsidyScheme {
     nameZh: row.name_zh,
     nameEn: row.name_en,
     category: row.category ?? "",
+    audience: row.audience ?? [],
     summary: row.summary ?? "",
     suitableFor: row.suitable_for ?? "",
     notSuitableFor: row.not_suitable_for ?? "",

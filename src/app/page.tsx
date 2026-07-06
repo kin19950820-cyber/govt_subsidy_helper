@@ -1,5 +1,14 @@
 import Link from "next/link";
 import Disclaimer from "@/components/Disclaimer";
+import { AUDIENCE_LABELS, AUDIENCE_ORDER } from "@/lib/types";
+
+const GROUP_ICON: Record<string, string> = {
+  student: "🎒",
+  elderly: "👵",
+  low_income: "🏠",
+  disability: "♿",
+  other: "❓",
+};
 
 const FEATURES = [
   { icon: "🔍", title: "幾條問題搵津貼", desc: "答幾條簡單問題，即刻睇邊啲津貼可能啱你。", href: "/finder" },
@@ -27,6 +36,24 @@ export default function HomePage() {
           <Link href="/schemes" className="btn border-2 border-white/70 text-white hover:bg-white/10">
             睇所有津貼
           </Link>
+        </div>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className="text-xl font-bold">你屬於邊個群組？</h2>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          {AUDIENCE_ORDER.map((g) => (
+            <Link
+              key={g}
+              href={`/schemes?group=${g}`}
+              className="card flex flex-col items-center gap-1 py-4 text-center hover:border-brand"
+            >
+              <span className="text-3xl" aria-hidden>
+                {GROUP_ICON[g]}
+              </span>
+              <span className="font-semibold">{AUDIENCE_LABELS[g]}</span>
+            </Link>
+          ))}
         </div>
       </section>
 

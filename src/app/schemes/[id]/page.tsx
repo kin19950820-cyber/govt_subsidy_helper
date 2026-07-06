@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getSchemeById } from "@/lib/schemes";
-import { DOCUMENT_LABELS } from "@/lib/types";
+import { AUDIENCE_LABELS, DOCUMENT_LABELS } from "@/lib/types";
 import Disclaimer from "@/components/Disclaimer";
 
 export const dynamic = "force-dynamic";
@@ -17,9 +17,19 @@ export default async function SchemeDetailPage({
   return (
     <div className="space-y-6">
       <div>
-        <span className="chip border-brand/30 bg-brand/10 text-brand">
-          {scheme.category}
-        </span>
+        <div className="flex flex-wrap gap-1">
+          <span className="chip border-brand/30 bg-brand/10 text-brand">
+            {scheme.category}
+          </span>
+          {scheme.audience.map((g) => (
+            <span
+              key={g}
+              className="chip border-stone-300 bg-stone-100 text-stone-600"
+            >
+              {AUDIENCE_LABELS[g]}
+            </span>
+          ))}
+        </div>
         <h1 className="mt-2 text-2xl font-bold">{scheme.nameZh}</h1>
         <p className="text-stone-500">{scheme.nameEn}</p>
       </div>

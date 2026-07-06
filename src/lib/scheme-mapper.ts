@@ -7,6 +7,7 @@ export function rowToScheme(row: any): SubsidyScheme {
     nameZh: row.name_zh,
     nameEn: row.name_en,
     category: row.category ?? "",
+    audience: row.audience ?? [],
     summary: row.summary ?? "",
     suitableFor: row.suitable_for ?? "",
     notSuitableFor: row.not_suitable_for ?? "",
@@ -31,6 +32,7 @@ export function schemeToRow(s: Partial<SubsidyScheme>): Record<string, unknown> 
   if (s.nameZh !== undefined) row.name_zh = s.nameZh;
   if (s.nameEn !== undefined) row.name_en = s.nameEn;
   if (s.category !== undefined) row.category = s.category;
+  if (s.audience !== undefined) row.audience = s.audience;
   if (s.summary !== undefined) row.summary = s.summary;
   if (s.suitableFor !== undefined) row.suitable_for = s.suitableFor;
   if (s.notSuitableFor !== undefined) row.not_suitable_for = s.notSuitableFor;

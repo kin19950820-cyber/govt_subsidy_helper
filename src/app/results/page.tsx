@@ -65,6 +65,18 @@ export default function ResultsPage() {
         </p>
       </div>
 
+      {results.length === 0 && (
+        <div className="card space-y-3 text-center">
+          <p className="text-lg font-semibold">呢個群組暫時未有直接配對嘅津貼。</p>
+          <p className="text-stone-600">
+            你可以睇下所有津貼，或者搵社工 / 相關部門幫你了解。
+          </p>
+          <Link href="/schemes" className="btn-secondary">
+            睇所有津貼
+          </Link>
+        </div>
+      )}
+
       {grouped.map((group) => (
         <section key={group.level} className="space-y-3">
           <h2 className="text-xl font-bold">

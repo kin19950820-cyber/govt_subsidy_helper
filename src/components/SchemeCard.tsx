@@ -1,14 +1,24 @@
 import Link from "next/link";
-import { SubsidyScheme } from "@/lib/types";
+import { AUDIENCE_LABELS, SubsidyScheme } from "@/lib/types";
 
 export default function SchemeCard({ scheme }: { scheme: SubsidyScheme }) {
   return (
     <Link href={`/schemes/${scheme.id}`} className="card block hover:border-brand">
       <div className="flex items-start justify-between gap-2">
         <div>
-          <span className="chip border-brand/30 bg-brand/10 text-brand">
-            {scheme.category}
-          </span>
+          <div className="flex flex-wrap gap-1">
+            <span className="chip border-brand/30 bg-brand/10 text-brand">
+              {scheme.category}
+            </span>
+            {scheme.audience.map((g) => (
+              <span
+                key={g}
+                className="chip border-stone-300 bg-stone-100 text-stone-600"
+              >
+                {AUDIENCE_LABELS[g]}
+              </span>
+            ))}
+          </div>
           <h3 className="mt-2 text-xl font-bold text-stone-900">
             {scheme.nameZh}
           </h3>

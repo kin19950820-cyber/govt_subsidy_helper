@@ -51,6 +51,7 @@ create table if not exists public.subsidy_schemes (
   name_zh text not null,
   name_en text,
   category text,
+  audience jsonb not null default '[]'::jsonb,       -- AudienceGroup[]
   summary text,
   suitable_for text,
   not_suitable_for text,

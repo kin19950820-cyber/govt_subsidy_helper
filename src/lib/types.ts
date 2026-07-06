@@ -25,18 +25,79 @@ export const INCOME_LABELS: Record<IncomeBand, string> = {
   above_40k: "$40,000 以上",
 };
 
+// 受惠群組（政府津貼常見對象分類）
+export type AudienceGroup =
+  | "student"
+  | "elderly"
+  | "low_income"
+  | "disability"
+  | "other";
+
+export const AUDIENCE_LABELS: Record<AudienceGroup, string> = {
+  student: "學生 / 在學家庭",
+  elderly: "長者",
+  low_income: "低收入 / 在職家庭",
+  disability: "殘疾人士",
+  other: "其他",
+};
+
+// dropdown 用嘅次序（連「全部」）
+export const AUDIENCE_ORDER: AudienceGroup[] = [
+  "student",
+  "elderly",
+  "low_income",
+  "disability",
+  "other",
+];
+
+// 長者年齡範圍
+export type AgeBand = "below_60" | "60_64" | "65_69" | "70_plus";
+
+export const AGE_LABELS: Record<AgeBand, string> = {
+  below_60: "60 歲以下",
+  "60_64": "60 – 64 歲",
+  "65_69": "65 – 69 歲",
+  "70_plus": "70 歲或以上",
+};
+
+// 資產範圍（用於長者 / 入息審查，簡化版）
+export type AssetBand = "low" | "medium" | "high";
+
+export const ASSET_LABELS: Record<AssetBand, string> = {
+  low: "少（大約 $50,000 以下）",
+  medium: "中等（$50,000 – $400,000）",
+  high: "較多（$400,000 以上）",
+};
+
 // 問卷答案
 export interface FinderAnswers {
+  // 主要受惠群組（決定問卷分支）
+  group: AudienceGroup;
+
+  // 共用
   householdSize: number;
-  studentCount: number;
-  gradeLevels: GradeLevel[];
   onCssa: boolean; // 是否領取綜援
   incomeBand: IncomeBand;
-  singleParent: boolean; // 單親家庭
   newArrival: boolean; // 新來港家庭
-  hasSen: boolean; // 殘疾 / 特殊教育需要
+  isHkResident: boolean; // 香港居民
+
+  // 學生 / 在學家庭
+  studentCount: number;
+  gradeLevels: GradeLevel[];
+  singleParent: boolean; // 單親家庭
+  hasSen: boolean; // 學生殘疾 / 特殊教育需要
   needTravelSupport: boolean; // 需要交通費支援
   needInternetSupport: boolean; // 需要上網費支援
+
+  // 長者 / 殘疾
+  ageBand: AgeBand;
+  assetBand: AssetBand;
+  hasDisability: boolean; // 殘疾 / 長期病
+  livingAlone: boolean; // 獨居長者
+  needMedicalSupport: boolean; // 需要醫療費支援
+
+  // 低收入 / 在職
+  hasWorkingMember: boolean; // 有家庭成員在職
 }
 
 // 文件類別（用於合併文件清單）
@@ -48,7 +109,10 @@ export type DocumentKey =
   | "income_proof"
   | "bank_account"
   | "tenancy_agreement"
-  | "cssa_proof";
+  | "cssa_proof"
+  | "age_proof"
+  | "asset_proof"
+  | "disability_proof";
 
 export const DOCUMENT_LABELS: Record<DocumentKey, string> = {
   applicant_id: "申請人身份證",
@@ -59,6 +123,9 @@ export const DOCUMENT_LABELS: Record<DocumentKey, string> = {
   bank_account: "銀行戶口資料",
   tenancy_agreement: "租單 / 租約（如適用）",
   cssa_proof: "綜援證明（如適用）",
+  age_proof: "年齡證明（身份證）",
+  asset_proof: "資產證明（銀行結單）",
+  disability_proof: "殘疾 / 醫療證明",
 };
 
 // 申請步驟（兒童友善）
@@ -85,6 +152,16 @@ export interface EligibilityRule {
   boostSingleParent?: boolean;
   boostNewArrival?: boolean;
   boostSen?: boolean;
+
+  // 長者 / 殘疾相關
+  minAgeBand?: AgeBand; // 年齡下限（例如 65 歲）
+  maxAssetBand?: AssetBand; // 資產上限
+  requiresDisability?: boolean; // 須為殘疾 / 長期病
+  requiresElderly?: boolean; // 須為長者
+  medicalRelated?: boolean; // 同醫療支援有關
+  boostLivingAlone?: boolean; // 獨居長者加分
+  // 是否需要入息審查（false = 免審查，例如生果金 70 歲）
+  meansTested?: boolean;
 }
 
 export interface SubsidyScheme {
@@ -93,6 +170,7 @@ export interface SubsidyScheme {
   nameZh: string;
   nameEn: string;
   category: string;
+  audience: AudienceGroup[]; // 受惠群組（可多個）
   summary: string; // 簡單說明
   suitableFor: string; // 適合邊類家庭
   notSuitableFor: string; // 不適合邊類家庭

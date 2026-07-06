@@ -4,6 +4,9 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import {
+  AUDIENCE_LABELS,
+  AUDIENCE_ORDER,
+  AudienceGroup,
   DOCUMENT_LABELS,
   DocumentKey,
   SubsidyScheme,
@@ -15,6 +18,7 @@ const EMPTY: SubsidyScheme = {
   nameZh: "",
   nameEn: "",
   category: "",
+  audience: [],
   summary: "",
   suitableFor: "",
   notSuitableFor: "",
@@ -125,6 +129,30 @@ export default function AdminSchemeEditPage() {
       <Text label="中文名稱" value={s.nameZh} onChange={(v) => set("nameZh", v)} />
       <Text label="英文名稱" value={s.nameEn} onChange={(v) => set("nameEn", v)} />
       <Text label="分類" value={s.category} onChange={(v) => set("category", v)} />
+
+      <div>
+        <p className="label">受惠群組（可多選）</p>
+        <div className="mt-2 grid grid-cols-2 gap-2">
+          {AUDIENCE_ORDER.map((g) => (
+            <label key={g} className="flex items-center gap-2 rounded-lg border p-2 text-sm">
+              <input
+                type="checkbox"
+                className="h-5 w-5 accent-brand"
+                checked={s.audience.includes(g)}
+                onChange={() =>
+                  set(
+                    "audience",
+                    s.audience.includes(g)
+                      ? s.audience.filter((x) => x !== g)
+                      : [...s.audience, g]
+                  )
+                }
+              />
+              {AUDIENCE_LABELS[g]}
+            </label>
+          ))}
+        </div>
+      </div>
       <Area label="簡單說明" value={s.summary} onChange={(v) => set("summary", v)} />
       <Area label="適合邊類家庭" value={s.suitableFor} onChange={(v) => set("suitableFor", v)} />
       <Area

@@ -19,14 +19,22 @@ export function loadAnswers(): FinderAnswers | null {
 }
 
 export const DEFAULT_ANSWERS: FinderAnswers = {
+  group: "student",
   householdSize: 3,
-  studentCount: 1,
-  gradeLevels: [],
   onCssa: false,
   incomeBand: "10k_20k",
-  singleParent: false,
   newArrival: false,
+  isHkResident: true,
+  studentCount: 1,
+  gradeLevels: [],
+  singleParent: false,
   hasSen: false,
   needTravelSupport: false,
   needInternetSupport: false,
+  ageBand: "65_69",
+  assetBand: "low",
+  hasDisability: false,
+  livingAlone: false,
+  needMedicalSupport: false,
+  hasWorkingMember: false,
 };

@@ -137,6 +137,103 @@ values
 
 on conflict (id) do nothing;
 
+-- ---------- 設定現有 6 項津貼嘅受惠群組 ----------
+update public.subsidy_schemes set audience = '["student","low_income"]'::jsonb where id = '11111111-1111-1111-1111-111111111111';
+update public.subsidy_schemes set audience = '["student","low_income"]'::jsonb where id = '22222222-2222-2222-2222-222222222222';
+update public.subsidy_schemes set audience = '["student","low_income"]'::jsonb where id = '33333333-3333-3333-3333-333333333333';
+update public.subsidy_schemes set audience = '["student","low_income"]'::jsonb where id = '44444444-4444-4444-4444-444444444444';
+update public.subsidy_schemes set audience = '["low_income","student"]'::jsonb where id = '55555555-5555-5555-5555-555555555555';
+update public.subsidy_schemes set audience = '["low_income"]'::jsonb where id = '66666666-6666-6666-6666-666666666666';
+
+-- ---------- 長者 / 殘疾群組（金額、年齡、資產上限每年由政府公布，需人手核實） ----------
+insert into public.subsidy_schemes
+  (id, slug, name_zh, name_en, category, audience, summary, suitable_for, not_suitable_for,
+   eligibility, documents, steps, official_url, form_url, department, phone,
+   last_verified, disclaimer, rule, active)
+values
+-- 7. 長者生活津貼
+('77777777-7777-7777-7777-777777777777',
+ 'old-age-living-allowance', '長者生活津貼', 'Old Age Living Allowance (OALA)', '長者津貼',
+ '["elderly","low_income"]'::jsonb,
+ '俾 65 歲或以上、收入同資產唔多嘅長者嘅每月現金津貼。金額同資產上限每年由政府公布，請以官方為準。',
+ '65 歲或以上、收入及資產較少嘅長者。',
+ '資產或收入超出上限、或正領取綜援嘅長者（唔可以同時領取）。',
+ '["年滿 65 歲","為香港居民並符合居港規定","每月入息及資產不超過政府訂定上限（每年公布）","並非同時領取綜援或高齡津貼"]'::jsonb,
+ '["applicant_id","age_proof","address_proof","income_proof","asset_proof","bank_account"]'::jsonb,
+ '[{"order":1,"text":"第一步：睇下你係咪夠 65 歲。"},{"order":2,"text":"第二步：準備身份證、住址證明、收入同銀行結單。"},{"order":3,"text":"第三步：填長者生活津貼申請表。"},{"order":4,"text":"第四步：交俾社會福利署。"},{"order":5,"text":"第五步：批咗會每月過錢入你戶口。"}]'::jsonb,
+ 'https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/sub_ssallowance/',
+ 'https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/sub_ssallowance/',
+ '社會福利署（社會保障）', '2343 2255', '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"requiresElderly":true,"minAgeBand":"65_69","maxAssetBand":"medium","maxIncomeBand":"10k_20k","excludeIfCssa":true,"meansTested":true,"boostLivingAlone":true}'::jsonb,
+ true),
+-- 8. 高齡津貼（生果金）
+('88888888-8888-8888-8888-888888888888',
+ 'old-age-allowance', '高齡津貼（生果金）', 'Old Age Allowance (OAA)', '長者津貼',
+ '["elderly"]'::jsonb,
+ '俾 70 歲或以上長者嘅每月現金津貼，唔使入息審查。金額每年由政府公布。',
+ '70 歲或以上嘅香港長者。',
+ '未夠 70 歲，或已領取長者生活津貼 / 綜援嘅長者。',
+ '["年滿 70 歲","為香港居民並符合居港規定","毋須入息或資產審查","不可同時領取長者生活津貼或綜援"]'::jsonb,
+ '["applicant_id","age_proof","address_proof","bank_account"]'::jsonb,
+ '[{"order":1,"text":"第一步：睇下你係咪夠 70 歲。"},{"order":2,"text":"第二步：準備身份證同銀行戶口資料。"},{"order":3,"text":"第三步：填高齡津貼申請表。"},{"order":4,"text":"第四步：交俾社會福利署。"},{"order":5,"text":"第五步：批咗會每月過錢入你戶口。"}]'::jsonb,
+ 'https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/sub_ssallowance/',
+ 'https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/sub_ssallowance/',
+ '社會福利署（社會保障）', '2343 2255', '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"requiresElderly":true,"minAgeBand":"70_plus","excludeIfCssa":true,"meansTested":false}'::jsonb,
+ true),
+-- 9. 長者醫療券
+('99999999-9999-9999-9999-999999999999',
+ 'elderly-health-care-voucher', '長者醫療券', 'Elderly Health Care Voucher Scheme', '醫療支援',
+ '["elderly"]'::jsonb,
+ '俾 65 歲或以上長者用嚟睇私家醫生、牙醫、中醫等基層醫療服務嘅醫療券。每年金額由政府公布。',
+ '65 歲或以上、想睇私家基層醫療嘅長者。',
+ '未夠 65 歲嘅人士。',
+ '["年滿 65 歲","持有效香港身份證","醫療券可用於已登記嘅醫療服務提供者"]'::jsonb,
+ '["applicant_id","age_proof"]'::jsonb,
+ '[{"order":1,"text":"第一步：睇下你係咪夠 65 歲。"},{"order":2,"text":"第二步：帶身份證去睇已登記嘅醫生或牙醫。"},{"order":3,"text":"第三步：睇醫生時話用醫療券找數。"},{"order":4,"text":"第四步：系統會自動喺你戶口扣醫療券。"},{"order":5,"text":"第五步：唔使另外攞現金，直接抵扣診金。"}]'::jsonb,
+ 'https://www.hcv.gov.hk/tc/pub/index.html',
+ 'https://www.hcv.gov.hk/tc/pub/index.html',
+ '衞生署（醫療券計劃）', '2838 2311', '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"requiresElderly":true,"minAgeBand":"65_69","medicalRelated":true,"meansTested":false}'::jsonb,
+ true),
+-- 10. 傷殘津貼
+('aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa',
+ 'disability-allowance', '傷殘津貼', 'Disability Allowance', '殘疾支援',
+ '["disability"]'::jsonb,
+ '俾經評估為嚴重殘疾嘅香港居民嘅每月現金津貼，唔使入息審查。分普通同高額兩種。',
+ '經醫生評估為嚴重殘疾嘅人士（任何年齡）。',
+ '未經評估、或殘疾程度未達標準嘅人士。',
+ '["經衞生署 / 醫院管理局醫生證明為嚴重殘疾","為香港居民並符合居港規定","毋須入息或資產審查","高額津貼須經常需要他人照顧"]'::jsonb,
+ '["applicant_id","address_proof","disability_proof","bank_account"]'::jsonb,
+ '[{"order":1,"text":"第一步：搵醫生做殘疾評估。"},{"order":2,"text":"第二步：準備身份證、住址證明同醫生證明。"},{"order":3,"text":"第三步：填傷殘津貼申請表。"},{"order":4,"text":"第四步：交俾社會福利署。"},{"order":5,"text":"第五步：批咗會每月過錢入你戶口。"}]'::jsonb,
+ 'https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/sub_ssallowance/',
+ 'https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/sub_ssallowance/',
+ '社會福利署（社會保障）', '2343 2255', '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"requiresDisability":true,"meansTested":false,"boostLivingAlone":true}'::jsonb,
+ true),
+-- 11. 公共交通費用補貼 / $2 乘車優惠
+('bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb',
+ 'public-transport-subsidy', '公共交通費用補貼 / $2 乘車優惠',
+ 'Public Transport Fare Subsidy / $2 Concessionary Fares', '交通開支',
+ '["elderly","disability","low_income"]'::jsonb,
+ '$2 乘車優惠俾長者及合資格殘疾人士用優惠票價搭車船；公共交通費用補貼則幫返交通開支較高嘅市民。詳情及年齡以官方為準。',
+ '長者、合資格殘疾人士，或每月交通開支較高嘅市民。',
+ '不符合年齡 / 殘疾資格，而交通開支又唔高嘅人士。',
+ '["$2 優惠：合資格長者及殘疾人士，用個人八達通或樂悠咭","公共交通費用補貼：每月合資格交通開支超過指定水平","確實年齡及金額以政府公布為準"]'::jsonb,
+ '["applicant_id","age_proof"]'::jsonb,
+ '[{"order":1,"text":"第一步：睇下你係咪長者或合資格殘疾人士。"},{"order":2,"text":"第二步：申請 / 使用個人八達通或樂悠咭。"},{"order":3,"text":"第三步：搭車船時嘟卡，自動用優惠票價。"},{"order":4,"text":"第四步：交通費補貼會按你嘅實際車費計算。"},{"order":5,"text":"第五步：補貼會經指定途徑發放（詳情睇官方）。"}]'::jsonb,
+ 'https://www.gov.hk/tc/residents/transport/transportfare/',
+ 'https://www.gov.hk/tc/residents/transport/transportfare/',
+ '勞工及福利局 / 運輸署', '187 2333', '2026-06-01',
+ '本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。',
+ '{"travelRelated":true,"meansTested":false,"boostLivingAlone":true}'::jsonb,
+ true)
+on conflict (id) do nothing;
+
 -- ---------- 同步寫入 normalized 文件表（可選用） ----------
 insert into public.subsidy_documents (scheme_id, document_key, required)
 select s.id, doc.value::text, true
