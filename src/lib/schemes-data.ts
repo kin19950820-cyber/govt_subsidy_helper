@@ -487,6 +487,260 @@ export const SCHEMES: SubsidyScheme[] = [
     },
     active: true,
   },
+
+  // ===== 長者社區 / 照顧 / 安全支援服務（服務名額及資助以官方為準，需人手核實）=====
+
+  // 12. 離院長者綜合支援計劃（出院長者支援）
+  {
+    id: "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    slug: "integrated-discharge-support-elderly",
+    nameZh: "離院長者綜合支援計劃（出院長者支援）",
+    nameEn: "Integrated Discharge Support Programme for Elderly Patients (IDSP)",
+    category: "社區照顧",
+    audience: ["elderly", "disability"],
+    summary:
+      "長者出院後，喺屋企提供一段時間嘅過渡支援，例如家居照顧、復康、送飯、護理，幫佢哋順利返返屋企生活。",
+    suitableFor: "啱啱喺醫院出院、返屋企後需要短期照顧或復康支援嘅長者。",
+    notSuitableFor: "毋須出院後照顧、或已入住院舍嘅長者。",
+    eligibility: [
+      "一般為 60 歲或以上、剛從醫院出院嘅病人",
+      "出院後需要家居照顧 / 復康支援",
+      "由醫院或社工評估及轉介",
+    ],
+    documents: ["applicant_id", "age_proof", "address_proof", "disability_proof"],
+    steps: [
+      { order: 1, text: "第一步：喺醫院出院前，同醫護或社工講你需要返屋企照顧。" },
+      { order: 2, text: "第二步：醫院會評估你嘅需要，再轉介去計劃。" },
+      { order: 3, text: "第三步：負責機構會聯絡你，安排上門支援。" },
+      { order: 4, text: "第四步：喺屋企接受一段時間嘅照顧、復康或送飯。" },
+      { order: 5, text: "第五步：情況穩定後，會轉介去長期社區服務。" },
+    ],
+    officialUrl:
+      "https://www.swd.gov.hk/tc/index/site_pubsvc/page_elderly/sub_csselderly/",
+    formUrl: "https://www.swd.gov.hk/tc/index/site_pubsvc/page_elderly/",
+    department: "社會福利署 / 醫院管理局",
+    phone: "2343 2255",
+    lastVerified: "2026-06-01",
+    disclaimer: COMMON_DISCLAIMER,
+    rule: {
+      requiresElderly: true,
+      minAgeBand: "60_64",
+      medicalRelated: true,
+      meansTested: false,
+      boostLivingAlone: true,
+    },
+    active: true,
+  },
+
+  // 13. 平安鐘 / 個人緊急召援服務
+  {
+    id: "dddddddd-dddd-dddd-dddd-dddddddddddd",
+    slug: "personal-emergency-link",
+    nameZh: "平安鐘（個人緊急召援服務）",
+    nameEn: "Personal Emergency Link Service",
+    category: "安全支援",
+    audience: ["elderly", "disability"],
+    summary:
+      "喺屋企裝一個緊急按鈕，長者一撳就有 24 小時服務中心幫手，遇到跌倒、唔舒服或危險可以即刻求助。有需要嘅長者可獲政府 / 關愛基金資助費用。",
+    suitableFor: "獨居或日間獨自在家、想有多份安全保障嘅長者及殘疾人士。",
+    notSuitableFor: "屋企長時間有人照顧、唔需要緊急召援嘅人士。",
+    eligibility: [
+      "一般為長者、獨居或日間獨居人士",
+      "屋企有電話 / 網絡可安裝平安鐘",
+      "經濟有困難者可申請費用資助（關愛基金 / 社署）",
+    ],
+    documents: ["applicant_id", "age_proof", "address_proof", "income_proof"],
+    steps: [
+      { order: 1, text: "第一步：睇下你係咪獨居或日頭自己一個喺屋企。" },
+      { order: 2, text: "第二步：聯絡長者安居協會或你區嘅長者中心。" },
+      { order: 3, text: "第三步：如經濟有困難，同時申請費用資助。" },
+      { order: 4, text: "第四步：職員上門幫你安裝平安鐘。" },
+      { order: 5, text: "第五步：有事撳掣，24 小時服務中心即刻幫你。" },
+    ],
+    officialUrl: "https://www.swd.gov.hk/tc/index/site_pubsvc/page_elderly/",
+    formUrl: "https://www.schsa.org.hk/tc/services/emergency_link/",
+    department: "社會福利署（服務由長者安居協會等營運）",
+    phone: "2338 8312",
+    lastVerified: "2026-06-01",
+    disclaimer: COMMON_DISCLAIMER,
+    rule: {
+      requiresElderly: true,
+      minAgeBand: "60_64",
+      meansTested: false,
+      boostLivingAlone: true,
+    },
+    active: true,
+  },
+
+  // 14. 長者社區照顧服務券
+  {
+    id: "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    slug: "community-care-service-voucher",
+    nameZh: "長者社區照顧服務券",
+    nameEn: "Community Care Service Voucher for the Elderly (CCSV)",
+    category: "社區照顧",
+    audience: ["elderly", "disability", "low_income"],
+    summary:
+      "俾身體機能有中度或以上缺損嘅長者一張服務券，可以揀日間中心或上門嘅照顧服務。費用按家庭收入分擔。",
+    suitableFor: "身體機能較弱、需要日間或家居照顧，想自己揀服務嘅長者。",
+    notSuitableFor: "身體健壯、暫時唔需要照顧服務嘅長者。",
+    eligibility: [
+      "一般為 65 歲或以上",
+      "經統一評估為身體機能中度或嚴重缺損",
+      "按家庭入息分擔部分費用（共同付款）",
+    ],
+    documents: [
+      "applicant_id",
+      "age_proof",
+      "address_proof",
+      "income_proof",
+      "disability_proof",
+    ],
+    steps: [
+      { order: 1, text: "第一步：睇下長者身體機能係咪需要照顧。" },
+      { order: 2, text: "第二步：搵社工安排「安老服務統一評估」。" },
+      { order: 3, text: "第三步：評估合資格就會編配服務券。" },
+      { order: 4, text: "第四步：揀一間認可服務單位用服務券。" },
+      { order: 5, text: "第五步：按家庭收入付返一部分費用。" },
+    ],
+    officialUrl:
+      "https://www.swd.gov.hk/tc/index/site_pubsvc/page_elderly/sub_csselderly/id_communitycare/",
+    formUrl: "https://www.swd.gov.hk/tc/index/site_pubsvc/page_elderly/",
+    department: "社會福利署",
+    phone: "2343 2255",
+    lastVerified: "2026-06-01",
+    disclaimer: COMMON_DISCLAIMER,
+    rule: {
+      requiresElderly: true,
+      minAgeBand: "65_69",
+      meansTested: true,
+      maxIncomeBand: "30k_40k",
+      medicalRelated: true,
+      boostLivingAlone: true,
+    },
+    active: true,
+  },
+
+  // 15. 綜合家居照顧服務 / 改善家居及社區照顧服務
+  {
+    id: "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    slug: "home-care-services",
+    nameZh: "家居照顧服務（綜合家居 / 改善家居及社區照顧）",
+    nameEn: "Home Care & Community Care Services for the Elderly",
+    category: "社區照顧",
+    audience: ["elderly", "disability"],
+    summary:
+      "上門幫長者處理日常生活，例如送飯、洗澡、清潔、陪診、簡單護理同復康，等佢哋可以繼續喺屋企安心生活。",
+    suitableFor: "行動不便或需要人照顧、想留喺屋企生活嘅長者。",
+    notSuitableFor: "已入住院舍、或完全可自理嘅長者。",
+    eligibility: [
+      "一般為 60 歲或以上（部分服務會照顧其他有需要人士）",
+      "因身體或健康問題需要家居照顧",
+      "經社工或統一評估安排",
+    ],
+    documents: ["applicant_id", "age_proof", "address_proof"],
+    steps: [
+      { order: 1, text: "第一步：睇下長者日常生活需唔需要人幫手。" },
+      { order: 2, text: "第二步：聯絡你區嘅長者中心或社工。" },
+      { order: 3, text: "第三步：接受需要評估。" },
+      { order: 4, text: "第四步：安排上門服務，例如送飯、洗澡、陪診。" },
+      { order: 5, text: "第五步：按需要定期跟進同調整服務。" },
+    ],
+    officialUrl: "https://www.swd.gov.hk/tc/index/site_pubsvc/page_elderly/",
+    formUrl: "https://www.swd.gov.hk/tc/index/site_pubsvc/page_elderly/",
+    department: "社會福利署",
+    phone: "2343 2255",
+    lastVerified: "2026-06-01",
+    disclaimer: COMMON_DISCLAIMER,
+    rule: {
+      requiresElderly: true,
+      minAgeBand: "60_64",
+      medicalRelated: true,
+      meansTested: false,
+      boostLivingAlone: true,
+    },
+    active: true,
+  },
+
+  // 16. 廣東計劃 / 福建計劃（長者津貼）
+  {
+    id: "a1a1a1a1-a1a1-a1a1-a1a1-a1a1a1a1a1a1",
+    slug: "guangdong-fujian-scheme",
+    nameZh: "廣東計劃 / 福建計劃",
+    nameEn: "Guangdong Scheme / Fujian Scheme",
+    category: "長者津貼",
+    audience: ["elderly"],
+    summary:
+      "俾選擇移居廣東或福建嘅合資格香港長者，可以繼續每月領取高齡津貼（生果金），唔使返香港都收到。",
+    suitableFor: "移居咗廣東或福建、又符合資格嘅香港長者。",
+    notSuitableFor: "仍然長期居住香港嘅長者（應申請本地長者津貼）。",
+    eligibility: [
+      "一般為 65 歲或以上",
+      "選擇移居並持續居於廣東 / 福建",
+      "符合原有居港年期等規定",
+    ],
+    documents: ["applicant_id", "age_proof", "bank_account"],
+    steps: [
+      { order: 1, text: "第一步：睇下你係咪已移居或打算移居廣東或福建。" },
+      { order: 2, text: "第二步：準備身份證同銀行戶口資料。" },
+      { order: 3, text: "第三步：填廣東計劃或福建計劃申請表。" },
+      { order: 4, text: "第四步：交俾社會福利署。" },
+      { order: 5, text: "第五步：批咗會每月過錢入你戶口，唔使返港。" },
+    ],
+    officialUrl:
+      "https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/sub_theguangdong/",
+    formUrl: "https://www.swd.gov.hk/tc/index/site_pubsvc/page_socsecu/",
+    department: "社會福利署（社會保障）",
+    phone: "2343 2255",
+    lastVerified: "2026-06-01",
+    disclaimer: COMMON_DISCLAIMER,
+    rule: {
+      requiresElderly: true,
+      minAgeBand: "65_69",
+      meansTested: false,
+    },
+    active: true,
+  },
+
+  // 17. 長者牙科服務資助
+  {
+    id: "b2b2b2b2-b2b2-b2b2-b2b2-b2b2b2b2b2b2",
+    slug: "elderly-dental-assistance",
+    nameZh: "長者牙科服務資助計劃",
+    nameEn: "Elderly Dental Assistance Programme",
+    category: "醫療支援",
+    audience: ["elderly", "low_income"],
+    summary:
+      "幫合資格長者免費或資助鑲牙同相關牙科治療，等佢哋食嘢同健康好啲。",
+    suitableFor: "有需要脫牙、鑲牙，又正接受指定長者服務嘅長者。",
+    notSuitableFor: "毋須牙科治療、或未符合指定服務條件嘅人士。",
+    eligibility: [
+      "一般為 65 歲或以上（視乎所接受嘅服務）",
+      "正使用指定社署資助長者服務，或領取相關長者津貼",
+      "需要鑲牙或其他指定牙科治療",
+    ],
+    documents: ["applicant_id", "age_proof"],
+    steps: [
+      { order: 1, text: "第一步：睇下你係咪正用緊指定長者服務。" },
+      { order: 2, text: "第二步：向服務單位或社工查詢牙科資助。" },
+      { order: 3, text: "第三步：填申請表，安排牙科檢查。" },
+      { order: 4, text: "第四步：由認可牙醫提供鑲牙等治療。" },
+      { order: 5, text: "第五步：資助會直接減免治療費用。" },
+    ],
+    officialUrl: "https://www.swd.gov.hk/tc/index/site_pubsvc/page_elderly/",
+    formUrl: "https://www.swd.gov.hk/tc/index/site_pubsvc/page_elderly/",
+    department: "社會福利署（關愛基金資助）",
+    phone: "2343 2255",
+    lastVerified: "2026-06-01",
+    disclaimer: COMMON_DISCLAIMER,
+    rule: {
+      requiresElderly: true,
+      minAgeBand: "65_69",
+      medicalRelated: true,
+      meansTested: false,
+    },
+    active: true,
+  },
 ];
 
 export function getSchemeById(id: string): SubsidyScheme | undefined {

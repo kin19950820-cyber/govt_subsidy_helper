@@ -22,12 +22,12 @@ export default function HomePage() {
     <div className="space-y-8">
       <section className="rounded-3xl bg-gradient-to-b from-brand to-brand-dark p-7 text-white">
         <h1 className="text-3xl font-bold leading-snug">
-          幫你屋企嘅學生
+          幫你同屋企人
           <br />
           搵返應得嘅津貼
         </h1>
         <p className="mt-3 text-lg text-white/90">
-          專為香港低收入家庭而設。用簡單問題，幫你睇邊啲學生津貼可能啱你，再教你點樣準備同申請。
+          為香港市民而設 —— 學生家庭、長者、殘疾人士都啱用。用簡單問題，幫你睇邊啲政府津貼同支援服務可能啱你，再教你點樣準備同申請。
         </p>
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <Link href="/finder" className="btn bg-white text-brand hover:bg-stone-100">

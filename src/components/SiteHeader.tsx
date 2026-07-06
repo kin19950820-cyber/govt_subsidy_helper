@@ -16,7 +16,7 @@ export default function SiteHeader() {
           <span className="text-2xl" aria-hidden>
             🎒
           </span>
-          <span className="text-lg font-bold text-brand">學生津貼小助手</span>
+          <span className="text-lg font-bold text-brand">津貼助手</span>
         </Link>
         <Link href="/finder" className="rounded-xl bg-brand px-4 py-2 text-sm font-semibold text-white">
           開始

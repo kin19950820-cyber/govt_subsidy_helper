@@ -1,4 +1,4 @@
-# 學生津貼小助手 · HK Student Subsidy Helper
+# 津貼助手 · HK Subsidy Helper
 
 幫香港低收入家庭快速搵到學生相關津貼、了解資格、準備文件，並整理預填申請草稿。
 
