@@ -1,0 +1,112 @@
+{
+  "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+  "slug": "home-care-services",
+  "nameZh": "家居照顧服務（綜合家居 / 改善家居及社區照顧）",
+  "nameEn": "Home Care & Community Care Services for the Elderly",
+  "department": "社會福利署",
+  "categoryCode": "rehab_community",
+  "lifeEvents": [
+    "long_term_care",
+    "hospital_discharge"
+  ],
+  "audience": [
+    "elderly",
+    "disability"
+  ],
+  "matchRule": {
+    "requiresElderly": true,
+    "minAgeBand": "60_64",
+    "medicalRelated": true,
+    "meansTested": false,
+    "boostLivingAlone": true
+  },
+  "purpose": "上門幫長者處理日常生活，例如送飯、洗澡、清潔、陪診、簡單護理同復康，等佢哋可以繼續喺屋企安心生活。",
+  "targetBeneficiaries": "行動不便或需要人照顧、想留喺屋企生活嘅長者。",
+  "summary": "上門幫長者處理日常生活，例如送飯、洗澡、清潔、陪診、簡單護理同復康，等佢哋可以繼續喺屋企安心生活。",
+  "suitableFor": "行動不便或需要人照顧、想留喺屋企生活嘅長者。",
+  "notSuitableFor": "已入住院舍、或完全可自理嘅長者。",
+  "eligibility": [
+    "年滿 60 歲，居於社區並非入住院舍",
+    "經「安老服務統一評估機制」或 interRAI 評估為體弱、輕度缺損或需要較高程度照顧，並獲建議接受相關服務",
+    "提供上門送飯、起居照顧、護理、復康、陪診等服務",
+    "殘疾人士或有社會需要嘅個人及家庭，須經社工轉介（家居支援服務）",
+    "2026 年 4 月 1 日起綜合家居照顧與改善家居及社區照顧服務合併及易名；費用按家庭經濟狀況釐定"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "age_proof",
+      "label": "年齡證明（身份證）",
+      "required": true
+    },
+    {
+      "key": "address_proof",
+      "label": "住址證明",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：睇下長者日常生活需唔需要人幫手。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：聯絡你區嘅長者中心或社工。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：接受需要評估。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：安排上門服務，例如送飯、洗澡、陪診。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：按需要定期跟進同調整服務。"
+    }
+  ],
+  "formUrl": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html",
+  "contactPhone": "2343 2255",
+  "officialUrl": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html",
+  "sourceUrl": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html",
+      "title": "家居照顧服務（綜合家居 / 改善家居及社區照顧） 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "age_min": 60,
+    "disability": true,
+    "student": false,
+    "elderly": true,
+    "tags": [
+      "elderly",
+      "disability"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "verified",
+  "active": true,
+  "knowledgeDoc": "home_care_services.md"
+}

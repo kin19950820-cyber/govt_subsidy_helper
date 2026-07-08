@@ -1,0 +1,61 @@
+{
+  "id": "c1000000-0000-0000-0000-000000000002",
+  "slug": "public-rental-housing",
+  "nameZh": "公共租住房屋（公屋）",
+  "nameEn": "Public Rental Housing (PRH)",
+  "department": "香港房屋委員會 / 房屋署",
+  "categoryCode": "housing",
+  "lifeEvents": ["public_housing", "low_income"],
+  "audience": ["low_income"],
+  "matchRule": { "meansTested": true, "maxIncomeBand": "30k_40k" },
+  "purpose": "為未能負擔私人住屋、有住屋需要嘅低收入家庭提供資助出租公屋。",
+  "targetBeneficiaries": "收入及資產有限、有住屋需要嘅香港居民家庭。",
+  "summary": "為低收入家庭提供租金較平嘅公共出租房屋，須通過入息及資產審查並排隊輪候。",
+  "suitableFor": "收入及資產不超過上限、又有住屋需要嘅家庭。",
+  "notSuitableFor": "在香港擁有住宅物業，或收入／資產超出上限嘅家庭。",
+  "eligibility": [
+    "須通過家庭每月入息及總資產淨值審查（上限以房委會最新公布為準）",
+    "申請家庭一般須有指定比例成員在港住滿七年並仍居於香港",
+    "申請人年滿 18 歲",
+    "在申請及獲配房屋時，家庭成員不得在香港擁有住宅物業",
+    "須經中央輪候冊排隊輪候（一般家庭與長者／配額有不同安排）"
+  ],
+  "meansTest": "設家庭入息及總資產淨值上限，按家庭人數而定（以房委會公布為準）。",
+  "residencyRequirement": "指定比例家庭成員須在港住滿七年並仍居於香港（以官方為準）。",
+  "incomeRequirement": "每月入息不超過相應家庭人數上限。",
+  "assetRequirement": "總資產淨值不超過相應家庭人數上限。",
+  "documents": [
+    { "key": "applicant_id", "label": "申請人及家庭成員身份證", "required": true },
+    { "key": "address_proof", "label": "住址證明", "required": true },
+    { "key": "income_proof", "label": "入息證明", "required": true },
+    { "key": "asset_proof", "label": "資產證明", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：睇下你屋企收入同資產係咪喺上限之內。" },
+    { "order": 2, "text": "第二步：準備身份證、住址證明、入息同資產證明。" },
+    { "order": 3, "text": "第三步：填公屋申請表，交俾房屋署。" },
+    { "order": 4, "text": "第四步：排隊輪候，房署會安排資格審查及睇樓。" },
+    { "order": 5, "text": "第五步：通過審查並獲配單位後簽租約入住。" }
+  ],
+  "applicationMethod": "向房屋署遞交公屋申請，經中央輪候冊輪候。",
+  "officialUrl": "https://www.housingauthority.gov.hk/tc/public-housing/index.html",
+  "formUrl": "https://www.housingauthority.gov.hk/tc/flat-application/index.html",
+  "sourceUrl": "https://www.housingauthority.gov.hk/tc/public-housing/index.html",
+  "contactPhone": "2712 2712",
+  "lastUpdated": "2026-07-08",
+  "forms": [
+    { "name": "公屋申請", "type": "link", "url": "https://www.housingauthority.gov.hk/tc/flat-application/index.html" }
+  ],
+  "sources": [
+    { "url": "https://www.housingauthority.gov.hk/tc/public-housing/index.html", "title": "香港房屋委員會 公共房屋" }
+  ],
+  "faq": [],
+  "rules": [
+    { "field": "means_test_required", "operator": "equals", "value": true, "source_url": "https://www.housingauthority.gov.hk/tc/public-housing/index.html", "confidence": "high" }
+  ],
+  "facets": { "means_tested": true, "income_tested": true, "asset_tested": true, "housing_status": ["renting", "no_home"], "tags": ["housing"] },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

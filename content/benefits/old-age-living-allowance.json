@@ -1,0 +1,130 @@
+{
+  "id": "77777777-7777-7777-7777-777777777777",
+  "slug": "old-age-living-allowance",
+  "nameZh": "長者生活津貼",
+  "nameEn": "Old Age Living Allowance (OALA)",
+  "department": "社會福利署（社會保障）",
+  "categoryCode": "social_security",
+  "lifeEvents": [
+    "retirement",
+    "low_income"
+  ],
+  "audience": [
+    "elderly",
+    "low_income"
+  ],
+  "matchRule": {
+    "requiresElderly": true,
+    "minAgeBand": "65_69",
+    "maxAssetBand": "medium",
+    "maxIncomeBand": "10k_20k",
+    "excludeIfCssa": true,
+    "meansTested": true,
+    "boostLivingAlone": true
+  },
+  "purpose": "俾 65 歲或以上、收入同資產唔多嘅長者嘅每月現金津貼。金額同資產上限每年由政府公布，請以官方為準。",
+  "targetBeneficiaries": "65 歲或以上、收入及資產較少嘅長者。",
+  "summary": "俾 65 歲或以上、收入同資產唔多嘅長者嘅每月現金津貼。金額同資產上限每年由政府公布，請以官方為準。",
+  "suitableFor": "65 歲或以上、收入及資產較少嘅長者。",
+  "notSuitableFor": "資產或收入超出上限、或正領取綜援嘅長者（唔可以同時領取）。",
+  "eligibility": [
+    "年滿 65 歲",
+    "成為香港居民滿 7 年，並在申請前連續居港滿 1 年（1 年內離港不超過 90 日視為居港）",
+    "每月入息及資產不超過上限（2026 年 2 月 1 日起：單身 入息 $10,900／資產 $415,000；夫婦 $16,680／$630,000）",
+    "並非同時領取高齡津貼（生果金）、傷殘津貼或綜援",
+    "領款期間須繼續居於香港；被羈押或入住懲教院所期間不可領取",
+    "已婚／同居者須一併申報配偶／同居伴侶嘅入息及資產，按「夫婦」上限計算"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "age_proof",
+      "label": "年齡證明（身份證）",
+      "required": true
+    },
+    {
+      "key": "address_proof",
+      "label": "住址證明",
+      "required": true
+    },
+    {
+      "key": "income_proof",
+      "label": "入息證明",
+      "required": true
+    },
+    {
+      "key": "asset_proof",
+      "label": "資產證明（銀行結單）",
+      "required": true
+    },
+    {
+      "key": "bank_account",
+      "label": "銀行戶口資料",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：睇下你係咪夠 65 歲。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：準備身份證、住址證明、收入同銀行結單。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：填長者生活津貼申請表。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：交俾社會福利署。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：批咗會每月過錢入你戶口。"
+    }
+  ],
+  "formUrl": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssa_app/index.html",
+  "contactPhone": "2343 2255",
+  "officialUrl": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_oala/index.html",
+  "sourceUrl": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_oala/index.html",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssa_app/index.html"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_oala/index.html",
+      "title": "長者生活津貼 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": true,
+    "income_tested": true,
+    "asset_tested": true,
+    "age_min": 65,
+    "disability": false,
+    "student": false,
+    "elderly": true,
+    "tags": [
+      "elderly",
+      "low_income"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "verified",
+  "active": true,
+  "knowledgeDoc": "old_age_living_allowance.md"
+}

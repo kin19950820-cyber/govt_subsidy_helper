@@ -1,6 +1,20 @@
 import { SubsidyScheme } from "./types";
-import { SCHEMES, getSchemeById as getStaticSchemeById } from "./schemes-data";
 import { createClient } from "./supabase/server";
+import {
+  getActiveBenefits,
+  getAllBenefits,
+  getBenefitBySlug,
+} from "./benefits/registry";
+import { benefitToScheme } from "./benefits/adapter";
+
+// 內容來源：content/benefits/*.json（經 registry）。未設定 Supabase 時，
+// App 直接由呢個可擴充內容庫讀取，唔再依賴硬編碼陣列。
+const activeFromContent = () => getActiveBenefits().map(benefitToScheme);
+const allFromContent = () => getAllBenefits().map(benefitToScheme);
+const byIdFromContent = (id: string) => {
+  const b = getBenefitBySlug(id);
+  return b ? benefitToScheme(b) : undefined;
+};
 
 // 將 DB row map 成 SubsidyScheme
 function mapRow(row: any): SubsidyScheme {
@@ -32,7 +46,7 @@ function mapRow(row: any): SubsidyScheme {
 export async function getActiveSchemes(): Promise<SubsidyScheme[]> {
   const supabase = createClient();
   if (!supabase) {
-    return SCHEMES.filter((s) => s.active);
+    return activeFromContent();
   }
   const { data, error } = await supabase
     .from("subsidy_schemes")
@@ -41,7 +55,7 @@ export async function getActiveSchemes(): Promise<SubsidyScheme[]> {
     .order("name_zh");
 
   if (error || !data) {
-    return SCHEMES.filter((s) => s.active);
+    return activeFromContent();
   }
   return data.map(mapRow);
 }
@@ -50,14 +64,14 @@ export async function getActiveSchemes(): Promise<SubsidyScheme[]> {
 export async function getAllSchemes(): Promise<SubsidyScheme[]> {
   const supabase = createClient();
   if (!supabase) {
-    return SCHEMES;
+    return allFromContent();
   }
   const { data, error } = await supabase
     .from("subsidy_schemes")
     .select("*")
     .order("name_zh");
 
-  if (error || !data) return SCHEMES;
+  if (error || !data) return allFromContent();
   return data.map(mapRow);
 }
 
@@ -66,7 +80,7 @@ export async function getSchemeById(
 ): Promise<SubsidyScheme | undefined> {
   const supabase = createClient();
   if (!supabase) {
-    return getStaticSchemeById(id);
+    return byIdFromContent(id);
   }
   const { data, error } = await supabase
     .from("subsidy_schemes")
@@ -75,7 +89,7 @@ export async function getSchemeById(
     .maybeSingle();
 
   if (error || !data) {
-    return getStaticSchemeById(id);
+    return byIdFromContent(id);
   }
   return mapRow(data);
 }

@@ -1,0 +1,157 @@
+// 通用「福利 / 公共服務」內容模型。
+// 設計目標：可容納 300+ 項政府福利而毋須改變結構。
+// 資料來源：content/benefits/*.json（單一福利一個檔案）→ 由 scripts/build-benefits.mjs
+// 匯總成 benefits.generated.json 供 App 匯入。知識庫（knowledge/*.md）為研究來源。
+
+export type ConfidenceLevel = "high" | "medium" | "low";
+
+// 分類 / 人生階段 taxonomy（見 content/taxonomy/*.json）
+export interface Category {
+  code: string;
+  name_zh: string;
+  name_en: string;
+  icon?: string;
+  sort: number;
+}
+
+export interface LifeEvent {
+  code: string;
+  name_zh: string;
+  name_en: string;
+  sort: number;
+}
+
+// 機讀資格規則（用於配對 / faceted 搜尋）
+export interface BenefitRule {
+  field: string;
+  operator: "equals" | "in" | "not_in" | "gte" | "lte" | "exists";
+  value: unknown;
+  source_url?: string;
+  confidence?: ConfidenceLevel;
+  needs_review?: boolean;
+}
+
+// 可擴充嘅搜尋面向（facets）—— 新面向只需加 key，毋須改結構。
+export interface BenefitFacets {
+  means_tested?: boolean;
+  income_tested?: boolean;
+  asset_tested?: boolean;
+  age_min?: number | null;
+  age_max?: number | null;
+  disability?: boolean;
+  student?: boolean;
+  elderly?: boolean;
+  // 自由標籤：occupation / household_type / housing_status / employment_status …
+  household_type?: string[];
+  housing_status?: string[];
+  employment_status?: string[];
+  tags?: string[];
+  [key: string]: unknown;
+}
+
+export interface BenefitDocument {
+  label: string;
+  key?: string; // 對應舊 DocumentKey，用於合併文件清單
+  required?: boolean;
+  note?: string;
+}
+
+export interface BenefitForm {
+  name: string;
+  type?: string; // pdf / online / link
+  url: string;
+  note?: string;
+}
+
+export interface BenefitSource {
+  url: string;
+  title?: string;
+  published_date?: string;
+  note?: string;
+}
+
+export interface BenefitFaq {
+  q: string;
+  a: string;
+  source_url?: string;
+}
+
+export interface BenefitStep {
+  order: number;
+  text: string;
+}
+
+// 一項福利（對應資料庫 benefits + 其子表）
+export interface Benefit {
+  id: string;
+  slug: string;
+  nameZh: string;
+  nameEn: string;
+  department: string;
+  categoryCode: string;
+  lifeEvents: string[];
+  audience?: string[]; // 受惠群組（相容舊 AudienceGroup）
+  matchRule?: Record<string, unknown>; // 配對規則（相容舊 EligibilityRule）
+
+  // 敘述性欄位
+  purpose: string;
+  targetBeneficiaries: string;
+  summary: string;
+  suitableFor?: string;
+  notSuitableFor?: string;
+  eligibility: string[];
+
+  // 結構化資格描述（任務要求逐項）
+  meansTest?: string;
+  residencyRequirement?: string;
+  incomeRequirement?: string;
+  assetRequirement?: string;
+  ageRequirement?: string;
+  employmentRequirement?: string;
+  studentRequirement?: string;
+
+  // 申請
+  documents: BenefitDocument[];
+  steps: BenefitStep[];
+  applicationMethod?: string;
+  onlineUrl?: string;
+  formUrl?: string;
+  guidanceUrl?: string;
+  faqUrl?: string;
+  processingTime?: string;
+  renewal?: string;
+  appeal?: string;
+
+  // 聯絡 / 來源
+  contactPhone?: string;
+  contactEmail?: string;
+  officialUrl: string;
+  sourceUrl?: string;
+  lastUpdated?: string;
+
+  // 子集合
+  forms: BenefitForm[];
+  sources: BenefitSource[];
+  faq: BenefitFaq[];
+  rules: BenefitRule[];
+  facets: BenefitFacets;
+  relatedSlugs: string[];
+
+  // 中繼
+  disclaimer: string;
+  status: "verified" | "needs_review" | "draft";
+  active: boolean;
+  knowledgeDoc?: string; // 對應 knowledge/<file>.md
+}
+
+// 搜尋 / 過濾條件（faceted search）
+export interface BenefitQuery {
+  categoryCode?: string;
+  lifeEvent?: string;
+  age?: number;
+  meansTested?: boolean;
+  disability?: boolean;
+  student?: boolean;
+  elderly?: boolean;
+  text?: string;
+}

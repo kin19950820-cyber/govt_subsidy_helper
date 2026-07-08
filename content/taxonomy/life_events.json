@@ -1,0 +1,23 @@
+[
+  { "code": "new_baby", "name_zh": "新生嬰兒", "name_en": "New Baby", "sort": 10 },
+  { "code": "kindergarten", "name_zh": "子女入讀幼稚園", "name_en": "Child entering Kindergarten", "sort": 20 },
+  { "code": "primary_school", "name_zh": "子女入讀小學", "name_en": "Primary School", "sort": 30 },
+  { "code": "secondary_school", "name_zh": "子女入讀中學", "name_en": "Secondary School", "sort": 40 },
+  { "code": "university", "name_zh": "入讀大學 / 專上", "name_en": "University / Postsecondary", "sort": 50 },
+  { "code": "adult_study", "name_zh": "成人進修", "name_en": "Adult wants to study", "sort": 60 },
+  { "code": "job_seeking", "name_zh": "搵工", "name_en": "Looking for a job", "sort": 70 },
+  { "code": "unemployed", "name_zh": "最近失業", "name_en": "Recently unemployed", "sort": 80 },
+  { "code": "low_income", "name_zh": "低收入家庭", "name_en": "Low-income family", "sort": 90 },
+  { "code": "single_parent", "name_zh": "單親家庭", "name_en": "Single-parent family", "sort": 100 },
+  { "code": "marriage", "name_zh": "結婚", "name_en": "Marriage", "sort": 110 },
+  { "code": "divorce", "name_zh": "離婚", "name_en": "Divorce", "sort": 120 },
+  { "code": "first_home", "name_zh": "首次置業", "name_en": "Buying first home", "sort": 130 },
+  { "code": "public_housing", "name_zh": "申請公屋", "name_en": "Applying for public housing", "sort": 140 },
+  { "code": "hospital_discharge", "name_zh": "家人出院", "name_en": "Family member discharged from hospital", "sort": 150 },
+  { "code": "long_term_care", "name_zh": "長期護理需要", "name_en": "Need long-term elderly care", "sort": 160 },
+  { "code": "disability_diagnosed", "name_zh": "確診殘疾", "name_en": "Disability diagnosed", "sort": 170 },
+  { "code": "cancer_treatment", "name_zh": "癌症治療", "name_en": "Cancer treatment", "sort": 180 },
+  { "code": "retirement", "name_zh": "退休", "name_en": "Retirement", "sort": 190 },
+  { "code": "move_guangdong", "name_zh": "移居廣東", "name_en": "Moving to Guangdong", "sort": 200 },
+  { "code": "move_fujian", "name_zh": "移居福建", "name_en": "Moving to Fujian", "sort": 210 }
+]

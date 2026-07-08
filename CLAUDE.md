@@ -5,8 +5,18 @@ TypeScript + Tailwind + Supabase), plus an official-source research pipeline.
 
 ## Repo layout
 
-- `src/` — the web app (finder, schemes, checklist, profile, drafts, admin).
-  Scheme content: `src/lib/schemes-data.ts` (static) + `supabase/seed.sql` (DB).
+- `src/` — the web app (finder, schemes, benefits browse, checklist, profile,
+  drafts, admin).
+- `content/` — **the scalable, non-hardcoded benefits content store.**
+  `content/benefits/<slug>.json` (one file per benefit) + `content/taxonomy/`
+  (categories, life_events). Aggregated by `scripts/build-benefits.mjs` into
+  `src/lib/benefits/benefits.generated.json`, which the app imports. Add a
+  benefit = add a JSON file + `npm run benefits:build` (see `content/README.md`).
+  Generic model + faceted query live in `src/lib/benefits/`.
+- `supabase/benefits_schema.sql` — the 300+-ready DB schema (benefits + 7 child
+  tables + life_events + JSONB facets); runtime store when Supabase is set up.
+- Legacy `src/lib/schemes-data.ts` is now only the migration source; the app
+  reads benefits via the content registry (`src/lib/schemes.ts` adapter).
 - `research-agent/` — standalone crawler that downloads official WFSFAA PDFs and
   emits structured data (`data/processed/`, `supabase/seed_subsidy_schemes.sql`).
 - `knowledge/` — **the Government Subsidy Knowledge Base: the single source of

@@ -1,0 +1,56 @@
+{
+  "id": "c1000000-0000-0000-0000-000000000001",
+  "slug": "continuing-education-fund",
+  "nameZh": "持續進修基金",
+  "nameEn": "Continuing Education Fund (CEF)",
+  "department": "在學資助處 · 持續進修基金辦事處（WFSFAA）",
+  "categoryCode": "adult_learning",
+  "lifeEvents": ["adult_study", "job_seeking"],
+  "audience": ["other"],
+  "matchRule": { "meansTested": false },
+  "purpose": "資助合資格人士修讀合資格嘅持續進修及培訓課程嘅部分學費。",
+  "targetBeneficiaries": "想進修增值嘅成年香港居民。",
+  "summary": "政府資助成年人進修，發還部分課程學費，設終身資助上限（金額以官方為準）。",
+  "suitableFor": "年滿 18 歲、想報讀合資格持續進修課程嘅香港居民。",
+  "notSuitableFor": "所報讀課程並非「合資格課程資料網」載列嘅合資格課程。",
+  "eligibility": [
+    "年滿 18 歲並持有效香港身份證",
+    "報讀「合資格課程資料網」載列嘅合資格課程",
+    "須符合課程出席率及評核要求方可申請發還款項",
+    "設終身資助上限（金額及發還比例以官方最新公布為準）"
+  ],
+  "meansTest": "毋須入息審查（非經濟審查資助）。",
+  "residencyRequirement": "須為香港居民（詳情以官方為準）。",
+  "ageRequirement": "年滿 18 歲。",
+  "documents": [
+    { "key": "applicant_id", "label": "申請人身份證", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：睇下你想讀嘅課程係咪合資格課程。" },
+    { "order": 2, "text": "第二步：報讀並完成課程，保留學費收據同成績。" },
+    { "order": 3, "text": "第三步：喺限期內遞交發還款項申請。" },
+    { "order": 4, "text": "第四步：等基金辦事處審核。" },
+    { "order": 5, "text": "第五步：批咗會發還部分學費。" }
+  ],
+  "applicationMethod": "完成課程後向持續進修基金辦事處申請發還款項。",
+  "officialUrl": "https://www.wfsfaa.gov.hk/cef/tc/index.htm",
+  "formUrl": "https://www.wfsfaa.gov.hk/cef/tc/index.htm",
+  "sourceUrl": "https://www.wfsfaa.gov.hk/cef/tc/index.htm",
+  "contactPhone": "3142 2277",
+  "lastUpdated": "2026-07-08",
+  "forms": [
+    { "name": "持續進修基金頁面", "type": "link", "url": "https://www.wfsfaa.gov.hk/cef/tc/index.htm" }
+  ],
+  "sources": [
+    { "url": "https://www.wfsfaa.gov.hk/cef/tc/index.htm", "title": "持續進修基金 官方頁面" }
+  ],
+  "faq": [],
+  "rules": [
+    { "field": "age", "operator": "gte", "value": 18, "source_url": "https://www.wfsfaa.gov.hk/cef/tc/index.htm", "confidence": "medium", "needs_review": true }
+  ],
+  "facets": { "means_tested": false, "age_min": 18, "tags": ["adult_learning"] },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

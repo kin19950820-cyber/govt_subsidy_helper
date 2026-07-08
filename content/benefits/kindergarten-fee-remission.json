@@ -1,0 +1,129 @@
+{
+  "id": "44444444-4444-4444-4444-444444444444",
+  "slug": "kindergarten-fee-remission",
+  "nameZh": "幼稚園及幼兒中心學費減免計劃",
+  "nameEn": "Kindergarten and Child Care Centre Fee Remission Scheme",
+  "department": "在學資助處（學生資助處）",
+  "categoryCode": "student_assistance",
+  "lifeEvents": [
+    "new_baby",
+    "kindergarten",
+    "low_income"
+  ],
+  "audience": [
+    "student",
+    "low_income"
+  ],
+  "matchRule": {
+    "gradeLevels": [
+      "kindergarten"
+    ],
+    "maxIncomeBand": "30k_40k",
+    "boostSingleParent": true,
+    "boostNewArrival": true
+  },
+  "purpose": "幫有幼稚園或幼兒中心小朋友嘅低收入家庭，減免部分學費。",
+  "targetBeneficiaries": "有就讀幼稚園或幼兒中心子女、收入較低嘅家庭。",
+  "summary": "幫有幼稚園或幼兒中心小朋友嘅低收入家庭，減免部分學費。",
+  "suitableFor": "有就讀幼稚園或幼兒中心子女、收入較低嘅家庭。",
+  "notSuitableFor": "子女已升上小學或以上、或者收入超出上限嘅家庭。",
+  "eligibility": [
+    "子女就讀參加「幼稚園教育計劃」嘅非牟利幼稚園，或社署註冊嘅幼兒中心（全日制）",
+    "申請人為家長或監護人；子女為未婚香港居民並具香港居留身份",
+    "2026/27 學年：幼稚園學童須於 2026 年 8 月 31 日滿 2 歲 8 個月（即 2023 年 12 月 31 日或之前出生）",
+    "家庭須通過入息審查，可獲全免或半免學費",
+    "持訪客簽證、雙程證、學生簽證或其受養人不合資格"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "student_id",
+      "label": "學生身份證 / 出世紙",
+      "required": true
+    },
+    {
+      "key": "student_proof",
+      "label": "學生證明（學校信 / 收生紙）",
+      "required": true
+    },
+    {
+      "key": "address_proof",
+      "label": "住址證明",
+      "required": true
+    },
+    {
+      "key": "income_proof",
+      "label": "入息證明",
+      "required": true
+    },
+    {
+      "key": "bank_account",
+      "label": "銀行戶口資料",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：睇下你個小朋友係咪讀緊幼稚園或幼兒中心。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：準備身份證、出世紙、住址證明、收入證明。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：填學費減免申請表。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：交俾學生資助處。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：等通知，批咗會直接減學費。"
+    }
+  ],
+  "formUrl": "https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/procedures.php",
+  "contactPhone": "2802 2345",
+  "officialUrl": "https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php",
+  "sourceUrl": "https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/procedures.php"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php",
+      "title": "幼稚園及幼兒中心學費減免計劃 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": true,
+    "income_tested": true,
+    "asset_tested": false,
+    "age_min": null,
+    "disability": false,
+    "student": true,
+    "elderly": false,
+    "tags": [
+      "student",
+      "low_income"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true,
+  "knowledgeDoc": "kindergarten_fee_remission.md"
+}

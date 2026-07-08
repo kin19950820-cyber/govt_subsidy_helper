@@ -1,0 +1,15 @@
+[
+  { "code": "student_assistance", "name_zh": "中小學及幼稚園學生資助", "name_en": "Primary/Secondary & Kindergarten Student Assistance", "icon": "🎒", "sort": 10 },
+  { "code": "postsecondary", "name_zh": "專上學生資助", "name_en": "Postsecondary Student Financial Assistance", "icon": "🎓", "sort": 20 },
+  { "code": "adult_learning", "name_zh": "成人及持續進修", "name_en": "Adult Learning & Continuing Education", "icon": "📚", "sort": 30 },
+  { "code": "housing", "name_zh": "房屋及公共房屋", "name_en": "Housing & Public Housing", "icon": "🏠", "sort": 40 },
+  { "code": "family_child", "name_zh": "家庭及兒童支援", "name_en": "Family & Child Support", "icon": "👶", "sort": 50 },
+  { "code": "disability", "name_zh": "殘疾支援", "name_en": "Disability Support", "icon": "♿", "sort": 60 },
+  { "code": "elderly", "name_zh": "長者支援服務", "name_en": "Elderly Support Services", "icon": "👵", "sort": 70 },
+  { "code": "employment", "name_zh": "就業及再培訓", "name_en": "Employment & Retraining", "icon": "💼", "sort": 80 },
+  { "code": "tax", "name_zh": "稅務寬減及免稅額", "name_en": "Tax Benefits & Allowances", "icon": "🧾", "sort": 90 },
+  { "code": "healthcare", "name_zh": "醫療支援", "name_en": "Healthcare Support", "icon": "🩺", "sort": 100 },
+  { "code": "carer", "name_zh": "照顧者支援", "name_en": "Carer Support", "icon": "🤝", "sort": 110 },
+  { "code": "rehab_community", "name_zh": "復康及社區照顧", "name_en": "Rehabilitation & Community Care", "icon": "🧑‍🦽", "sort": 120 },
+  { "code": "social_security", "name_zh": "社會保障（綜援 / 津貼）", "name_en": "Social Security (CSSA / Allowances)", "icon": "🛟", "sort": 130 }
+]

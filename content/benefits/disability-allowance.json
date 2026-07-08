@@ -1,0 +1,113 @@
+{
+  "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+  "slug": "disability-allowance",
+  "nameZh": "傷殘津貼",
+  "nameEn": "Disability Allowance",
+  "department": "社會福利署（社會保障）",
+  "categoryCode": "disability",
+  "lifeEvents": [
+    "disability_diagnosed"
+  ],
+  "audience": [
+    "disability"
+  ],
+  "matchRule": {
+    "requiresDisability": true,
+    "meansTested": false,
+    "boostLivingAlone": true
+  },
+  "purpose": "俾經評估為嚴重殘疾嘅香港居民嘅每月現金津貼，唔使入息審查。分普通同高額兩種。",
+  "targetBeneficiaries": "經醫生評估為嚴重殘疾嘅人士（任何年齡）。",
+  "summary": "俾經評估為嚴重殘疾嘅香港居民嘅每月現金津貼，唔使入息審查。分普通同高額兩種。",
+  "suitableFor": "經醫生評估為嚴重殘疾嘅人士（任何年齡）。",
+  "notSuitableFor": "未經評估、或殘疾程度未達標準嘅人士。",
+  "eligibility": [
+    "經衞生署署長或醫院管理局行政總裁證明為「嚴重殘疾」（傷殘情況預計持續最少 6 個月）",
+    "成為香港居民滿 7 年並在申請前連續居港滿 1 年（未滿 18 歲申請人可獲豁免居港年期規定）",
+    "毋須入息或資產審查（免審查）",
+    "並非同時領取其他社會保障津貼或綜援",
+    "高額傷殘津貼：另須經證明日常生活需要他人經常照顧，且並非在受資助院舍／公立醫院等接受照顧",
+    "領款期間須繼續居於香港；被羈押或入住懲教院所期間不可領取"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "address_proof",
+      "label": "住址證明",
+      "required": true
+    },
+    {
+      "key": "disability_proof",
+      "label": "殘疾 / 醫療證明",
+      "required": true
+    },
+    {
+      "key": "bank_account",
+      "label": "銀行戶口資料",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：搵醫生做殘疾評估。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：準備身份證、住址證明同醫生證明。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：填傷殘津貼申請表。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：交俾社會福利署。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：批咗會每月過錢入你戶口。"
+    }
+  ],
+  "formUrl": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssa_app/index.html",
+  "contactPhone": "2343 2255",
+  "officialUrl": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_nda/index.html",
+  "sourceUrl": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_nda/index.html",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssa_app/index.html"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_nda/index.html",
+      "title": "傷殘津貼 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "age_min": null,
+    "disability": true,
+    "student": false,
+    "elderly": false,
+    "tags": [
+      "disability"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "verified",
+  "active": true,
+  "knowledgeDoc": "disability_allowance.md"
+}

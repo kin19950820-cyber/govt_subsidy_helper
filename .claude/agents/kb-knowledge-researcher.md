@@ -92,3 +92,26 @@ legal requirement — put the precise wording first, then the simple explanation
 
 When done, report: the file written, how many official sources you read, and a
 list of every `⚠️ Needs Manual Review` item so the Validator can follow up.
+
+## Platform expansion (Benefits & Public Services)
+
+This project now covers **all** Hong Kong government benefits, not just student
+subsidies. Extra official sources you may need: Housing Authority / Housing
+Department, Education Bureau, Labour Department, **Employees Retraining Board
+(erb.org)**, Inland Revenue Department, Health Bureau / Department of Health,
+Hospital Authority, and the **Community Care Fund**.
+
+When you research a benefit that belongs to the wider platform:
+
+- Use the fuller template `knowledge/_BENEFIT_TEMPLATE.md` (adds means/residency/
+  income/asset/age/employment/student requirements, online/guidance/FAQ URLs,
+  processing time, renewal, appeal, contact email, and a **Life Events** section).
+- Assign a `category_code` from `content/taxonomy/categories.json` and
+  `life_events` from `content/taxonomy/life_events.json` in the frontmatter.
+- After the knowledge doc is written and verified, also create/update
+  `content/benefits/<slug>.json` (copy an existing file as the shape) and run
+  `npm run benefits:build`. Never invent figures — leave unknowns as
+  `⚠️ Needs Manual Review` and set `status: needs_review` until confirmed.
+
+Never estimate a benefit amount; quote it with its official source + effective
+date or mark it `⚠️ Needs Manual Review`.

@@ -1,0 +1,117 @@
+{
+  "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+  "slug": "integrated-discharge-support-elderly",
+  "nameZh": "離院長者綜合支援計劃（出院長者支援）",
+  "nameEn": "Integrated Discharge Support Programme for Elderly Patients (IDSP)",
+  "department": "社會福利署 / 醫院管理局",
+  "categoryCode": "rehab_community",
+  "lifeEvents": [
+    "hospital_discharge",
+    "long_term_care"
+  ],
+  "audience": [
+    "elderly",
+    "disability"
+  ],
+  "matchRule": {
+    "requiresElderly": true,
+    "minAgeBand": "60_64",
+    "medicalRelated": true,
+    "meansTested": false,
+    "boostLivingAlone": true
+  },
+  "purpose": "長者出院後，喺屋企提供一段時間嘅過渡支援，例如家居照顧、復康、送飯、護理，幫佢哋順利返返屋企生活。",
+  "targetBeneficiaries": "啱啱喺醫院出院、返屋企後需要短期照顧或復康支援嘅長者。",
+  "summary": "長者出院後，喺屋企提供一段時間嘅過渡支援，例如家居照顧、復康、送飯、護理，幫佢哋順利返返屋企生活。",
+  "suitableFor": "啱啱喺醫院出院、返屋企後需要短期照顧或復康支援嘅長者。",
+  "notSuitableFor": "毋須出院後照顧、或已入住院舍嘅長者。",
+  "eligibility": [
+    "為公立醫院嘅住院病人",
+    "年滿 60 歲",
+    "經醫院管理局「出院規劃小組」評估為出院後有較高非計劃再入院風險",
+    "不設入息審查，按臨床及照顧需要評估",
+    "由醫院、醫護或社工轉介，並無公開自行報名途徑"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "age_proof",
+      "label": "年齡證明（身份證）",
+      "required": true
+    },
+    {
+      "key": "address_proof",
+      "label": "住址證明",
+      "required": true
+    },
+    {
+      "key": "disability_proof",
+      "label": "殘疾 / 醫療證明",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：喺醫院出院前，同醫護或社工講你需要返屋企照顧。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：醫院會評估你嘅需要，再轉介去計劃。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：負責機構會聯絡你，安排上門支援。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：喺屋企接受一段時間嘅照顧、復康或送飯。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：情況穩定後，會轉介去長期社區服務。"
+    }
+  ],
+  "formUrl": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/",
+  "contactPhone": "2343 2255",
+  "officialUrl": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/",
+  "sourceUrl": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/",
+      "title": "離院長者綜合支援計劃（出院長者支援） 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "age_min": 60,
+    "disability": true,
+    "student": false,
+    "elderly": true,
+    "tags": [
+      "elderly",
+      "disability"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true,
+  "knowledgeDoc": "integrated_discharge_support.md"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "a1a1a1a1-a1a1-a1a1-a1a1-a1a1a1a1a1a1",
+  "slug": "guangdong-fujian-scheme",
+  "nameZh": "廣東計劃 / 福建計劃",
+  "nameEn": "Guangdong Scheme / Fujian Scheme",
+  "department": "社會福利署（社會保障）",
+  "categoryCode": "social_security",
+  "lifeEvents": [
+    "retirement",
+    "move_guangdong",
+    "move_fujian"
+  ],
+  "audience": [
+    "elderly"
+  ],
+  "matchRule": {
+    "requiresElderly": true,
+    "minAgeBand": "65_69",
+    "meansTested": false
+  },
+  "purpose": "俾選擇移居廣東或福建嘅合資格香港長者，可以繼續每月領取高齡津貼（生果金），唔使返香港都收到。",
+  "targetBeneficiaries": "移居咗廣東或福建、又符合資格嘅香港長者。",
+  "summary": "俾選擇移居廣東或福建嘅合資格香港長者，可以繼續每月領取高齡津貼（生果金），唔使返香港都收到。",
+  "suitableFor": "移居咗廣東或福建、又符合資格嘅香港長者。",
+  "notSuitableFor": "仍然長期居住香港嘅長者（應申請本地長者津貼）。",
+  "eligibility": [
+    "已移居或選擇居於廣東／福建",
+    "長者生活津貼須年滿 65 歲；高齡津貼須年滿 70 歲",
+    "成為香港居民滿 7 年並在申請前連續居港滿 1 年（1 年內離港不超過 90 日視為居港）",
+    "領款期間須持續居於廣東／福建（設許可離開日數限制）",
+    "並非同時領取其他社會保障津貼或綜援；如屬公屋租戶，離港前須交回單位",
+    "長者生活津貼申請人另須入息及資產不超過上限（高齡津貼則免審查）"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "age_proof",
+      "label": "年齡證明（身份證）",
+      "required": true
+    },
+    {
+      "key": "bank_account",
+      "label": "銀行戶口資料",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：睇下你係咪已移居或打算移居廣東或福建。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：準備身份證同銀行戶口資料。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：填廣東計劃或福建計劃申請表。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：交俾社會福利署。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：批咗會每月過錢入你戶口，唔使返港。"
+    }
+  ],
+  "formUrl": "https://www.swd.gov.hk/gds/doc/2026/GDS_and_FJS_Application_Form_internet__version_2026.pdf",
+  "contactPhone": "2343 2255",
+  "officialUrl": "https://www.swd.gov.hk/gds/index.html",
+  "sourceUrl": "https://www.swd.gov.hk/gds/index.html",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.swd.gov.hk/gds/doc/2026/GDS_and_FJS_Application_Form_internet__version_2026.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.swd.gov.hk/gds/index.html",
+      "title": "廣東計劃 / 福建計劃 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "age_min": 65,
+    "disability": false,
+    "student": false,
+    "elderly": true,
+    "tags": [
+      "elderly"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "verified",
+  "active": true,
+  "knowledgeDoc": "guangdong_fujian_scheme.md"
+}

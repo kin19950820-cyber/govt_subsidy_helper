@@ -1,0 +1,56 @@
+{
+  "id": "c1000000-0000-0000-0000-000000000004",
+  "slug": "child-development-fund",
+  "nameZh": "兒童發展基金",
+  "nameEn": "Child Development Fund (CDF)",
+  "department": "勞工及福利局 / 社會福利署",
+  "categoryCode": "family_child",
+  "lifeEvents": ["low_income"],
+  "audience": ["low_income", "student"],
+  "matchRule": { "meansTested": true },
+  "purpose": "為弱勢社群兒童提供更多元化嘅發展機會，減少跨代貧窮。",
+  "targetBeneficiaries": "來自低收入家庭嘅兒童及青少年。",
+  "summary": "透過個人發展規劃、師友配對及目標儲蓄，幫低收入家庭嘅兒童累積資產同拓寬視野。",
+  "suitableFor": "來自低收入家庭（如領綜援或全額學生資助）嘅指定年齡兒童。",
+  "notSuitableFor": "家庭收入超出資助界線，或年齡不符計劃要求嘅兒童。",
+  "eligibility": [
+    "一般對象為指定年齡（約 10–16 歲）嘅兒童（確實年齡以計劃為準）",
+    "來自低收入家庭，例如正領取綜援或全額書簿津貼／學生資助",
+    "由參與計劃嘅非政府機構營辦，須經該機構報名參加",
+    "須參與個人發展規劃、師友計劃及目標儲蓄"
+  ],
+  "meansTest": "以低收入家庭為對象（如綜援或全額學生資助），具體界線以計劃公布為準。",
+  "ageRequirement": "指定年齡兒童（以計劃公布為準）。",
+  "documents": [
+    { "key": "applicant_id", "label": "申請人及兒童身份證明", "required": true },
+    { "key": "income_proof", "label": "家庭入息證明或綜援 / 學生資助證明", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：睇下你屋企係咪低收入、小朋友年齡啱唔啱。" },
+    { "order": 2, "text": "第二步：搵營辦計劃嘅社福機構了解詳情。" },
+    { "order": 3, "text": "第三步：向機構報名參加。" },
+    { "order": 4, "text": "第四步：參與個人發展規劃、師友配對同目標儲蓄。" },
+    { "order": 5, "text": "第五步：完成計劃，累積到嘅儲蓄可用於發展目標。" }
+  ],
+  "applicationMethod": "經參與計劃嘅非政府機構報名。",
+  "officialUrl": "https://www.cdf.gov.hk/tc/",
+  "formUrl": "https://www.cdf.gov.hk/tc/",
+  "sourceUrl": "https://www.cdf.gov.hk/tc/",
+  "contactPhone": "3902 0201",
+  "lastUpdated": "2026-07-08",
+  "forms": [
+    { "name": "兒童發展基金頁面", "type": "link", "url": "https://www.cdf.gov.hk/tc/" }
+  ],
+  "sources": [
+    { "url": "https://www.cdf.gov.hk/tc/", "title": "兒童發展基金 官方網站" }
+  ],
+  "faq": [],
+  "rules": [
+    { "field": "on_cssa_or_full_grant", "operator": "equals", "value": true, "source_url": "https://www.cdf.gov.hk/tc/", "confidence": "medium", "needs_review": true }
+  ],
+  "facets": { "means_tested": true, "income_tested": true, "household_type": ["low_income"], "tags": ["child", "family"] },
+  "relatedSlugs": ["cssa-student-support"],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

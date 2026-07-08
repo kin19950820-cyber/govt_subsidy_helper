@@ -1,0 +1,104 @@
+{
+  "id": "99999999-9999-9999-9999-999999999999",
+  "slug": "elderly-health-care-voucher",
+  "nameZh": "長者醫療券",
+  "nameEn": "Elderly Health Care Voucher Scheme",
+  "department": "衞生署（醫療券計劃）",
+  "categoryCode": "healthcare",
+  "lifeEvents": [
+    "retirement"
+  ],
+  "audience": [
+    "elderly"
+  ],
+  "matchRule": {
+    "requiresElderly": true,
+    "minAgeBand": "65_69",
+    "medicalRelated": true,
+    "meansTested": false
+  },
+  "purpose": "俾 65 歲或以上長者用嚟睇私家醫生、牙醫、中醫等基層醫療服務嘅醫療券。每年金額由政府公布。",
+  "targetBeneficiaries": "65 歲或以上、想睇私家基層醫療嘅長者。",
+  "summary": "俾 65 歲或以上長者用嚟睇私家醫生、牙醫、中醫等基層醫療服務嘅醫療券。每年金額由政府公布。",
+  "suitableFor": "65 歲或以上、想睇私家基層醫療嘅長者。",
+  "notSuitableFor": "未夠 65 歲嘅人士。",
+  "eligibility": [
+    "年滿 65 歲",
+    "持有效香港身份證，或入境事務處簽發嘅有效豁免登記證明書",
+    "毋須入息或資產審查，亦無居港年期要求（非永久居民持有效證件亦合資格）",
+    "領取綜援或傷殘津貼人士仍可使用醫療券",
+    "憑年齡自動建立醫療券戶口，一般毋須另行申請",
+    "曾以已失效逗留許可取得香港身份證者不合資格"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "age_proof",
+      "label": "年齡證明（身份證）",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：睇下你係咪夠 65 歲。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：帶身份證去睇已登記嘅醫生或牙醫。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：睇醫生時話用醫療券找數。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：系統會自動喺你戶口扣醫療券。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：唔使另外攞現金，直接抵扣診金。"
+    }
+  ],
+  "formUrl": "https://www.hcv.gov.hk/tc/hcvs/target_group.html",
+  "contactPhone": "2838 2311",
+  "officialUrl": "https://www.hcv.gov.hk/tc/hcvs/background.html",
+  "sourceUrl": "https://www.hcv.gov.hk/tc/hcvs/background.html",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.hcv.gov.hk/tc/hcvs/target_group.html"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.hcv.gov.hk/tc/hcvs/background.html",
+      "title": "長者醫療券 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "age_min": 65,
+    "disability": false,
+    "student": false,
+    "elderly": true,
+    "tags": [
+      "elderly"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "verified",
+  "active": true,
+  "knowledgeDoc": "elderly_health_care_voucher.md"
+}

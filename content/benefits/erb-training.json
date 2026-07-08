@@ -1,0 +1,56 @@
+{
+  "id": "c1000000-0000-0000-0000-000000000003",
+  "slug": "erb-training",
+  "nameZh": "僱員再培訓局課程",
+  "nameEn": "Employees Retraining Board (ERB) Training Courses",
+  "department": "僱員再培訓局（ERB）",
+  "categoryCode": "employment",
+  "lifeEvents": ["job_seeking", "unemployed", "adult_study"],
+  "audience": ["other", "low_income"],
+  "matchRule": { "meansTested": false },
+  "purpose": "為有需要人士提供職業技能培訓及就業支援，協助就業或轉業。",
+  "targetBeneficiaries": "想學技能、搵工或轉工嘅成年香港居民。",
+  "summary": "提供多元職業培訓課程（就業掛鈎及非就業掛鈎），部分課程設培訓津貼及就業跟進服務。",
+  "suitableFor": "15 歲或以上、副學位或以下學歷、想增值或搵工嘅香港居民。",
+  "notSuitableFor": "學歷或身分不符合個別課程要求嘅人士。",
+  "eligibility": [
+    "一般為年滿 15 歲、具副學位或以下學歷嘅香港居民",
+    "提供就業掛鈎（設出席及就業要求）及非就業掛鈎課程",
+    "部分全日制就業掛鈎課程設培訓津貼",
+    "個別課程嘅入讀資格、學費減免及津貼安排以僱員再培訓局公布為準"
+  ],
+  "meansTest": "一般毋須入息審查；個別津貼或有特定條件（以官方為準）。",
+  "ageRequirement": "一般年滿 15 歲。",
+  "studentRequirement": "副學位或以下學歷（個別課程另有要求）。",
+  "documents": [
+    { "key": "applicant_id", "label": "申請人身份證", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：喺 ERB 課程一覽揀啱你嘅課程。" },
+    { "order": 2, "text": "第二步：確認入讀資格同上課地點。" },
+    { "order": 3, "text": "第三步：向培訓機構報名。" },
+    { "order": 4, "text": "第四步：完成課程，達到出席及評核要求。" },
+    { "order": 5, "text": "第五步：就業掛鈎課程可獲就業跟進及（如適用）培訓津貼。" }
+  ],
+  "applicationMethod": "向 ERB 委任嘅培訓機構報名。",
+  "officialUrl": "https://www.erb.org/tc/",
+  "formUrl": "https://www.erb.org/tc/",
+  "sourceUrl": "https://www.erb.org/tc/",
+  "contactPhone": "182 182",
+  "lastUpdated": "2026-07-08",
+  "forms": [
+    { "name": "ERB 課程一覽", "type": "link", "url": "https://www.erb.org/tc/" }
+  ],
+  "sources": [
+    { "url": "https://www.erb.org/tc/", "title": "僱員再培訓局 官方網站" }
+  ],
+  "faq": [],
+  "rules": [
+    { "field": "age", "operator": "gte", "value": 15, "source_url": "https://www.erb.org/tc/", "confidence": "medium", "needs_review": true }
+  ],
+  "facets": { "means_tested": false, "age_min": 15, "employment_status": ["unemployed", "job_seeking", "employed"], "tags": ["employment", "adult_learning"] },
+  "relatedSlugs": ["working-family-allowance"],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

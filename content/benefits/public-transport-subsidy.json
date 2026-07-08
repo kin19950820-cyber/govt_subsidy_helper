@@ -1,0 +1,107 @@
+{
+  "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+  "slug": "public-transport-subsidy",
+  "nameZh": "公共交通費用補貼 / $2 乘車優惠",
+  "nameEn": "Public Transport Fare Subsidy / $2 Concessionary Fares",
+  "department": "勞工及福利局 / 運輸署",
+  "categoryCode": "elderly",
+  "lifeEvents": [
+    "retirement",
+    "disability_diagnosed"
+  ],
+  "audience": [
+    "elderly",
+    "disability",
+    "low_income"
+  ],
+  "matchRule": {
+    "travelRelated": true,
+    "meansTested": false,
+    "boostLivingAlone": true
+  },
+  "purpose": "$2 乘車優惠俾長者及合資格殘疾人士用優惠票價搭車船；公共交通費用補貼則幫返交通開支較高嘅市民。詳情及年齡以官方為準。",
+  "targetBeneficiaries": "長者、合資格殘疾人士，或每月交通開支較高嘅市民。",
+  "summary": "$2 乘車優惠俾長者及合資格殘疾人士用優惠票價搭車船；公共交通費用補貼則幫返交通開支較高嘅市民。詳情及年齡以官方為準。",
+  "suitableFor": "長者、合資格殘疾人士，或每月交通開支較高嘅市民。",
+  "notSuitableFor": "不符合年齡 / 殘疾資格，而交通開支又唔高嘅人士。",
+  "eligibility": [
+    "$2 優惠：年滿 60 歲香港居民；或 60 歲以下、領綜援並評定為 100% 傷殘或領取傷殘津貼嘅殘疾人士",
+    "$2 優惠：長者須用樂悠咭、殘疾人士須用載有「殘疾人士身分」嘅個人八達通（現金或匿名長者八達通不適用）",
+    "$2 優惠不設入息審查，屬普及性優惠",
+    "公共交通費用補貼：任何市民不論年齡及入息，每月公共交通開支超出門檻即可受惠，無須申請",
+    "$2 優惠票價安排將於 2026 年 4 月 3 日起調整為「$2 劃一或 8 折」，以官方為準"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "age_proof",
+      "label": "年齡證明（身份證）",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：睇下你係咪長者或合資格殘疾人士。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：申請 / 使用個人八達通或樂悠咭。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：搭車船時嘟卡，自動用優惠票價。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：交通費補貼會按你嘅實際車費計算。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：補貼會經指定途徑發放（詳情睇官方）。"
+    }
+  ],
+  "formUrl": "https://www.ptfss.gov.hk/tc-main.html",
+  "contactPhone": "187 2333",
+  "officialUrl": "https://www.td.gov.hk/tc/gov_public_transport_fare_concession/index.html",
+  "sourceUrl": "https://www.td.gov.hk/tc/gov_public_transport_fare_concession/index.html",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.ptfss.gov.hk/tc-main.html"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.td.gov.hk/tc/gov_public_transport_fare_concession/index.html",
+      "title": "公共交通費用補貼 / $2 乘車優惠 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "age_min": null,
+    "disability": true,
+    "student": false,
+    "elderly": true,
+    "tags": [
+      "elderly",
+      "disability",
+      "low_income"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true,
+  "knowledgeDoc": "public_transport_subsidy.md"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "b2b2b2b2-b2b2-b2b2-b2b2-b2b2b2b2b2b2",
+  "slug": "elderly-dental-assistance",
+  "nameZh": "長者牙科服務資助計劃",
+  "nameEn": "Elderly Dental Assistance Programme",
+  "department": "社會福利署（關愛基金資助）",
+  "categoryCode": "healthcare",
+  "lifeEvents": [
+    "retirement",
+    "low_income"
+  ],
+  "audience": [
+    "elderly",
+    "low_income"
+  ],
+  "matchRule": {
+    "requiresElderly": true,
+    "minAgeBand": "65_69",
+    "medicalRelated": true,
+    "meansTested": false
+  },
+  "purpose": "幫合資格長者免費或資助鑲牙同相關牙科治療，等佢哋食嘢同健康好啲。",
+  "targetBeneficiaries": "有需要脫牙、鑲牙，又正接受指定長者服務嘅長者。",
+  "summary": "幫合資格長者免費或資助鑲牙同相關牙科治療，等佢哋食嘢同健康好啲。",
+  "suitableFor": "有需要脫牙、鑲牙，又正接受指定長者服務嘅長者。",
+  "notSuitableFor": "毋須牙科治療、或未符合指定服務條件嘅人士。",
+  "eligibility": [
+    "低收入長者，並符合其中一項：正領取長者生活津貼（即 65 歲或以上）；或屬社署資助家居照顧服務（IHCS／EHCCS）中收費第一或第二級別嘅使用者",
+    "並非正領取綜援，亦未曾受惠於「長者牙科外展服務」",
+    "每名合資格長者最多可接受服務兩次；第二次須年滿 75 歲且過去 5 年內未曾受惠",
+    "由指定服務單位安排申請",
+    "計劃由關愛基金資助；名額及詳情以官方為準"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "age_proof",
+      "label": "年齡證明（身份證）",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：睇下你係咪正用緊指定長者服務。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：向服務單位或社工查詢牙科資助。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：填申請表，安排牙科檢查。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：由認可牙醫提供鑲牙等治療。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：資助會直接減免治療費用。"
+    }
+  ],
+  "formUrl": "https://www.communitycarefund.hk/",
+  "contactPhone": "2343 2255",
+  "officialUrl": "https://www.communitycarefund.hk/",
+  "sourceUrl": "https://www.communitycarefund.hk/",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.communitycarefund.hk/"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.communitycarefund.hk/",
+      "title": "長者牙科服務資助計劃 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "age_min": 65,
+    "disability": false,
+    "student": false,
+    "elderly": true,
+    "tags": [
+      "elderly",
+      "low_income"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true,
+  "knowledgeDoc": "elderly_dental_assistance.md"
+}

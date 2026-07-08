@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "benefits:build": "node scripts/build-benefits.mjs",
+    "prebuild": "node scripts/build-benefits.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

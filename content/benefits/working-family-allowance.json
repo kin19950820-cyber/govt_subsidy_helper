@@ -1,0 +1,130 @@
+{
+  "id": "66666666-6666-6666-6666-666666666666",
+  "slug": "working-family-allowance",
+  "nameZh": "在職家庭津貼計劃",
+  "nameEn": "Working Family Allowance Scheme",
+  "department": "在職家庭津貼辦事處",
+  "categoryCode": "employment",
+  "lifeEvents": [
+    "low_income",
+    "job_seeking"
+  ],
+  "audience": [
+    "low_income"
+  ],
+  "matchRule": {
+    "maxIncomeBand": "30k_40k",
+    "excludeIfCssa": true,
+    "boostSingleParent": true,
+    "boostNewArrival": true
+  },
+  "purpose": "幫有人返工但收入唔高嘅家庭。除咗家庭津貼，仲有兒童津貼幫補在學子女開支。",
+  "targetBeneficiaries": "有家庭成員返工、收入唔高、又有在學子女嘅家庭。",
+  "summary": "幫有人返工但收入唔高嘅家庭。除咗家庭津貼，仲有兒童津貼幫補在學子女開支。",
+  "suitableFor": "有家庭成員返工、收入唔高、又有在學子女嘅家庭。",
+  "notSuitableFor": "正領取綜援嘅家庭（綜援同在職家庭津貼唔可以同時領取）。",
+  "eligibility": [
+    "住戶並非領取綜援（綜援與職津不可同時領取）",
+    "住戶有成員從事有薪工作並達到每月工時要求",
+    "住戶每月收入及資產不超過指定上限（設不同津貼級別）",
+    "設兒童津貼，補助合資格在學或年幼子女",
+    "住戶成員一般須為香港居民並通常居於香港",
+    "工時門檻、入息上限及金額每年公布，以官方最新資料為準"
+  ],
+  "documents": [
+    {
+      "key": "applicant_id",
+      "label": "申請人身份證",
+      "required": true
+    },
+    {
+      "key": "student_id",
+      "label": "學生身份證 / 出世紙",
+      "required": true
+    },
+    {
+      "key": "student_proof",
+      "label": "學生證明（學校信 / 收生紙）",
+      "required": true
+    },
+    {
+      "key": "address_proof",
+      "label": "住址證明",
+      "required": true
+    },
+    {
+      "key": "income_proof",
+      "label": "入息證明",
+      "required": true
+    },
+    {
+      "key": "bank_account",
+      "label": "銀行戶口資料",
+      "required": true
+    },
+    {
+      "key": "tenancy_agreement",
+      "label": "租單 / 租約（如適用）",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "text": "第一步：睇下屋企有冇人返緊工，又有冇在學子女。"
+    },
+    {
+      "order": 2,
+      "text": "第二步：準備身份證、入息證明、工時證明、住址證明。"
+    },
+    {
+      "order": 3,
+      "text": "第三步：填在職家庭津貼申請表。"
+    },
+    {
+      "order": 4,
+      "text": "第四步：交俾在職家庭津貼辦事處。"
+    },
+    {
+      "order": 5,
+      "text": "第五步：等通知，批咗會按月或一筆過過數。"
+    }
+  ],
+  "formUrl": "https://www.wfsfaa.gov.hk/wfao/tc/application/forms.htm",
+  "contactPhone": "2558 3000",
+  "officialUrl": "https://www.wfsfaa.gov.hk/wfao/tc/index.htm",
+  "sourceUrl": "https://www.wfsfaa.gov.hk/wfao/tc/index.htm",
+  "lastUpdated": "2026-06-01",
+  "forms": [
+    {
+      "name": "申請表 / 申請方式",
+      "type": "link",
+      "url": "https://www.wfsfaa.gov.hk/wfao/tc/application/forms.htm"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wfsfaa.gov.hk/wfao/tc/index.htm",
+      "title": "在職家庭津貼計劃 官方頁面"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": true,
+    "income_tested": true,
+    "asset_tested": false,
+    "age_min": null,
+    "disability": false,
+    "student": false,
+    "elderly": false,
+    "tags": [
+      "low_income"
+    ]
+  },
+  "relatedSlugs": [],
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true,
+  "knowledgeDoc": "working_family_allowance.md"
+}

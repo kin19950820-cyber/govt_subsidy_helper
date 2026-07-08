@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const NAV = [
   { href: "/finder", label: "搵津貼" },
+  { href: "/benefits", label: "分類瀏覽" },
   { href: "/schemes", label: "所有津貼" },
   { href: "/checklist", label: "文件清單" },
   { href: "/profile", label: "我的資料" },
