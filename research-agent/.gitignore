@@ -1,2 +1,5 @@
 node_modules/
 *.tsbuildinfo
+
+# Downloaded official PDFs / crawl artefacts (large, regenerable) — evidence only.
+data/
