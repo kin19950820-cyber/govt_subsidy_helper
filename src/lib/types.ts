@@ -185,7 +185,12 @@ export interface SubsidyScheme {
   disclaimer: string; // 免責聲明
   rule: EligibilityRule; // 配對規則
   active: boolean;
+  // Batch B（可選、向後相容）：核實狀態 + 官方來源。
+  status?: BenefitStatus; // verified | needs_review | draft（未提供時當作 needs_review）
+  sourceUrl?: string; // 官方來源連結（用於顯示）
 }
+
+export type BenefitStatus = "verified" | "needs_review" | "draft";
 
 export type MatchLevel = "very_likely" | "likely" | "unlikely" | "consult";
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import {
   AUDIENCE_LABELS,
   AUDIENCE_ORDER,
@@ -11,14 +12,16 @@ import SchemeCard from "./SchemeCard";
 
 type Filter = AudienceGroup | "all";
 
-// 受惠群組下拉選單 + 津貼列表。
+// 受惠群組下拉選單 + 津貼列表。?group= 由 client 端讀取（保持列表頁可 SSG）。
 export default function SchemesBrowser({
   schemes,
-  initialGroup = "all",
 }: {
   schemes: SubsidyScheme[];
-  initialGroup?: Filter;
 }) {
+  const params = useSearchParams();
+  const g = params.get("group");
+  const initialGroup: Filter =
+    g && (AUDIENCE_ORDER as string[]).includes(g) ? (g as AudienceGroup) : "all";
   const [group, setGroup] = useState<Filter>(initialGroup);
 
   const filtered = useMemo(

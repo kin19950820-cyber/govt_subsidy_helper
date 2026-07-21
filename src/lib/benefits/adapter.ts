@@ -32,5 +32,7 @@ export function benefitToScheme(b: Benefit): SubsidyScheme {
     disclaimer: b.disclaimer,
     rule: (b.matchRule ?? {}) as EligibilityRule,
     active: b.active,
+    status: b.status,
+    sourceUrl: b.sourceUrl ?? b.officialUrl,
   };
 }

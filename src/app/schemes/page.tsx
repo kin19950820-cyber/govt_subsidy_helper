@@ -1,22 +1,14 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import { getActiveSchemes } from "@/lib/schemes";
 import SchemesBrowser from "@/components/SchemesBrowser";
 import Disclaimer from "@/components/Disclaimer";
-import { AUDIENCE_ORDER, AudienceGroup } from "@/lib/types";
 
-export const dynamic = "force-dynamic";
+// SSG + 每日 ISR（公開列表頁）。?group= 由 client 端讀取，避免整頁轉 dynamic。
+export const revalidate = 86400;
 
-export default async function SchemesPage({
-  searchParams,
-}: {
-  searchParams: { group?: string };
-}) {
+export default async function SchemesPage() {
   const schemes = await getActiveSchemes();
-  const g = searchParams.group;
-  const initialGroup =
-    g && (AUDIENCE_ORDER as string[]).includes(g)
-      ? (g as AudienceGroup)
-      : "all";
 
   return (
     <div className="space-y-6">
@@ -31,7 +23,9 @@ export default async function SchemesPage({
         🔍 唔知揀邊個？答幾條問題幫你搵
       </Link>
 
-      <SchemesBrowser schemes={schemes} initialGroup={initialGroup} />
+      <Suspense>
+        <SchemesBrowser schemes={schemes} />
+      </Suspense>
 
       <Disclaimer />
     </div>

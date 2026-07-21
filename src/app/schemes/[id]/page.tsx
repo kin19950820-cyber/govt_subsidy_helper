@@ -2,9 +2,18 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getSchemeById } from "@/lib/schemes";
 import { AUDIENCE_LABELS, DOCUMENT_LABELS } from "@/lib/types";
+import { getActiveBenefits } from "@/lib/benefits/registry";
+import { verificationState } from "@/lib/benefits/status";
 import Disclaimer from "@/components/Disclaimer";
+import VerificationBadge from "@/components/VerificationBadge";
 
-export const dynamic = "force-dynamic";
+// SSG + 每日 ISR。未預先產生嘅 slug 亦可即時渲染再快取。
+export const revalidate = 86400;
+export const dynamicParams = true;
+
+export function generateStaticParams() {
+  return getActiveBenefits().map((b) => ({ id: b.slug }));
+}
 
 export default async function SchemeDetailPage({
   params,
@@ -12,7 +21,8 @@ export default async function SchemeDetailPage({
   params: { id: string };
 }) {
   const scheme = await getSchemeById(params.id);
-  if (!scheme) notFound();
+  if (!scheme || scheme.active === false) notFound();
+  const state = verificationState(scheme);
 
   return (
     <div className="space-y-6">
@@ -29,10 +39,34 @@ export default async function SchemeDetailPage({
               {AUDIENCE_LABELS[g]}
             </span>
           ))}
+          <VerificationBadge
+            status={scheme.status}
+            lastVerified={scheme.lastVerified}
+            active={scheme.active}
+            detail
+          />
         </div>
         <h1 className="mt-2 text-2xl font-bold">{scheme.nameZh}</h1>
         <p className="text-stone-500">{scheme.nameEn}</p>
       </div>
+
+      {state !== "verified" && (
+        <div className="rounded-2xl border border-amber-300 bg-amber-50 p-4 text-amber-900">
+          <p className="font-semibold">⚠️ 此福利資料尚待核實</p>
+          <p className="mt-1 text-sm">
+            以下內容仍在核對中，可能未反映最新政府公佈。請務必以官方來源為準。
+            {scheme.lastVerified ? `（最後核實：${scheme.lastVerified}）` : ""}
+          </p>
+          <a
+            href={scheme.sourceUrl ?? scheme.officialUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 inline-block text-sm font-semibold text-brand underline"
+          >
+            🔗 查看官方來源
+          </a>
+        </div>
+      )}
 
       <a
         href={scheme.officialUrl}

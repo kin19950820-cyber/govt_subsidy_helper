@@ -8,6 +8,7 @@ import {
   queryBenefits,
 } from "@/lib/benefits/registry";
 import Disclaimer from "@/components/Disclaimer";
+import VerificationBadge from "@/components/VerificationBadge";
 
 export const dynamic = "force-dynamic";
 
@@ -113,11 +114,11 @@ export default function BenefitsPage({
                 <h3 className="mt-2 text-lg font-bold">{b.nameZh}</h3>
                 <p className="text-sm text-stone-500">{b.nameEn}</p>
               </div>
-              {b.status !== "verified" && (
-                <span className="chip shrink-0 border-amber-300 bg-amber-50 text-amber-800">
-                  待核實
-                </span>
-              )}
+              <VerificationBadge
+                status={b.status}
+                lastVerified={b.lastUpdated}
+                active={b.active}
+              />
             </div>
             <p className="mt-2 text-stone-700">{b.summary}</p>
           </Link>

@@ -21,7 +21,7 @@ export async function PUT(
   }
   const body = await req.json();
   const { data, error } = await admin
-    .from("subsidy_schemes")
+    .from("benefits")
     .update(schemeToRow(body))
     .eq("id", params.id)
     .select()
@@ -47,7 +47,7 @@ export async function DELETE(
     return NextResponse.json({ error: "Supabase 未設定" }, { status: 400 });
   }
   const { error } = await admin
-    .from("subsidy_schemes")
+    .from("benefits")
     .delete()
     .eq("id", params.id);
   if (error) return NextResponse.json({ error: error.message }, { status: 400 });

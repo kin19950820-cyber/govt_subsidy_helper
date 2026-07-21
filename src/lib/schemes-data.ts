@@ -1,5 +1,10 @@
 import { SubsidyScheme } from "./types";
 
+/**
+ * @deprecated Batch B：此硬編碼陣列已退役，唔再屬於 App 讀取路徑。
+ * 權威來源為 content/benefits/*.json（經 registry / public.benefits）。
+ * 現時只由 scripts/emit-benefits.ts（一次性遷移）引用；通過回歸測試後可移除。
+ */
 // 靜態資料：當未設定 Supabase 時，App 仍可運作。
 // 內容同 supabase/seed.sql 一致，方便 demo 同 admin 更新。
 // 官方連結及申請表 URL 已對照知識庫（knowledge/）核實並確認可開啟（2026-07-08）；

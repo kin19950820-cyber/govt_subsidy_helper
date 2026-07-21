@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AUDIENCE_LABELS, SubsidyScheme } from "@/lib/types";
+import VerificationBadge from "@/components/VerificationBadge";
 
 export default function SchemeCard({ scheme }: { scheme: SubsidyScheme }) {
   return (
@@ -10,6 +11,11 @@ export default function SchemeCard({ scheme }: { scheme: SubsidyScheme }) {
             <span className="chip border-brand/30 bg-brand/10 text-brand">
               {scheme.category}
             </span>
+            <VerificationBadge
+              status={scheme.status}
+              lastVerified={scheme.lastVerified}
+              active={scheme.active}
+            />
             {scheme.audience.map((g) => (
               <span
                 key={g}

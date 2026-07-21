@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
   }
   const body = await req.json();
   const { data, error } = await admin
-    .from("subsidy_schemes")
+    .from("benefits")
     .insert(schemeToRow(body))
     .select()
     .single();

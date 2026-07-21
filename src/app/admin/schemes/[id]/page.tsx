@@ -34,6 +34,7 @@ const EMPTY: SubsidyScheme = {
     "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。",
   rule: {},
   active: true,
+  status: "needs_review",
 };
 
 export default function AdminSchemeEditPage() {
@@ -213,6 +214,22 @@ export default function AdminSchemeEditPage() {
           value={ruleText}
           onChange={(e) => setRuleText(e.target.value)}
         />
+      </div>
+
+      <div>
+        <p className="label">核實狀態</p>
+        <select
+          className="input"
+          value={s.status ?? "needs_review"}
+          onChange={(e) => set("status", e.target.value as SubsidyScheme["status"])}
+        >
+          <option value="needs_review">待核實（needs_review）</option>
+          <option value="verified">已核實（verified）</option>
+          <option value="draft">草稿（draft）</option>
+        </select>
+        <p className="mt-1 text-sm text-stone-500">
+          只有「已核實」且最後核實日期在一年內嘅福利，先會出現喺最高信心配對結果。
+        </p>
       </div>
 
       <label className="flex items-center gap-3 rounded-xl border-2 border-stone-200 p-3">

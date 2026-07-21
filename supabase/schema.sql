@@ -45,6 +45,8 @@ create table if not exists public.students (
 create index if not exists students_user_idx on public.students (user_id);
 
 -- ---------- 津貼計劃（denormalized，方便讀取） ----------
+-- DEPRECATED (Batch B)：App 已改用 public.benefits（見 supabase/benefits_schema.sql）。
+-- 本表保留作向後相容 / 回滾之用，App 已不再讀寫；通過回歸測試及過渡期後可 drop。
 create table if not exists public.subsidy_schemes (
   id uuid primary key default gen_random_uuid(),
   slug text unique not null,

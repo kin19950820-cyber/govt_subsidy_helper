@@ -7,6 +7,7 @@ import {
   MatchResult,
   SubsidyScheme,
 } from "./types";
+import { canBeHighConfidence } from "./benefits/status";
 
 const INCOME_ORDER: IncomeBand[] = [
   "below_10k",
@@ -176,7 +177,15 @@ function evaluateScheme(
     reasons.push("獨居長者通常較優先處理。");
   }
 
-  const level = toLevel(score, hardFail, answers);
+  let level = toLevel(score, hardFail, answers);
+
+  // 核實把關：只有 verified 且未過時嘅福利可獲高信心（very_likely）；
+  // 其餘（needs_review / draft / 過時）最多只可 likely。
+  if (level === "very_likely" && !canBeHighConfidence(scheme)) {
+    level = "likely";
+    reasons.push("此福利資料尚待核實，暫不列為最高信心，請以官方為準。");
+  }
+
   return { scheme, level, reasons };
 }
 

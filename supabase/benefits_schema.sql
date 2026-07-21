@@ -63,14 +63,25 @@ create table if not exists public.benefits (
   last_updated date,
   status text not null default 'draft',                -- draft | needs_review | verified
   active boolean not null default true,
+  disclaimer text,
   audience jsonb not null default '[]'::jsonb,         -- 受惠群組（相容舊 UI）
   steps jsonb not null default '[]'::jsonb,            -- {order,text}[]
+  documents jsonb not null default '[]'::jsonb,        -- {key,label,required}[]（inline，畀 CMS/App 用）
+  forms jsonb not null default '[]'::jsonb,
+  sources jsonb not null default '[]'::jsonb,
+  faq jsonb not null default '[]'::jsonb,
+  rules jsonb not null default '[]'::jsonb,            -- 機讀規則（inline 副本）
+  related_slugs jsonb not null default '[]'::jsonb,
+  life_events jsonb not null default '[]'::jsonb,      -- inline（另有 benefit_life_events 供 SQL faceting）
   match_rule jsonb not null default '{}'::jsonb,       -- 配對規則
   facets jsonb not null default '{}'::jsonb,           -- 可擴充搜尋面向
   knowledge_doc text,                                  -- knowledge/<file>.md
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
+-- 註：public.benefits 為「去正規化」權威列（inline JSONB），App 及 CMS 只讀寫此列。
+-- 下面嘅子表（benefit_documents / forms / …）為可選嘅正規化投影，供 SQL 端查詢，
+-- 由 seed emitter 一併填入；App 讀取路徑毋須依賴子表。
 create index if not exists benefits_category_idx on public.benefits (category_code);
 create index if not exists benefits_active_idx on public.benefits (active);
 create index if not exists benefits_status_idx on public.benefits (status);

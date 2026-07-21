@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "benefits:build": "node scripts/build-benefits.mjs",
+    "benefits:sql": "node scripts/emit-benefits-sql.mjs",
     "prebuild": "node scripts/build-benefits.mjs",
     "build": "next build",
     "start": "next start",
