@@ -1,0 +1,18 @@
+[
+  { "code": "wfsfaa", "name_zh": "在學及在職學生資助辦事處（工作及學生資助辦事處）", "name_en": "Working Family and Student Financial Assistance Agency (WFSFAA)", "official_url": "https://www.wfsfaa.gov.hk/tc/index.htm", "sort": 10 },
+  { "code": "sfo", "name_zh": "學生資助處", "name_en": "Student Finance Office (SFO)", "official_url": "https://www.wfsfaa.gov.hk/tc/sfo/index.htm", "sort": 20 },
+  { "code": "wfao", "name_zh": "在職家庭津貼辦事處", "name_en": "Working Family Allowance Office (WFAO)", "official_url": "https://www.wfsfaa.gov.hk/wfao/tc/index.htm", "sort": 30 },
+  { "code": "swd", "name_zh": "社會福利署", "name_en": "Social Welfare Department (SWD)", "official_url": "https://www.swd.gov.hk/tc/index.html", "sort": 40 },
+  { "code": "doh", "name_zh": "衞生署", "name_en": "Department of Health (DoH)", "official_url": "https://www.dh.gov.hk/tc_chi/main/main.html", "sort": 50 },
+  { "code": "hb", "name_zh": "醫務衞生局", "name_en": "Health Bureau", "official_url": "https://www.healthbureau.gov.hk/", "sort": 60 },
+  { "code": "ha", "name_zh": "醫院管理局", "name_en": "Hospital Authority (HA)", "official_url": "https://www.ha.org.hk/", "sort": 70 },
+  { "code": "ha_hkha", "name_zh": "香港房屋委員會 / 房屋署", "name_en": "Hong Kong Housing Authority / Housing Department", "official_url": "https://www.housingauthority.gov.hk/tc/index.html", "sort": 80 },
+  { "code": "edb", "name_zh": "教育局", "name_en": "Education Bureau (EDB)", "official_url": "https://www.edb.gov.hk/tc/", "sort": 90 },
+  { "code": "labour", "name_zh": "勞工處", "name_en": "Labour Department", "official_url": "https://www.labour.gov.hk/tc/", "sort": 100 },
+  { "code": "erb", "name_zh": "僱員再培訓局", "name_en": "Employees Retraining Board (ERB)", "official_url": "https://www.erb.org/tc/", "sort": 110 },
+  { "code": "ird", "name_zh": "稅務局", "name_en": "Inland Revenue Department (IRD)", "official_url": "https://www.ird.gov.hk/chi/welcome.htm", "sort": 120 },
+  { "code": "td", "name_zh": "運輸署", "name_en": "Transport Department (TD)", "official_url": "https://www.td.gov.hk/tc/home/index.html", "sort": 130 },
+  { "code": "lwb", "name_zh": "勞工及福利局", "name_en": "Labour and Welfare Bureau (LWB)", "official_url": "https://www.lwb.gov.hk/", "sort": 140 },
+  { "code": "ccf", "name_zh": "關愛基金", "name_en": "Community Care Fund (CCF)", "official_url": "https://www.communitycarefund.hk/", "sort": 150 },
+  { "code": "govhk", "name_zh": "香港政府一站通 / 1823", "name_en": "GovHK / 1823", "official_url": "https://www.gov.hk/tc/residents/", "sort": 160 }
+]

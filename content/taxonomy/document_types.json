@@ -1,0 +1,13 @@
+[
+  { "code": "applicant_id", "name_zh": "申請人身份證", "name_en": "Applicant HK identity document", "sort": 10 },
+  { "code": "student_id", "name_zh": "學生身份證 / 出世紙", "name_en": "Student ID / birth certificate", "sort": 20 },
+  { "code": "student_proof", "name_zh": "學生證明（學校信 / 收生紙）", "name_en": "Proof of student status", "sort": 30 },
+  { "code": "address_proof", "name_zh": "住址證明", "name_en": "Address proof", "sort": 40 },
+  { "code": "income_proof", "name_zh": "入息證明", "name_en": "Income proof", "sort": 50 },
+  { "code": "bank_account", "name_zh": "銀行戶口資料", "name_en": "Bank account details", "sort": 60 },
+  { "code": "tenancy_agreement", "name_zh": "租單 / 租約（如適用）", "name_en": "Tenancy agreement (if applicable)", "sort": 70 },
+  { "code": "cssa_proof", "name_zh": "綜援證明（如適用）", "name_en": "CSSA proof (if applicable)", "sort": 80 },
+  { "code": "age_proof", "name_zh": "年齡證明（身份證）", "name_en": "Proof of age (HKID)", "sort": 90 },
+  { "code": "asset_proof", "name_zh": "資產證明（銀行結單）", "name_en": "Proof of assets (bank statements)", "sort": 100 },
+  { "code": "disability_proof", "name_zh": "殘疾 / 醫療證明", "name_en": "Disability / medical certification", "sort": 110 }
+]
