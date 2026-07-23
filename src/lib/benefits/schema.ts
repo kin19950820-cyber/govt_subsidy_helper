@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { RuleGroupSchema } from "../eligibility/schema";
 
 // Zod 內容契約：content/benefits/*.json 及 content/taxonomy/*.json 嘅單一驗證來源。
 // 由 tests（content.test.ts）使用，將來亦可畀 build script / API 共用。
@@ -98,6 +99,7 @@ export const BenefitSchema = z.object({
   sources: z.array(BenefitSourceSchema).optional(),
   faq: z.array(BenefitFaqSchema).optional(),
   rules: z.array(BenefitRuleSchema).optional(),
+  ruleSet: RuleGroupSchema.optional(),
   relatedSlugs: z.array(z.string()).optional(),
   knowledgeDoc: z.string().optional(),
 });

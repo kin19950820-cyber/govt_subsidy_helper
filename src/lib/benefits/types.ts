@@ -134,6 +134,7 @@ export interface Benefit {
   sources: BenefitSource[];
   faq: BenefitFaq[];
   rules: BenefitRule[];
+  ruleSet?: import("../eligibility/rules").RuleGroup; // C1：可組合規則集（引擎用）
   facets: BenefitFacets;
   relatedSlugs: string[];
 
