@@ -9,6 +9,7 @@
     "completeness": "node scripts/content-completeness.mjs",
     "check:criticals": "node scripts/check-verified-criticals.mjs",
     "source-audit": "node scripts/source-audit.mjs",
+    "change-monitor": "node scripts/change-monitor.mjs",
     "prebuild": "node scripts/build-benefits.mjs && node scripts/check-verified-criticals.mjs",
     "build": "next build",
     "start": "next start",

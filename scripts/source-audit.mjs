@@ -1,4 +1,4 @@
-// 來源審計 → reports/source-change-report.md
+// 來源審計 → reports/source-audit-report.md
 //   node scripts/source-audit.mjs            (offline，確定性，報告用)
 //   node scripts/source-audit.mjs --strict   (有 error 級 issue 即 exit 1)
 //   node scripts/source-audit.mjs --network  (額外檢查 HTTP 狀態 / redirect)
@@ -62,7 +62,7 @@ if (args.has("--network")) {
   md.push("## Network check");
   md.push(network.length ? network.map((n) => `- ${n.status} ${n.url}`).join("\n") : "- all reachable ✓");
 }
-fs.writeFileSync(path.join(outDir, "source-change-report.md"), md.join("\n") + "\n");
-console.log(`Source audit: ${errorCount} error issues, ${all.length} benefits flagged -> reports/source-change-report.md`);
+fs.writeFileSync(path.join(outDir, "source-audit-report.md"), md.join("\n") + "\n");
+console.log(`Source audit: ${errorCount} error issues, ${all.length} benefits flagged -> reports/source-audit-report.md`);
 
 if (args.has("--strict") && errorCount > 0) process.exit(1);

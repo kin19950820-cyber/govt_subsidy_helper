@@ -32,14 +32,22 @@ missing `sourceType`. Add `--network` to also check HTTP status, redirects, and
 government site is briefly unavailable — network checks run in a separate,
 non-blocking CI job (`scripts/check-links.mjs`, `--network` audits).
 
-Output: `reports/source-change-report.md`.
+Output: `reports/source-audit-report.md`.
 
-## Change monitoring
+## Change monitoring — `npm run change-monitor`
 
-The audit + link checks flag: source content changed (hash), form URL changed,
-guidance replaced, deadline/amount/eligibility wording changed, application
-method changed, scheme suspended/closed. **Never silently update eligibility
-rules from an automated diff** — a human confirms and edits the canonical record.
+Compares each canonical source's recorded `contentHash` against a human-owned
+baseline snapshot (`research/.source-snapshot.json`) and reports **added**,
+**removed**, and **hash-changed** sources. A human sets the baseline with
+`npm run change-monitor -- --write-snapshot`; `--network` additionally fetches
+each official page, hashes it, and flags **live drift** where the page differs
+from the recorded hash. Output: `reports/source-change-report.md`.
+
+This flags: source content changed (hash), form URL changed, guidance replaced,
+deadline/amount/eligibility wording changed, application method changed, scheme
+suspended/closed. **Never silently update eligibility rules from an automated
+diff** — a human confirms against the official source and edits the canonical
+record, preserving history in `changeLog[]`.
 
 ## Data-quality rules (enforced by tests)
 
