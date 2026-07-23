@@ -1,0 +1,342 @@
+{
+  "generatedAt": "2026-07-23T10:54:10.473Z",
+  "average": 92,
+  "rows": [
+    {
+      "slug": "child-development-fund",
+      "nameZh": "兒童發展基金",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "community-care-service-voucher",
+      "nameZh": "長者社區照顧服務券",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "continuing-education-fund",
+      "nameZh": "持續進修基金",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "cssa-student-support",
+      "nameZh": "綜援學生相關支援",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "disability-allowance",
+      "nameZh": "傷殘津貼",
+      "status": "verified",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "elderly-dental-assistance",
+      "nameZh": "長者牙科服務資助計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "elderly-health-care-voucher",
+      "nameZh": "長者醫療券",
+      "status": "verified",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "erb-training",
+      "nameZh": "僱員再培訓局課程",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "guangdong-fujian-scheme",
+      "nameZh": "廣東計劃 / 福建計劃",
+      "status": "verified",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "home-care-services",
+      "nameZh": "家居照顧服務（綜合家居 / 改善家居及社區照顧）",
+      "status": "verified",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "integrated-discharge-support-elderly",
+      "nameZh": "離院長者綜合支援計劃（出院長者支援）",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "internet-access-subsidy",
+      "nameZh": "上網費津貼計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "kindergarten-fee-remission",
+      "nameZh": "幼稚園及幼兒中心學費減免計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "old-age-allowance",
+      "nameZh": "高齡津貼（生果金）",
+      "status": "verified",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "old-age-living-allowance",
+      "nameZh": "長者生活津貼",
+      "status": "verified",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "personal-emergency-link",
+      "nameZh": "平安鐘（個人緊急召援服務）",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "public-rental-housing",
+      "nameZh": "公共租住房屋（公屋）",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "public-transport-subsidy",
+      "nameZh": "公共交通費用補貼 / $2 乘車優惠",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "school-textbook-assistance",
+      "nameZh": "學校書簿津貼計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "student-travel-subsidy",
+      "nameZh": "學生車船津貼計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "working-family-allowance",
+      "nameZh": "在職家庭津貼計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 92,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq",
+        "typedSources"
+      ],
+      "sourceCoverage": 0.6,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    }
+  ]
+}
