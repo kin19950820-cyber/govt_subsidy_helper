@@ -1,0 +1,101 @@
+{
+  "id": "d2000000-0000-0000-0000-000000000002",
+  "slug": "samaritan-fund",
+  "nameZh": "撒瑪利亞基金",
+  "nameEn": "Samaritan Fund",
+  "department": "醫院管理局",
+  "categoryCode": "healthcare",
+  "schemeType": "subsidised_service",
+  "aliases": ["SF"],
+  "lifeEvents": ["hospital_discharge", "cancer_treatment", "low_income"],
+  "audience": ["low_income", "other"],
+  "matchRule": {
+    "meansTested": true
+  },
+  "purpose": "為有經濟困難、並符合臨床準則嘅醫管局病人，資助部分「並非公立醫院及診所標準收費涵蓋」嘅自費醫療項目或新科技（例如指定自費藥物、醫療儀器等）。金額按項目及審查結果而定，請以官方為準。",
+  "targetBeneficiaries": "醫院管理局病人，經濟上有需要、並符合相關臨床準則者。",
+  "summary": "撒瑪利亞基金（1950 年成立）為有需要嘅醫管局病人提供經濟援助，支付並非公立醫院／診所標準收費涵蓋、而醫療過程所需嘅自費醫療項目或新科技。申請須同時符合兩項條件：（一）臨床準則（由醫管局醫生或專職醫療人員按現行指引支持）；（二）由醫務社工進行嘅「以住戶為基礎」入息審查。",
+  "suitableFor": "正接受醫管局治療、需要自費醫療項目但經濟困難嘅病人。",
+  "notSuitableFor": "非醫管局病人、或未能符合臨床準則／入息審查嘅病人。",
+  "eligibility": [
+    "須為醫院管理局（HA）病人",
+    "須為政府憲報所指嘅「合資格人士」（Eligible Person）",
+    "所需項目須由醫管局醫生或專職醫療人員按現行臨床指引支持",
+    "須通過由醫務社工（MSW）進行嘅「以住戶為基礎」入息審查",
+    "資助範圍為並非標準收費涵蓋、醫療所需嘅自費醫療項目或新科技（PPMI／新科技）",
+    "⚠️ Needs Manual Review：可獲資助項目清單、分擔額計算及入息審查上限以官方最新指引及憲報為準"
+  ],
+  "documents": [
+    { "key": "applicant_id", "label": "病人身份證", "required": true },
+    { "label": "醫生 / 專職醫療人員轉介或支持文件", "required": true },
+    { "key": "income_proof", "label": "住戶入息證明", "required": true },
+    { "key": "asset_proof", "label": "資產證明（銀行結單等）", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：向負責你治療嘅醫管局醫生或專職醫療人員查詢是否符合臨床準則。" },
+    { "order": 2, "text": "第二步：聯絡醫院嘅醫務社會服務部 / 醫務社工（MSW）了解申請詳情。" },
+    { "order": 3, "text": "第三步：準備住戶入息及資產證明，接受「以住戶為基礎」入息審查。" },
+    { "order": 4, "text": "第四步：於治療開始前約兩星期遞交填妥嘅申請表及所需資料，以便處理及審批。" },
+    { "order": 5, "text": "第五步：批核後按醫管局安排提供資助。" }
+  ],
+  "applicationMethods": ["in_person"],
+  "officialUrl": "https://www.ha.org.hk/haho/ho/sf/SF_e.htm",
+  "sourceUrl": "https://www.ha.org.hk/visitor/ha_visitor_index.asp?Content_ID=10048&Lang=ENG",
+  "lastUpdated": "2026-07-23",
+  "forms": [],
+  "sources": [
+    {
+      "url": "https://www.ha.org.hk/haho/ho/sf/SF_e.htm",
+      "title": "撒瑪利亞基金（官方頁面）",
+      "titleZh": "撒瑪利亞基金",
+      "titleEn": "Samaritan Fund",
+      "publisher": "Hospital Authority",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.ha.org.hk/visitor/ha_visitor_index.asp?Content_ID=10048&Lang=ENG",
+      "title": "醫院管理局：撒瑪利亞基金",
+      "titleZh": "醫院管理局：撒瑪利亞基金",
+      "titleEn": "Hospital Authority: Samaritan Fund",
+      "publisher": "Hospital Authority",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.ha.org.hk/haho/ho/sf/fa_en.htm",
+      "title": "撒瑪利亞基金 — 財務評估（官方頁面）",
+      "titleZh": "撒瑪利亞基金 — 財務評估",
+      "titleEn": "Samaritan Fund — Financial Assessment",
+      "publisher": "Hospital Authority",
+      "sourceType": "guidance_note",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": true,
+    "income_tested": true,
+    "asset_tested": true,
+    "disability": false,
+    "student": false,
+    "elderly": false,
+    "tags": ["healthcare", "medical", "low_income"]
+  },
+  "relatedSlugs": [],
+  "knownUncertainty": [
+    "可獲資助之自費醫療項目 / 新科技清單、病人分擔額及入息審查上限須以官方最新指引及政府憲報為準。",
+    "查詢及申請須經負責治療醫院嘅醫務社會服務部 / 醫務社工；未寫入未經核實嘅熱線號碼。"
+  ],
+  "researchNotes": "來源：HA SF_e.htm、visitor Content_ID=10048、fa_en.htm（2026-07-23 讀取）。1950 年由立法局決議成立。申請經醫院醫務社工（MSW）進行以住戶為基礎入息審查。金額 / 項目清單未寫入固定數字，待人手覆核官方指引後可升為 verified。",
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

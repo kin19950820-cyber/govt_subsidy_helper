@@ -1,6 +1,6 @@
 # Benefit Content Completeness
 
-Generated: 2026-07-23T10:54:10.478Z · benefits: 21 · average score: 92/100
+Generated: 2026-07-23T11:12:10.223Z · benefits: 23 · average score: 92/100
 
 Critical fields: officialName, department, officialSource, eligibilitySummary, structuredEligibility, applicationMethod, lastVerified, verificationStatus, disclaimer
 
@@ -29,3 +29,5 @@ Critical fields: officialName, department, officialSource, eligibilitySummary, s
 | 92 | needs_review | school-textbook-assistance | — | faq, typedSources |
 | 92 | needs_review | student-travel-subsidy | — | faq, typedSources |
 | 92 | needs_review | working-family-allowance | — | faq, typedSources |
+| 94 | needs_review | samaritan-fund | — | contact, faq |
+| 97 | needs_review | tsfs-postsecondary | — | faq |

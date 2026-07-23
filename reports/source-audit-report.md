@@ -1,6 +1,6 @@
 # Source Change / Audit Report
 
-Generated: 2026-07-23T11:04:53.932Z
+Generated: 2026-07-23T11:12:10.303Z
 
 Allowlist domains: 21 · error-level issues: 0
 
@@ -102,6 +102,9 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.ptfss.gov.hk/tc-main.html
 - **warn** missing_source_type — https://www.td.gov.hk/tc/gov_public_transport_fare_concession/index.html
 
+## samaritan-fund
+- **warn** duplicate_source — https://www.ha.org.hk/haho/ho/sf/SF_e.htm
+
 ## school-textbook-assistance
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/overview.php
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/procedures.php
@@ -111,6 +114,10 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/overview.php
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/procedures.php
 - **warn** missing_source_type — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/overview.php
+
+## tsfs-postsecondary
+- **warn** duplicate_source — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/tsfs/overview.php
+- **warn** duplicate_source — https://www.wfsfaa.gov.hk/sfo/en/postsecondary/tsfs/application/forms.htm
 
 ## working-family-allowance
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/wfao/tc/index.htm

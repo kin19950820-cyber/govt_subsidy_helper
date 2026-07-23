@@ -1,0 +1,111 @@
+{
+  "id": "d2000000-0000-0000-0000-000000000001",
+  "slug": "tsfs-postsecondary",
+  "nameZh": "資助專上課程學生資助計劃",
+  "nameEn": "Tertiary Student Finance Scheme – Publicly-funded Programmes (TSFS)",
+  "department": "在職家庭及學生資助事務處（學生資助處）",
+  "categoryCode": "postsecondary",
+  "aliases": ["TSFS", "資助專上課程學生資助"],
+  "lifeEvents": ["university", "adult_study", "low_income"],
+  "audience": ["student", "low_income"],
+  "matchRule": {
+    "meansTested": true,
+    "maxIncomeBand": "20k_30k"
+  },
+  "purpose": "俾修讀「全日制、獲公帑資助」認可專上課程嘅學生嘅入息審查資助，分為助學金（Grant）同貸款（Loan）兩部分。金額每年由政府公布，請以官方為準。",
+  "targetBeneficiaries": "修讀全日制、獲公帑資助認可專上課程，並通過入息審查嘅學生。",
+  "summary": "資助專上課程學生資助計劃（TSFS）為修讀全日制公帑資助專上課程嘅有需要學生提供入息審查資助：助學金用嚟支付學費、學習開支及必修學生會費；貸款用嚟支付生活費。合資格並入住宿舍者可獲宿舍津貼；有特殊教育需要者可獲額外學習開支津貼。",
+  "suitableFor": "修讀全日制公帑資助專上課程、家庭入息及資產通過審查嘅學生。",
+  "notSuitableFor": "修讀自資課程（應留意其他資助計劃）、或家庭入息／資產超出審查上限嘅學生。",
+  "eligibility": [
+    "修讀認可院校、獲公帑資助嘅全日制專上課程學額",
+    "通過「入息審查」（以家庭全年可動用收入 Adjusted Family Income 計算，須連同家庭成員資料一併申報）",
+    "助學金（Grant）用以支付學費、學習開支及必修學生會費",
+    "貸款（Loan）用以支付學生生活費",
+    "合資格並入住學生宿舍者可獲宿舍津貼",
+    "有特殊教育需要嘅合資格申請人可獲額外學習開支津貼",
+    "⚠️ Needs Manual Review：每年助學金／貸款上限、入息審查機制細節每學年公布，請以官方「資助額」頁面為準"
+  ],
+  "documents": [
+    { "key": "applicant_id", "label": "申請人身份證", "required": true },
+    { "key": "student_proof", "label": "學生身份 / 課程證明", "required": true },
+    { "key": "income_proof", "label": "家庭成員入息證明", "required": true },
+    { "key": "asset_proof", "label": "資產證明", "required": true },
+    { "key": "bank_account", "label": "銀行戶口資料", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：確認你修讀嘅係公帑資助全日制專上課程。" },
+    { "order": 2, "text": "第二步：準備身份證、課程證明同家庭成員入息／資產資料。" },
+    { "order": 3, "text": "第三步：於學生資助處網上系統遞交 TSFS 申請表。" },
+    { "order": 4, "text": "第四步：等候入息審查及批核結果。" },
+    { "order": 5, "text": "第五步：批出後按通知領取助學金／貸款。" }
+  ],
+  "applicationMethods": ["online"],
+  "formUrl": "https://www.wfsfaa.gov.hk/sfo/en/postsecondary/tsfs/application/forms.htm",
+  "contactPhone": "2152 9000",
+  "hotline": "2152 9000",
+  "officialUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/tsfs/overview.php",
+  "sourceUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/tsfs/overview.php",
+  "lastUpdated": "2026-07-23",
+  "forms": [
+    {
+      "name": "TSFS 申請連結、表格及下載",
+      "type": "link",
+      "url": "https://www.wfsfaa.gov.hk/sfo/en/postsecondary/tsfs/application/forms.htm"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/tsfs/overview.php",
+      "title": "TSFS 概覽（官方頁面）",
+      "titleZh": "資助專上課程學生資助計劃 — 概覽",
+      "titleEn": "TSFS — Overview",
+      "publisher": "Working Family and Student Financial Assistance Agency",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.wfsfaa.gov.hk/sfo/en/postsecondary/tsfs/general/level.htm",
+      "title": "TSFS 資助額（官方頁面）",
+      "titleZh": "資助專上課程學生資助計劃 — 資助額",
+      "titleEn": "TSFS — Level of Financial Assistance",
+      "publisher": "Working Family and Student Financial Assistance Agency",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.wfsfaa.gov.hk/sfo/en/postsecondary/tsfs/application/procedures.htm",
+      "title": "TSFS 申請程序（官方頁面）",
+      "titleZh": "資助專上課程學生資助計劃 — 申請程序",
+      "titleEn": "TSFS — Application Procedures",
+      "publisher": "Working Family and Student Financial Assistance Agency",
+      "sourceType": "application_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": true,
+    "income_tested": true,
+    "asset_tested": true,
+    "disability": false,
+    "student": true,
+    "elderly": false,
+    "tags": ["student", "postsecondary", "low_income"]
+  },
+  "relatedSlugs": ["continuing-education-fund"],
+  "knownUncertainty": [
+    "每學年助學金及貸款上限金額、入息審查（可動用收入 / 家庭成員數目調整）機制細節須以官方最新公布為準。"
+  ],
+  "researchNotes": "來源：WFSFAA TSFS overview.php / level.htm / procedures.htm（2026-07-23 讀取）。熱線 2152 9000，電郵 wg_sfo@wfsfaa.gov.hk。金額每年公布，未寫入固定數字。待人手覆核官方資助額頁面後可升為 verified。",
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}
