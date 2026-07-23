@@ -1,0 +1,31 @@
+{
+  "note": "官方來源允許清單。子網域須明確符合；publisher 身分另行記錄，唔可假設每個子網域或外部機構都屬官方。",
+  "allow": [
+    "gov.hk",
+    "wfsfaa.gov.hk",
+    "swd.gov.hk",
+    "labour.gov.hk",
+    "housingauthority.gov.hk",
+    "housingbureau.gov.hk",
+    "ha.org.hk",
+    "chp.gov.hk",
+    "info.gov.hk",
+    "td.gov.hk",
+    "ird.gov.hk",
+    "edb.gov.hk",
+    "dh.gov.hk",
+    "healthbureau.gov.hk",
+    "hcv.gov.hk",
+    "1823.gov.hk",
+    "cdf.gov.hk",
+    "lwb.gov.hk",
+    "erb.org",
+    "communitycarefund.hk",
+    "schsa.org.hk"
+  ],
+  "statutoryOrNgoOperated": [
+    "erb.org",
+    "communitycarefund.hk",
+    "schsa.org.hk"
+  ]
+}

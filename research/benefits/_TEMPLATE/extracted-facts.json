@@ -1,0 +1,9 @@
+{
+  "slug": "<slug>",
+  "facts": {
+    "department": { "value": "", "sourceRef": "S1" },
+    "ageRequirement": { "value": "", "sourceRef": "S1" },
+    "meansTest": { "value": "", "sourceRef": "S1" },
+    "amounts": [{ "label": "", "value": "", "effectiveFrom": "", "source": "S2" }]
+  }
+}

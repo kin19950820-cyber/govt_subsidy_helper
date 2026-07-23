@@ -1,0 +1,16 @@
+{
+  "slug": "<slug>",
+  "sources": [
+    {
+      "url": "https://www.<dept>.gov.hk/...",
+      "titleZh": "",
+      "titleEn": "",
+      "publisher": "<official department>",
+      "sourceType": "official_page",
+      "retrievedAt": "YYYY-MM-DD",
+      "lastCheckedAt": "YYYY-MM-DD",
+      "contentHash": "",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_note": "Proposed content/benefits/<slug>.json. Copy an existing content/benefits file as the real shape; fill from extracted-facts + sources. Start at status: needs_review. Never invent amounts/thresholds; put changing figures in amounts[] with effectiveFrom + source.",
+  "slug": "<slug>",
+  "nameZh": "",
+  "nameEn": "",
+  "department": "",
+  "categoryCode": "",
+  "schemeType": "",
+  "lifeEvents": [],
+  "eligibility": [],
+  "ruleSet": { "all": [] },
+  "sources": [],
+  "status": "needs_review",
+  "active": true,
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。"
+}
