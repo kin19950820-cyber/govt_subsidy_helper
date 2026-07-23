@@ -1,0 +1,12 @@
+[
+  { "code": "cash_allowance", "name_zh": "現金津貼", "name_en": "Cash allowance", "sort": 10 },
+  { "code": "fee_waiver", "name_zh": "費用減免", "name_en": "Fee waiver", "sort": 20 },
+  { "code": "subsidised_service", "name_zh": "資助服務", "name_en": "Subsidised service", "sort": 30 },
+  { "code": "screening_programme", "name_zh": "篩查計劃", "name_en": "Screening programme", "sort": 40 },
+  { "code": "clinical_programme", "name_zh": "臨床計劃", "name_en": "Clinical programme", "sort": 50 },
+  { "code": "voucher", "name_zh": "服務券 / 券", "name_en": "Voucher", "sort": 60 },
+  { "code": "loan", "name_zh": "貸款", "name_en": "Loan", "sort": 70 },
+  { "code": "tax_relief", "name_zh": "稅務寬減（非現金）", "name_en": "Tax relief (not a cash subsidy)", "sort": 80 },
+  { "code": "housing_application", "name_zh": "房屋申請計劃", "name_en": "Housing application programme", "sort": 90 },
+  { "code": "service", "name_zh": "社會服務", "name_en": "Service", "sort": 100 }
+]

@@ -10,8 +10,14 @@ export function getAllBenefits(): Benefit[] {
   return BENEFITS;
 }
 
+// active 且未封存（archived）先會出現喺搜尋 / 配對。
 export function getActiveBenefits(): Benefit[] {
-  return BENEFITS.filter((b) => b.active);
+  return BENEFITS.filter((b) => b.active && !b.archived);
+}
+
+// 已封存（已完結）計劃：唔會喺一般搜尋出現，但可經直接連結存取。
+export function getArchivedBenefits(): Benefit[] {
+  return BENEFITS.filter((b) => b.archived);
 }
 
 export function getBenefitBySlug(slug: string): Benefit | undefined {

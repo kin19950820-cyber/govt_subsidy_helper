@@ -1,0 +1,9 @@
+[
+  { "code": "official_page", "name_zh": "官方頁面", "name_en": "Official page", "sort": 10 },
+  { "code": "application_page", "name_zh": "申請頁面", "name_en": "Application page", "sort": 20 },
+  { "code": "form", "name_zh": "表格", "name_en": "Form", "sort": 30 },
+  { "code": "guidance_note", "name_zh": "指引", "name_en": "Guidance note", "sort": 40 },
+  { "code": "faq", "name_zh": "常見問題", "name_en": "FAQ", "sort": 50 },
+  { "code": "press_release", "name_zh": "新聞公報", "name_en": "Press release", "sort": 60 },
+  { "code": "legislation", "name_zh": "法例", "name_en": "Legislation", "sort": 70 }
+]

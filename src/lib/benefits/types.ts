@@ -53,7 +53,53 @@ export interface BenefitDocument {
   label: string;
   key?: string; // 對應舊 DocumentKey，用於合併文件清單
   required?: boolean;
+  conditional?: boolean; // 條件性（如適用）
+  providedBy?: string; // 由誰提供
+  alternatives?: string[]; // 可接受替代文件
   note?: string;
+  sourceRef?: string; // 官方來源
+}
+
+// 福利類型（明確區分現金津貼 / 服務 / 稅務等）
+export type SchemeType =
+  | "cash_allowance"
+  | "fee_waiver"
+  | "subsidised_service"
+  | "screening_programme"
+  | "clinical_programme"
+  | "voucher"
+  | "loan"
+  | "tax_relief"
+  | "housing_application"
+  | "service";
+
+export type SourceType =
+  | "official_page"
+  | "application_page"
+  | "form"
+  | "guidance_note"
+  | "faq"
+  | "press_release"
+  | "legislation";
+
+// 金額（易變 → 必須帶 effective date + source）
+export interface BenefitAmount {
+  label: string;
+  value?: string;
+  rate?: "full" | "partial" | "flat";
+  frequency?: string;
+  method?: string;
+  effectiveFrom?: string;
+  source?: string;
+  lastVerified?: string;
+  expiresOn?: string;
+  changesAnnually?: boolean;
+}
+
+export interface ChangeLogEntry {
+  date: string;
+  change: string;
+  source?: string;
 }
 
 export interface BenefitForm {
@@ -66,7 +112,17 @@ export interface BenefitForm {
 export interface BenefitSource {
   url: string;
   title?: string;
+  titleZh?: string;
+  titleEn?: string;
   published_date?: string;
+  publisher?: string;
+  sourceType?: SourceType;
+  retrievedAt?: string;
+  lastCheckedAt?: string;
+  effectiveFrom?: string;
+  effectiveTo?: string;
+  contentHash?: string;
+  status?: "active" | "redirected" | "broken" | "superseded";
   note?: string;
 }
 
@@ -136,6 +192,48 @@ export interface Benefit {
   rules: BenefitRule[];
   ruleSet?: import("../eligibility/rules").RuleGroup; // C1：可組合規則集（引擎用）
   facets: BenefitFacets;
+
+  // ---- D1：資料完整度擴充（全部可選，向後相容） ----
+  // 識別
+  aliases?: string[];
+  cantoneseNames?: string[]; // 俗名（生果金、長生津…）
+  formerNames?: string[];
+  abbreviations?: string[];
+  schemeType?: SchemeType;
+  // 資格
+  exclusions?: string[];
+  conflictingBenefits?: string[];
+  overlappingBenefits?: string[];
+  incomeMethodology?: string;
+  assetMethodology?: string;
+  specialCases?: string[];
+  // 金額 / 服務
+  amounts?: BenefitAmount[];
+  benefitType?: string;
+  // 申請
+  applicationMethods?: string[];
+  formNumber?: string;
+  applicationPeriod?: string;
+  deadline?: string;
+  submissionAddress?: string;
+  submissionChannels?: string[];
+  noApplicationRequired?: boolean; // 自動 / 毋須申請
+  // 聯絡
+  serviceUnit?: string;
+  hotline?: string;
+  officeAddress?: string;
+  officeHours?: string;
+  appointmentRequired?: boolean;
+  uses1823?: boolean;
+  // 核實
+  verifiedBy?: string;
+  nextReviewDate?: string;
+  reviewFrequency?: string;
+  knownUncertainty?: string[];
+  researchNotes?: string;
+  changeLog?: ChangeLogEntry[];
+  // 生命周期
+  archived?: boolean;
   relatedSlugs: string[];
 
   // 中繼
