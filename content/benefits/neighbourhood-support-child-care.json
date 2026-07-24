@@ -1,0 +1,87 @@
+{
+  "id": "d2000000-0000-0000-0000-000000000010",
+  "slug": "neighbourhood-support-child-care",
+  "nameZh": "鄰里支援幼兒照顧計劃",
+  "nameEn": "Neighbourhood Support Child Care Project (NSCCP)",
+  "department": "社會福利署",
+  "categoryCode": "family_child",
+  "schemeType": "subsidised_service",
+  "aliases": ["NSCCP", "鄰里支援"],
+  "lifeEvents": ["new_baby", "primary_school"],
+  "audience": ["low_income", "other"],
+  "matchRule": {
+    "meansTested": true
+  },
+  "purpose": "為有需要嘅家長提供彈性幼兒照顧服務，並透過家居照顧及中心照顧小組，在社區推動鄰里互助關懷。",
+  "targetBeneficiaries": "因工作或其他原因未能照顧幼兒、有臨時或緊急照顧需要嘅家長，尤其基層家庭。",
+  "summary": "鄰里支援幼兒照顧計劃（NSCCP）為有需要嘅家長提供彈性幼兒照顧服務，並在社區推動鄰里互助。服務包括：家居照顧服務（照顧由初生至學前兒童，以及有臨時或緊急照顧需要嘅小學生）及中心照顧小組（照顧 3 歲至小學程度、有臨時或緊急照顧需要嘅兒童）。合資格低收入家庭可獲收費資助；計劃嘅入息限額載於社會福利署 / 關愛基金網頁。",
+  "suitableFor": "因工作 / 求職 / 其他原因未能照顧幼兒、有彈性或緊急照顧需要嘅家長。",
+  "notSuitableFor": "入息超出計劃限額嘅家庭（仍可使用服務，但未必符合收費資助）。",
+  "eligibility": [
+    "家居照顧服務：照顧由初生至學前兒童，以及有臨時 / 緊急照顧需要嘅小學生",
+    "中心照顧小組：照顧 3 歲至小學程度、有臨時 / 緊急照顧需要嘅兒童",
+    "服務對象為有需要嘅家長，並在社區推動鄰里互助關懷",
+    "合資格低收入家庭可獲收費資助",
+    "⚠️ Needs Manual Review：收費資助嘅入息限額載於社署 / 關愛基金網頁，以官方最新公布為準"
+  ],
+  "documents": [
+    { "key": "applicant_id", "label": "家長及兒童身份證明", "required": true },
+    { "key": "income_proof", "label": "住戶入息證明（申請收費資助）", "required": false }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：聯絡營辦「鄰里支援幼兒照顧計劃」嘅服務單位。" },
+    { "order": 2, "text": "第二步：按需要選擇家居照顧服務或中心照顧小組。" },
+    { "order": 3, "text": "第三步：如申請收費資助，提供住戶入息證明。" },
+    { "order": 4, "text": "第四步：安排幼兒照顧服務。" }
+  ],
+  "applicationMethods": ["in_person"],
+  "contactPhone": "2343 2255",
+  "hotline": "2343 2255",
+  "officialUrl": "https://www.swd.gov.hk/en/pubsvc/family/cat_childcareservice/daychildcares/nsccp/index.html",
+  "sourceUrl": "https://www.swd.gov.hk/en/pubsvc/family/cat_childcareservice/daychildcares/nsccp/index.html",
+  "lastUpdated": "2026-07-23",
+  "forms": [],
+  "sources": [
+    {
+      "url": "https://www.swd.gov.hk/en/pubsvc/family/cat_childcareservice/daychildcares/nsccp/index.html",
+      "title": "鄰里支援幼兒照顧計劃（官方頁面）",
+      "titleZh": "鄰里支援幼兒照顧計劃",
+      "titleEn": "Neighbourhood Support Child Care Project",
+      "publisher": "Social Welfare Department",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.swd.gov.hk/storage/asset/section/645/en/Neighbourhood_Support_Child_Care_Project_-_Service_Brief_(Eng)_Jan_2024.pdf",
+      "title": "鄰里支援幼兒照顧計劃 — 服務簡介（官方文件）",
+      "titleZh": "鄰里支援幼兒照顧計劃服務簡介",
+      "titleEn": "NSCCP Service Brief",
+      "publisher": "Social Welfare Department",
+      "sourceType": "guidance_note",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": true,
+    "income_tested": true,
+    "asset_tested": false,
+    "student": false,
+    "elderly": false,
+    "disability": false,
+    "tags": ["family", "child_care", "community", "low_income"]
+  },
+  "relatedSlugs": ["after-school-care-fee-waiving", "kindergarten-fee-remission"],
+  "knownUncertainty": [
+    "收費資助嘅入息限額及各服務單位安排須以社會福利署 / 關愛基金最新公布為準。"
+  ],
+  "researchNotes": "來源：SWD NSCCP 主頁、服務簡介 PDF（2026-07-23 讀取）。家居照顧（初生至學前 + 有臨時/緊急需要小學生）及中心照顧小組（3 歲至小學）；彈性、鄰里互助；低收入家庭收費資助，入息限額載於 SWD/CCF 網頁。未寫入具體入息線。待人手覆核後可升為 verified。",
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

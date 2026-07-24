@@ -1,12 +1,12 @@
 # Source Change / Monitor Report
 
-Generated: 2026-07-24T03:04:47.662Z
+Generated: 2026-07-24T03:07:20.502Z
 
-Baseline sources: 0 · canonical sources: 57 · added: 57 · removed: 0 · hash-changed: 0
+Baseline sources: 0 · canonical sources: 59 · added: 59 · removed: 0 · hash-changed: 0
 
 > ⚠️ 變更只作提示，**永不自動更新資格規則或金額**。偵測到變更後，由人手依 `docs/RESEARCH_AND_VERIFICATION.md` 覆核官方來源再修改 canonical 記錄。
 
-## Added sources (in canonical, not in baseline) (57)
+## Added sources (in canonical, not in baseline) (59)
 - `after-school-care-fee-waiving` — https://www.swd.gov.hk/en/pubsvc/young/cat_young/ascp/
 - `after-school-care-fee-waiving` — https://www.swd.gov.hk/storage/asset/section/177/en/ASCP%20Centre%20List%20(Eng)%20(Oct%2025).doc
 - `child-development-fund` — https://www.cdf.gov.hk/tc/
@@ -40,6 +40,8 @@ Baseline sources: 0 · canonical sources: 57 · added: 57 · removed: 0 · hash-
 - `personal-emergency-link` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/
 - `internet-access-subsidy` — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/sia.php
 - `kindergarten-fee-remission` — https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php
+- `neighbourhood-support-child-care` — https://www.swd.gov.hk/en/pubsvc/family/cat_childcareservice/daychildcares/nsccp/index.html
+- `neighbourhood-support-child-care` — https://www.swd.gov.hk/storage/asset/section/645/en/Neighbourhood_Support_Child_Care_Project_-_Service_Brief_(Eng)_Jan_2024.pdf
 - `nlsft-tertiary-loan` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/overview.php
 - `nlsft-tertiary-loan` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/eligibility.php
 - `nlsft-tertiary-loan` — https://www.wfsfaa.gov.hk/sfo/en/postsecondary/nlsft/general/loan_limit.htm

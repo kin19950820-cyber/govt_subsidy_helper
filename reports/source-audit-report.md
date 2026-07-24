@@ -1,6 +1,6 @@
 # Source Change / Audit Report
 
-Generated: 2026-07-24T03:04:47.582Z
+Generated: 2026-07-24T03:07:20.438Z
 
 Allowlist domains: 21 · error-level issues: 0
 
@@ -103,6 +103,9 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/procedures.php
 - **warn** missing_source_type — https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php
+
+## neighbourhood-support-child-care
+- **warn** duplicate_source — https://www.swd.gov.hk/en/pubsvc/family/cat_childcareservice/daychildcares/nsccp/index.html
 
 ## nlsft-tertiary-loan
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/overview.php

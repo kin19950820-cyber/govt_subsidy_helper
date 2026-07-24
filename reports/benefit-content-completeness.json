@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T03:04:47.503Z",
+  "generatedAt": "2026-07-24T03:07:20.375Z",
   "average": 94,
   "rows": [
     {
@@ -496,6 +496,21 @@
     {
       "slug": "fasp-postsecondary",
       "nameZh": "專上學生資助計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 97,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "neighbourhood-support-child-care",
+      "nameZh": "鄰里支援幼兒照顧計劃",
       "status": "needs_review",
       "archived": false,
       "score": 97,
