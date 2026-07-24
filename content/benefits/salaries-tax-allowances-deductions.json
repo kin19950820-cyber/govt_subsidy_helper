@@ -1,0 +1,77 @@
+{
+  "id": "d2000000-0000-0000-0000-000000000009",
+  "slug": "salaries-tax-allowances-deductions",
+  "nameZh": "薪俸稅免稅額及扣除",
+  "nameEn": "Salaries Tax Allowances and Deductions",
+  "department": "稅務局",
+  "categoryCode": "tax",
+  "schemeType": "tax_relief",
+  "aliases": ["免稅額", "稅務扣除", "BIR60"],
+  "lifeEvents": ["marriage", "new_baby", "retirement"],
+  "audience": ["other"],
+  "matchRule": {
+    "meansTested": false
+  },
+  "purpose": "透過薪俸稅 / 個人入息課稅下嘅免稅額及可扣除項目，減低應繳稅款。此為稅務寬減，並非現金津貼。",
+  "targetBeneficiaries": "須繳交薪俸稅或選擇個人入息課稅、並符合各項免稅額 / 扣除條件嘅納稅人。",
+  "summary": "薪俸稅及個人入息課稅設有多項免稅額及可扣除項目，用以減低應繳稅款（屬稅務寬減，並非現金發放）。免稅額包括：基本免稅額、已婚人士免稅額、子女免稅額、供養父母 / 祖父母免稅額、單親免稅額、傷殘受養人免稅額、傷殘人士免稅額、供養兄弟姊妹免稅額。可扣除項目包括：認可慈善捐款、強積金強制性供款、個人進修開支、居所貸款利息、住宅租金扣除、長者住宿照顧開支、自願醫保計劃（VHIS）合資格保費、合資格延期年金保費及可扣稅強積金自願性供款、輔助生育服務開支等。以上項目透過填報周年報稅表（個別人士 BIR60）相關部分申索。",
+  "suitableFor": "有薪俸收入或選擇個人入息課稅、並符合相關免稅額 / 扣除條件嘅人士。",
+  "notSuitableFor": "並非現金津貼；不能減低稅款以外嘅開支；不符合個別免稅額 / 扣除條件者不能申索該項。",
+  "eligibility": [
+    "須為薪俸稅納稅人，或選擇以個人入息課稅方式評稅",
+    "免稅額：基本、已婚人士、子女、供養父母 / 祖父母、單親、傷殘受養人、傷殘人士、供養兄弟姊妹（各設個別條件）",
+    "扣除項目：認可慈善捐款、強積金強制性供款、個人進修開支、居所貸款利息、住宅租金、長者住宿照顧開支、自願醫保保費、合資格延期年金及可扣稅強積金自願性供款、輔助生育服務開支等",
+    "透過周年報稅表（個別人士 BIR60）相關部分填報及申索，並保留有關證明文件備查",
+    "⚠️ Needs Manual Review：各項免稅額 / 扣除上限金額、適用課稅年度及詳細條件以稅務局最新公布為準"
+  ],
+  "documents": [
+    { "label": "周年報稅表（個別人士 BIR60）", "required": true },
+    { "label": "相關證明 / 收據（如捐款收據、租金證明、供款證明等，備查）", "required": false }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：了解你可能符合嘅免稅額及可扣除項目。" },
+    { "order": 2, "text": "第二步：收齊相關證明文件（收據、供款 / 租金證明等）。" },
+    { "order": 3, "text": "第三步：填寫周年報稅表（個別人士 BIR60）相關部分申索。" },
+    { "order": 4, "text": "第四步：遞交報稅表；保留證明文件以備稅務局查核。" }
+  ],
+  "applicationMethods": ["via_tax_return", "online"],
+  "contactPhone": "187 8088",
+  "hotline": "187 8088",
+  "officialUrl": "https://www.ird.gov.hk/eng/tax/ind_ctr.htm",
+  "sourceUrl": "https://www.ird.gov.hk/eng/tax/ind_ctr.htm",
+  "lastUpdated": "2026-07-23",
+  "forms": [],
+  "sources": [
+    {
+      "url": "https://www.ird.gov.hk/eng/tax/ind_ctr.htm",
+      "title": "稅務局 — 免稅額、扣除及稅率表（官方頁面）",
+      "titleZh": "稅務局 — 免稅額、扣除及稅率表",
+      "titleEn": "IRD — Allowances, Deductions and Tax Rate Table",
+      "publisher": "Inland Revenue Department",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "disability": false,
+    "student": false,
+    "elderly": false,
+    "tags": ["tax", "tax_relief", "allowances", "deductions"]
+  },
+  "relatedSlugs": [],
+  "knownUncertainty": [
+    "各項免稅額及扣除上限金額、適用課稅年度及詳細條件須以稅務局最新公布為準（金額未寫入本記錄）。",
+    "屬稅務寬減而非現金津貼，實際稅款減免視乎個別應課稅入息而定。"
+  ],
+  "researchNotes": "來源：IRD ind_ctr.htm（2026-07-23 讀取）；免稅額及扣除項目清單按 BIR60 各部分。金額未寫入。熱線 187 8088。屬 tax_relief（非現金）。待人手覆核各項上限及條件後可升為 verified。",
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

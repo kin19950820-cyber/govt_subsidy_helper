@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T02:15:36.733Z",
+  "generatedAt": "2026-07-24T02:19:46.267Z",
   "average": 93,
   "rows": [
     {
@@ -339,6 +339,38 @@
       "documentInfoCoverage": 1
     },
     {
+      "slug": "home-ownership-scheme",
+      "nameZh": "居者有其屋計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 94,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "contact",
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "residential-care-service-voucher",
+      "nameZh": "長者院舍住宿照顧服務券計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 94,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "contact",
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
       "slug": "samaritan-fund",
       "nameZh": "撒瑪利亞基金",
       "status": "needs_review",
@@ -387,6 +419,21 @@
     {
       "slug": "nlsft-tertiary-loan",
       "nameZh": "全日制大專學生免入息審查貸款計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 97,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "salaries-tax-allowances-deductions",
+      "nameZh": "薪俸稅免稅額及扣除",
       "status": "needs_review",
       "archived": false,
       "score": 97,

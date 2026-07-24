@@ -1,12 +1,12 @@
 # Source Change / Monitor Report
 
-Generated: 2026-07-24T02:15:36.913Z
+Generated: 2026-07-24T02:19:46.414Z
 
-Baseline sources: 0 · canonical sources: 36 · added: 36 · removed: 0 · hash-changed: 0
+Baseline sources: 0 · canonical sources: 41 · added: 41 · removed: 0 · hash-changed: 0
 
 > ⚠️ 變更只作提示，**永不自動更新資格規則或金額**。偵測到變更後，由人手依 `docs/RESEARCH_AND_VERIFICATION.md` 覆核官方來源再修改 canonical 記錄。
 
-## Added sources (in canonical, not in baseline) (36)
+## Added sources (in canonical, not in baseline) (41)
 - `child-development-fund` — https://www.cdf.gov.hk/tc/
 - `community-care-service-voucher` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/psccsv/
 - `continuing-education-fund` — https://www.wfsfaa.gov.hk/cef/tc/index.htm
@@ -22,6 +22,8 @@ Baseline sources: 0 · canonical sources: 36 · added: 36 · removed: 0 · hash-
 - `erb-training` — https://www.erb.org/tc/
 - `guangdong-fujian-scheme` — https://www.swd.gov.hk/gds/index.html
 - `home-care-services` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html
+- `home-ownership-scheme` — https://www.housingauthority.gov.hk/en/home-ownership/hos-flats/eligibility/index.html
+- `home-ownership-scheme` — https://www.housingauthority.gov.hk/en/common/pdf/about-us/policy-focus/policies-on-public-housing/A06/A06.pdf
 - `personal-emergency-link` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/
 - `internet-access-subsidy` — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/sia.php
 - `kindergarten-fee-remission` — https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php
@@ -32,6 +34,9 @@ Baseline sources: 0 · canonical sources: 36 · added: 36 · removed: 0 · hash-
 - `old-age-living-allowance` — https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_oala/index.html
 - `public-rental-housing` — https://www.housingauthority.gov.hk/tc/public-housing/index.html
 - `public-transport-subsidy` — https://www.td.gov.hk/tc/gov_public_transport_fare_concession/index.html
+- `residential-care-service-voucher` — https://www.swd.gov.hk/en/pubsvc/elderly/cat_residentcare/psrcsv/
+- `residential-care-service-voucher` — https://www.elderlyinfo.swd.gov.hk/en/rcsv_introduction.html
+- `salaries-tax-allowances-deductions` — https://www.ird.gov.hk/eng/tax/ind_ctr.htm
 - `samaritan-fund` — https://www.ha.org.hk/haho/ho/sf/SF_e.htm
 - `samaritan-fund` — https://www.ha.org.hk/visitor/ha_visitor_index.asp?Content_ID=10048&Lang=ENG
 - `samaritan-fund` — https://www.ha.org.hk/haho/ho/sf/fa_en.htm

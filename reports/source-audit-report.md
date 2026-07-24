@@ -1,6 +1,6 @@
 # Source Change / Audit Report
 
-Generated: 2026-07-24T02:15:36.824Z
+Generated: 2026-07-24T02:19:46.341Z
 
 Allowlist domains: 21 · error-level issues: 0
 
@@ -67,6 +67,9 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html
 - **warn** missing_source_type — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html
 
+## home-ownership-scheme
+- **warn** duplicate_source — https://www.housingauthority.gov.hk/en/home-ownership/hos-flats/eligibility/index.html
+
 ## integrated-discharge-support-elderly
 - **warn** duplicate_source — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/
 - **warn** duplicate_source — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/
@@ -111,6 +114,12 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.td.gov.hk/tc/gov_public_transport_fare_concession/index.html
 - **warn** duplicate_source — https://www.ptfss.gov.hk/tc-main.html
 - **warn** missing_source_type — https://www.td.gov.hk/tc/gov_public_transport_fare_concession/index.html
+
+## residential-care-service-voucher
+- **warn** duplicate_source — https://www.swd.gov.hk/en/pubsvc/elderly/cat_residentcare/psrcsv/
+
+## salaries-tax-allowances-deductions
+- **warn** duplicate_source — https://www.ird.gov.hk/eng/tax/ind_ctr.htm
 
 ## samaritan-fund
 - **warn** duplicate_source — https://www.ha.org.hk/haho/ho/sf/SF_e.htm

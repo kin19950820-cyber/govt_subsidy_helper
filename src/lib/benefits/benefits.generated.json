@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T02:15:55.219Z",
+  "generatedAt": "2026-07-24T02:20:07.644Z",
   "categories": [
     {
       "code": "student_assistance",
@@ -1630,6 +1630,149 @@
       "knowledgeDoc": "home_care_services.md"
     },
     {
+      "id": "d2000000-0000-0000-0000-000000000008",
+      "slug": "home-ownership-scheme",
+      "nameZh": "居者有其屋計劃",
+      "nameEn": "Home Ownership Scheme (HOS)",
+      "department": "香港房屋委員會",
+      "categoryCode": "housing",
+      "schemeType": "housing_application",
+      "aliases": [
+        "HOS",
+        "居屋"
+      ],
+      "lifeEvents": [
+        "first_home",
+        "public_housing"
+      ],
+      "audience": [
+        "low_income",
+        "other"
+      ],
+      "matchRule": {
+        "meansTested": true
+      },
+      "purpose": "由香港房屋委員會以低於市值嘅價格，出售資助出售單位（居屋），協助綠表及白表合資格人士置業。",
+      "targetBeneficiaries": "符合綠表（如公屋住戶）或白表（如私樓住戶、家庭入息及資產在限額內）資格、有意置業嘅人士及家庭。",
+      "summary": "居者有其屋計劃（HOS）由香港房屋委員會推出，以低於市值價格出售資助出售單位。申請分「綠表」及「白表」兩類：綠表包括房委會公屋住戶、房協甲類出租屋邨住戶，以及持有效「綠表資格證明書」人士；白表包括居於私人樓宇人士、公屋／房協出租屋邨住戶嘅家庭成員，以及購入未滿 10 年嘅租者置其屋計劃單位業主。有關年齡、家庭組合、居港規定、入息及資產限額、業主權限制等詳細條件，由房委會在每次銷售計劃前公布。",
+      "suitableFor": "符合綠表或白表資格、有意以資助價置業嘅人士及家庭。",
+      "notSuitableFor": "不符合綠表 / 白表資格、或入息／資產超出白表限額、或擁有其他物業（視乎銷售計劃限制）嘅申請人。",
+      "eligibility": [
+        "綠表申請人：包括房委會公屋住戶、房協甲類出租屋邨住戶，及持有效「綠表資格證明書（只適用於購買居屋）」人士",
+        "白表申請人：包括居於私人樓宇人士、房委會公屋 / 房協出租屋邨住戶嘅家庭成員，及購入未滿 10 年嘅租者置其屋計劃（TPS）單位業主",
+        "白表設有家庭入息及資產限額（每次銷售計劃前由房委會公布）",
+        "詳細年齡、家庭組合、居港規定、入息 / 資產限額及物業擁有權限制，由房委會在每次銷售計劃前公布",
+        "設有「家有長者優先選樓計劃」及「家有初生優先揀樓計劃」等優先安排及名額",
+        "⚠️ Needs Manual Review：每期銷售計劃嘅入息 / 資產限額、售價、名額及揀樓安排以房委會該期公布為準"
+      ],
+      "documents": [
+        {
+          "key": "applicant_id",
+          "label": "申請人及家庭成員身份證",
+          "required": true
+        },
+        {
+          "key": "address_proof",
+          "label": "住址證明",
+          "required": true
+        },
+        {
+          "key": "income_proof",
+          "label": "家庭入息證明（白表）",
+          "required": true
+        },
+        {
+          "key": "asset_proof",
+          "label": "資產證明（白表）",
+          "required": true
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": "第一步：確認你屬綠表定白表申請人。"
+        },
+        {
+          "order": 2,
+          "text": "第二步：留意房委會公布嘅居屋銷售計劃（HOS）及申請期。"
+        },
+        {
+          "order": 3,
+          "text": "第三步：按該期公布嘅入息 / 資產限額及條件遞交申請。"
+        },
+        {
+          "order": 4,
+          "text": "第四步：抽籤 / 排序後按次序揀樓。"
+        },
+        {
+          "order": 5,
+          "text": "第五步：完成買賣手續，注意轉售限制及補價安排。"
+        }
+      ],
+      "applicationMethods": [
+        "online",
+        "by_post",
+        "in_person"
+      ],
+      "officialUrl": "https://www.housingauthority.gov.hk/en/home-ownership/hos-flats/eligibility/index.html",
+      "sourceUrl": "https://www.housingauthority.gov.hk/en/home-ownership/hos-flats/eligibility/index.html",
+      "lastUpdated": "2026-07-23",
+      "forms": [],
+      "sources": [
+        {
+          "url": "https://www.housingauthority.gov.hk/en/home-ownership/hos-flats/eligibility/index.html",
+          "title": "居屋 — 申請資格（官方頁面）",
+          "titleZh": "居者有其屋計劃 — 申請資格",
+          "titleEn": "Home Ownership Scheme — Eligibility",
+          "publisher": "Hong Kong Housing Authority",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.housingauthority.gov.hk/en/common/pdf/about-us/policy-focus/policies-on-public-housing/A06/A06.pdf",
+          "title": "公共房屋政策 — 第 6 章：居者有其屋計劃（官方政策文件）",
+          "titleZh": "公共房屋政策 — 第六章：居者有其屋計劃",
+          "titleEn": "Policies on Public Housing — Chapter 6: Home Ownership Scheme",
+          "publisher": "Hong Kong Housing Authority",
+          "sourceType": "guidance_note",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        }
+      ],
+      "faq": [],
+      "rules": [],
+      "facets": {
+        "means_tested": true,
+        "income_tested": true,
+        "asset_tested": true,
+        "disability": false,
+        "student": false,
+        "elderly": false,
+        "tags": [
+          "housing",
+          "home_ownership",
+          "subsidised_sale"
+        ]
+      },
+      "relatedSlugs": [
+        "public-rental-housing"
+      ],
+      "overlappingBenefits": [
+        "public-rental-housing"
+      ],
+      "knownUncertainty": [
+        "白表入息及資產限額、每期售價、單位數目、名額及揀樓安排隨每次銷售計劃公布，須以房委會該期公布為準。",
+        "綠表申請人一般不設入息／資產審查；白表則設限額 — 具體以官方公布為準。"
+      ],
+      "researchNotes": "來源：HKHA 居屋申請資格頁、公共房屋政策第 6 章 PDF（2026-07-23 讀取）。綠表 / 白表兩類；白表設入息資產限額；詳細條件每期公布；有家有長者 / 家有初生優先安排。金額 / 名額未寫入。待人手覆核每期銷售計劃公布後可升為 verified。",
+      "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+      "status": "needs_review",
+      "active": true
+    },
+    {
       "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
       "slug": "integrated-discharge-support-elderly",
       "nameZh": "離院長者綜合支援計劃（出院長者支援）",
@@ -2760,6 +2903,259 @@
       "status": "needs_review",
       "active": true,
       "knowledgeDoc": "public_transport_subsidy.md"
+    },
+    {
+      "id": "d2000000-0000-0000-0000-000000000007",
+      "slug": "residential-care-service-voucher",
+      "nameZh": "長者院舍住宿照顧服務券計劃",
+      "nameEn": "Residential Care Service Voucher Scheme for the Elderly (RCSV)",
+      "department": "社會福利署",
+      "categoryCode": "elderly",
+      "schemeType": "voucher",
+      "aliases": [
+        "RCSV",
+        "院舍券"
+      ],
+      "lifeEvents": [
+        "long_term_care",
+        "retirement"
+      ],
+      "audience": [
+        "elderly"
+      ],
+      "matchRule": {
+        "requiresElderly": true,
+        "meansTested": true
+      },
+      "purpose": "以「錢跟使用者走」原則，為需要院舍照顧、正輪候資助長期護理服務嘅長者，提供多一個選擇，可用服務券向參與計劃嘅私營／自負盈虧安老院購買住宿照顧服務。",
+      "targetBeneficiaries": "經評估建議需要院舍照顧服務、並正輪候資助長期護理服務嘅長者。",
+      "summary": "長者院舍住宿照顧服務券計劃（RCSV）採用「錢跟使用者走」原則，為長者提供院舍照顧多一個選擇。合資格長者須經社署「安老服務統一評估機制」評估並建議需要院舍照顧服務（RCS），並正於中央輪候冊輪候資助護理安老 / 護養院宿位。申請人須接受個人入息及資產審查以釐定其共同付款（co-payment）水平。長者可按需要額外自付最高相當於服務券面值 150% 嘅金額，購買額外服務。",
+      "suitableFor": "已獲評估建議院舍照顧、正輪候資助長期護理服務嘅長者。",
+      "notSuitableFor": "未經統一評估或未被建議院舍照顧服務嘅長者。",
+      "eligibility": [
+        "須經社會福利署「安老服務統一評估機制」評估，並獲建議需要院舍照顧服務（RCS）",
+        "須正於中央輪候冊（CWL）輪候資助長期護理服務（護理安老宿位或護養院宿位）",
+        "須接受個人入息及資產審查，以釐定共同付款（co-payment）水平",
+        "社署按中央輪候冊申請日期分批發出邀請信；獲邀長者可連同證明文件向服務券辦事處遞交申請",
+        "長者可額外自付最高相當於服務券面值 150% 嘅款項購買額外服務",
+        "⚠️ Needs Manual Review：服務券面值、共同付款分級及入息／資產計算以官方最新《邀請申請文件》為準"
+      ],
+      "documents": [
+        {
+          "key": "applicant_id",
+          "label": "長者身份證",
+          "required": true
+        },
+        {
+          "label": "統一評估 / 院舍照顧服務建議證明",
+          "required": true
+        },
+        {
+          "key": "income_proof",
+          "label": "入息證明",
+          "required": true
+        },
+        {
+          "key": "asset_proof",
+          "label": "資產證明",
+          "required": true
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": "第一步：經社署「安老服務統一評估機制」評估，並獲建議需要院舍照顧。"
+        },
+        {
+          "order": 2,
+          "text": "第二步：於中央輪候冊輪候資助長期護理服務，等候社署邀請信。"
+        },
+        {
+          "order": 3,
+          "text": "第三步：收到邀請後，連同入息及資產證明向服務券辦事處遞交申請。"
+        },
+        {
+          "order": 4,
+          "text": "第四步：接受入息及資產審查，釐定共同付款水平。"
+        },
+        {
+          "order": 5,
+          "text": "第五步：憑服務券向參與計劃嘅安老院購買住宿照顧服務（可按需要自付額外款項）。"
+        }
+      ],
+      "applicationMethods": [
+        "by_post",
+        "in_person"
+      ],
+      "officialUrl": "https://www.swd.gov.hk/en/pubsvc/elderly/cat_residentcare/psrcsv/",
+      "sourceUrl": "https://www.swd.gov.hk/en/pubsvc/elderly/cat_residentcare/psrcsv/",
+      "lastUpdated": "2026-07-23",
+      "forms": [],
+      "sources": [
+        {
+          "url": "https://www.swd.gov.hk/en/pubsvc/elderly/cat_residentcare/psrcsv/",
+          "title": "長者院舍住宿照顧服務券計劃（官方頁面）",
+          "titleZh": "長者院舍住宿照顧服務券計劃",
+          "titleEn": "Residential Care Service Voucher Scheme for the Elderly",
+          "publisher": "Social Welfare Department",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.elderlyinfo.swd.gov.hk/en/rcsv_introduction.html",
+          "title": "長者資訊網 — 院舍住宿照顧服務券介紹（官方頁面）",
+          "titleZh": "長者資訊網 — 院舍住宿照顧服務券介紹",
+          "titleEn": "SWD Elderly Information Website — RCSV Introduction",
+          "publisher": "Social Welfare Department",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        }
+      ],
+      "faq": [],
+      "rules": [],
+      "facets": {
+        "means_tested": true,
+        "income_tested": true,
+        "asset_tested": true,
+        "disability": false,
+        "student": false,
+        "elderly": true,
+        "tags": [
+          "elderly",
+          "residential_care",
+          "voucher",
+          "long_term_care"
+        ]
+      },
+      "relatedSlugs": [
+        "community-care-service-voucher",
+        "home-care-services"
+      ],
+      "knownUncertainty": [
+        "服務券面值、共同付款分級及入息／資產計算方法須以官方最新《邀請申請文件》為準。",
+        "計劃屬試驗性質，推行安排及名額以社會福利署最新公布為準。"
+      ],
+      "researchNotes": "來源：SWD RCSV 主頁、長者資訊網 rcsv_introduction（2026-07-23 讀取）。錢跟使用者走；須統一評估建議 RCS 並於中央輪候冊輪候；個人入息資產審查定共付水平；可自付最高 150% 券值。金額未寫入。待人手覆核官方邀請申請文件後可升為 verified。",
+      "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+      "status": "needs_review",
+      "active": true
+    },
+    {
+      "id": "d2000000-0000-0000-0000-000000000009",
+      "slug": "salaries-tax-allowances-deductions",
+      "nameZh": "薪俸稅免稅額及扣除",
+      "nameEn": "Salaries Tax Allowances and Deductions",
+      "department": "稅務局",
+      "categoryCode": "tax",
+      "schemeType": "tax_relief",
+      "aliases": [
+        "免稅額",
+        "稅務扣除",
+        "BIR60"
+      ],
+      "lifeEvents": [
+        "marriage",
+        "new_baby",
+        "retirement"
+      ],
+      "audience": [
+        "other"
+      ],
+      "matchRule": {
+        "meansTested": false
+      },
+      "purpose": "透過薪俸稅 / 個人入息課稅下嘅免稅額及可扣除項目，減低應繳稅款。此為稅務寬減，並非現金津貼。",
+      "targetBeneficiaries": "須繳交薪俸稅或選擇個人入息課稅、並符合各項免稅額 / 扣除條件嘅納稅人。",
+      "summary": "薪俸稅及個人入息課稅設有多項免稅額及可扣除項目，用以減低應繳稅款（屬稅務寬減，並非現金發放）。免稅額包括：基本免稅額、已婚人士免稅額、子女免稅額、供養父母 / 祖父母免稅額、單親免稅額、傷殘受養人免稅額、傷殘人士免稅額、供養兄弟姊妹免稅額。可扣除項目包括：認可慈善捐款、強積金強制性供款、個人進修開支、居所貸款利息、住宅租金扣除、長者住宿照顧開支、自願醫保計劃（VHIS）合資格保費、合資格延期年金保費及可扣稅強積金自願性供款、輔助生育服務開支等。以上項目透過填報周年報稅表（個別人士 BIR60）相關部分申索。",
+      "suitableFor": "有薪俸收入或選擇個人入息課稅、並符合相關免稅額 / 扣除條件嘅人士。",
+      "notSuitableFor": "並非現金津貼；不能減低稅款以外嘅開支；不符合個別免稅額 / 扣除條件者不能申索該項。",
+      "eligibility": [
+        "須為薪俸稅納稅人，或選擇以個人入息課稅方式評稅",
+        "免稅額：基本、已婚人士、子女、供養父母 / 祖父母、單親、傷殘受養人、傷殘人士、供養兄弟姊妹（各設個別條件）",
+        "扣除項目：認可慈善捐款、強積金強制性供款、個人進修開支、居所貸款利息、住宅租金、長者住宿照顧開支、自願醫保保費、合資格延期年金及可扣稅強積金自願性供款、輔助生育服務開支等",
+        "透過周年報稅表（個別人士 BIR60）相關部分填報及申索，並保留有關證明文件備查",
+        "⚠️ Needs Manual Review：各項免稅額 / 扣除上限金額、適用課稅年度及詳細條件以稅務局最新公布為準"
+      ],
+      "documents": [
+        {
+          "label": "周年報稅表（個別人士 BIR60）",
+          "required": true
+        },
+        {
+          "label": "相關證明 / 收據（如捐款收據、租金證明、供款證明等，備查）",
+          "required": false
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": "第一步：了解你可能符合嘅免稅額及可扣除項目。"
+        },
+        {
+          "order": 2,
+          "text": "第二步：收齊相關證明文件（收據、供款 / 租金證明等）。"
+        },
+        {
+          "order": 3,
+          "text": "第三步：填寫周年報稅表（個別人士 BIR60）相關部分申索。"
+        },
+        {
+          "order": 4,
+          "text": "第四步：遞交報稅表；保留證明文件以備稅務局查核。"
+        }
+      ],
+      "applicationMethods": [
+        "via_tax_return",
+        "online"
+      ],
+      "contactPhone": "187 8088",
+      "hotline": "187 8088",
+      "officialUrl": "https://www.ird.gov.hk/eng/tax/ind_ctr.htm",
+      "sourceUrl": "https://www.ird.gov.hk/eng/tax/ind_ctr.htm",
+      "lastUpdated": "2026-07-23",
+      "forms": [],
+      "sources": [
+        {
+          "url": "https://www.ird.gov.hk/eng/tax/ind_ctr.htm",
+          "title": "稅務局 — 免稅額、扣除及稅率表（官方頁面）",
+          "titleZh": "稅務局 — 免稅額、扣除及稅率表",
+          "titleEn": "IRD — Allowances, Deductions and Tax Rate Table",
+          "publisher": "Inland Revenue Department",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        }
+      ],
+      "faq": [],
+      "rules": [],
+      "facets": {
+        "means_tested": false,
+        "income_tested": false,
+        "asset_tested": false,
+        "disability": false,
+        "student": false,
+        "elderly": false,
+        "tags": [
+          "tax",
+          "tax_relief",
+          "allowances",
+          "deductions"
+        ]
+      },
+      "relatedSlugs": [],
+      "knownUncertainty": [
+        "各項免稅額及扣除上限金額、適用課稅年度及詳細條件須以稅務局最新公布為準（金額未寫入本記錄）。",
+        "屬稅務寬減而非現金津貼，實際稅款減免視乎個別應課稅入息而定。"
+      ],
+      "researchNotes": "來源：IRD ind_ctr.htm（2026-07-23 讀取）；免稅額及扣除項目清單按 BIR60 各部分。金額未寫入。熱線 187 8088。屬 tax_relief（非現金）。待人手覆核各項上限及條件後可升為 verified。",
+      "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+      "status": "needs_review",
+      "active": true
     },
     {
       "id": "d2000000-0000-0000-0000-000000000002",

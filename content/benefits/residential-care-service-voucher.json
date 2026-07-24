@@ -1,0 +1,91 @@
+{
+  "id": "d2000000-0000-0000-0000-000000000007",
+  "slug": "residential-care-service-voucher",
+  "nameZh": "長者院舍住宿照顧服務券計劃",
+  "nameEn": "Residential Care Service Voucher Scheme for the Elderly (RCSV)",
+  "department": "社會福利署",
+  "categoryCode": "elderly",
+  "schemeType": "voucher",
+  "aliases": ["RCSV", "院舍券"],
+  "lifeEvents": ["long_term_care", "retirement"],
+  "audience": ["elderly"],
+  "matchRule": {
+    "requiresElderly": true,
+    "meansTested": true
+  },
+  "purpose": "以「錢跟使用者走」原則，為需要院舍照顧、正輪候資助長期護理服務嘅長者，提供多一個選擇，可用服務券向參與計劃嘅私營／自負盈虧安老院購買住宿照顧服務。",
+  "targetBeneficiaries": "經評估建議需要院舍照顧服務、並正輪候資助長期護理服務嘅長者。",
+  "summary": "長者院舍住宿照顧服務券計劃（RCSV）採用「錢跟使用者走」原則，為長者提供院舍照顧多一個選擇。合資格長者須經社署「安老服務統一評估機制」評估並建議需要院舍照顧服務（RCS），並正於中央輪候冊輪候資助護理安老 / 護養院宿位。申請人須接受個人入息及資產審查以釐定其共同付款（co-payment）水平。長者可按需要額外自付最高相當於服務券面值 150% 嘅金額，購買額外服務。",
+  "suitableFor": "已獲評估建議院舍照顧、正輪候資助長期護理服務嘅長者。",
+  "notSuitableFor": "未經統一評估或未被建議院舍照顧服務嘅長者。",
+  "eligibility": [
+    "須經社會福利署「安老服務統一評估機制」評估，並獲建議需要院舍照顧服務（RCS）",
+    "須正於中央輪候冊（CWL）輪候資助長期護理服務（護理安老宿位或護養院宿位）",
+    "須接受個人入息及資產審查，以釐定共同付款（co-payment）水平",
+    "社署按中央輪候冊申請日期分批發出邀請信；獲邀長者可連同證明文件向服務券辦事處遞交申請",
+    "長者可額外自付最高相當於服務券面值 150% 嘅款項購買額外服務",
+    "⚠️ Needs Manual Review：服務券面值、共同付款分級及入息／資產計算以官方最新《邀請申請文件》為準"
+  ],
+  "documents": [
+    { "key": "applicant_id", "label": "長者身份證", "required": true },
+    { "label": "統一評估 / 院舍照顧服務建議證明", "required": true },
+    { "key": "income_proof", "label": "入息證明", "required": true },
+    { "key": "asset_proof", "label": "資產證明", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：經社署「安老服務統一評估機制」評估，並獲建議需要院舍照顧。" },
+    { "order": 2, "text": "第二步：於中央輪候冊輪候資助長期護理服務，等候社署邀請信。" },
+    { "order": 3, "text": "第三步：收到邀請後，連同入息及資產證明向服務券辦事處遞交申請。" },
+    { "order": 4, "text": "第四步：接受入息及資產審查，釐定共同付款水平。" },
+    { "order": 5, "text": "第五步：憑服務券向參與計劃嘅安老院購買住宿照顧服務（可按需要自付額外款項）。" }
+  ],
+  "applicationMethods": ["by_post", "in_person"],
+  "officialUrl": "https://www.swd.gov.hk/en/pubsvc/elderly/cat_residentcare/psrcsv/",
+  "sourceUrl": "https://www.swd.gov.hk/en/pubsvc/elderly/cat_residentcare/psrcsv/",
+  "lastUpdated": "2026-07-23",
+  "forms": [],
+  "sources": [
+    {
+      "url": "https://www.swd.gov.hk/en/pubsvc/elderly/cat_residentcare/psrcsv/",
+      "title": "長者院舍住宿照顧服務券計劃（官方頁面）",
+      "titleZh": "長者院舍住宿照顧服務券計劃",
+      "titleEn": "Residential Care Service Voucher Scheme for the Elderly",
+      "publisher": "Social Welfare Department",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.elderlyinfo.swd.gov.hk/en/rcsv_introduction.html",
+      "title": "長者資訊網 — 院舍住宿照顧服務券介紹（官方頁面）",
+      "titleZh": "長者資訊網 — 院舍住宿照顧服務券介紹",
+      "titleEn": "SWD Elderly Information Website — RCSV Introduction",
+      "publisher": "Social Welfare Department",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": true,
+    "income_tested": true,
+    "asset_tested": true,
+    "disability": false,
+    "student": false,
+    "elderly": true,
+    "tags": ["elderly", "residential_care", "voucher", "long_term_care"]
+  },
+  "relatedSlugs": ["community-care-service-voucher", "home-care-services"],
+  "knownUncertainty": [
+    "服務券面值、共同付款分級及入息／資產計算方法須以官方最新《邀請申請文件》為準。",
+    "計劃屬試驗性質，推行安排及名額以社會福利署最新公布為準。"
+  ],
+  "researchNotes": "來源：SWD RCSV 主頁、長者資訊網 rcsv_introduction（2026-07-23 讀取）。錢跟使用者走；須統一評估建議 RCS 並於中央輪候冊輪候；個人入息資產審查定共付水平；可自付最高 150% 券值。金額未寫入。待人手覆核官方邀請申請文件後可升為 verified。",
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}
