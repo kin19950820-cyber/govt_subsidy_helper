@@ -1,12 +1,14 @@
 # Source Change / Monitor Report
 
-Generated: 2026-07-24T02:31:45.264Z
+Generated: 2026-07-24T03:04:47.662Z
 
-Baseline sources: 0 · canonical sources: 53 · added: 53 · removed: 0 · hash-changed: 0
+Baseline sources: 0 · canonical sources: 57 · added: 57 · removed: 0 · hash-changed: 0
 
 > ⚠️ 變更只作提示，**永不自動更新資格規則或金額**。偵測到變更後，由人手依 `docs/RESEARCH_AND_VERIFICATION.md` 覆核官方來源再修改 canonical 記錄。
 
-## Added sources (in canonical, not in baseline) (53)
+## Added sources (in canonical, not in baseline) (57)
+- `after-school-care-fee-waiving` — https://www.swd.gov.hk/en/pubsvc/young/cat_young/ascp/
+- `after-school-care-fee-waiving` — https://www.swd.gov.hk/storage/asset/section/177/en/ASCP%20Centre%20List%20(Eng)%20(Oct%2025).doc
 - `child-development-fund` — https://www.cdf.gov.hk/tc/
 - `community-care-service-voucher` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/psccsv/
 - `continuing-education-fund` — https://www.wfsfaa.gov.hk/cef/tc/index.htm
@@ -22,6 +24,8 @@ Baseline sources: 0 · canonical sources: 53 · added: 53 · removed: 0 · hash-
 - `elderly-health-care-voucher` — https://www.hcv.gov.hk/tc/hcvs/background.html
 - `employment-programme-elderly-middle-aged` — https://www.labour.gov.hk/eng/public/pdf/eip/EPM_ER.pdf
 - `employment-programme-elderly-middle-aged` — https://www.labour.gov.hk/eng/service/content.htm
+- `enhanced-home-community-care-services` — https://www.swd.gov.hk/en/pubsvc/elderly/cat_commcare/homebase_ccs/index.html
+- `enhanced-home-community-care-services` — https://elderlyinfo.swd.gov.hk/sites/ltc-swd/files/EHCCS(Nov2015).pdf
 - `erb-training` — https://www.erb.org/tc/
 - `fasp-postsecondary` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php
 - `fasp-postsecondary` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/eligibility.php

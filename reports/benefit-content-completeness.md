@@ -1,6 +1,6 @@
 # Benefit Content Completeness
 
-Generated: 2026-07-24T02:31:45.100Z · benefits: 34 · average score: 93/100
+Generated: 2026-07-24T03:04:47.504Z · benefits: 36 · average score: 94/100
 
 Critical fields: officialName, department, officialSource, eligibilitySummary, structuredEligibility, applicationMethod, lastVerified, verificationStatus, disclaimer
 
@@ -34,9 +34,11 @@ Critical fields: officialName, department, officialSource, eligibilitySummary, s
 | 94 | needs_review | residential-care-service-voucher | — | contact, faq |
 | 94 | needs_review | samaritan-fund | — | contact, faq |
 | 94 | needs_review | youth-employment-training-programme | — | contact, faq |
+| 97 | needs_review | after-school-care-fee-waiving | — | faq |
 | 97 | needs_review | criminal-law-enforcement-injuries-compensation | — | faq |
 | 97 | needs_review | cssa-scheme | — | faq |
 | 97 | needs_review | employment-programme-elderly-middle-aged | — | faq |
+| 97 | needs_review | enhanced-home-community-care-services | — | faq |
 | 97 | needs_review | fasp-postsecondary | — | faq |
 | 97 | needs_review | nlsft-tertiary-loan | — | faq |
 | 97 | needs_review | salaries-tax-allowances-deductions | — | faq |

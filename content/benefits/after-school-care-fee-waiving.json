@@ -1,0 +1,90 @@
+{
+  "id": "d2000000-0000-0000-0000-00000000000f",
+  "slug": "after-school-care-fee-waiving",
+  "nameZh": "課餘託管服務收費減免計劃",
+  "nameEn": "After School Care Programme (ASCP) – Fee-waiving Subsidy Scheme",
+  "department": "社會福利署",
+  "categoryCode": "family_child",
+  "schemeType": "fee_waiver",
+  "aliases": ["ASCP", "課餘託管收費減免"],
+  "lifeEvents": ["primary_school", "low_income"],
+  "audience": ["low_income"],
+  "matchRule": {
+    "meansTested": true
+  },
+  "purpose": "為因父母工作、搵工或其他原因而在課餘時間無法得到適當照顧嘅小學生，提供課餘託管服務，並為低收入家庭提供收費減免（全免、半免或三分一減免）。",
+  "targetBeneficiaries": "父母因工作 / 求職 / 未能於課後妥善照顧子女嘅小學生，尤其低收入家庭。",
+  "summary": "課餘託管服務（ASCP）由非政府機構以自負盈虧、收費方式營辦，為小學生提供功課輔導、家長指導及教育、技能學習及社交活動等支援。社會福利署為低收入家庭提供收費減免資助：全額減免、半額減免或三分一減免。合資格對象為父母正在工作、搵工或未能於課後妥善照顧子女嘅兒童，並屬領取學生資助處資助、在職家庭津貼或綜援嘅家庭，或住戶每月入息不超過「每月住戶入息中位數」（MMDHI）嘅家庭。",
+  "suitableFor": "父母因工作 / 求職未能課後照顧、家庭屬低收入或領取相關資助嘅小學生。",
+  "notSuitableFor": "住戶入息超出 MMDHI 且非領取相關資助嘅家庭（仍可自費使用課餘託管服務，但未必符合收費減免）。",
+  "eligibility": [
+    "兒童為小學生，因父母工作、搵工或其他原因而於課餘時間未能得到適當照顧",
+    "屬領取學生資助處（SFO）財政資助、在職家庭津貼（WFA）或綜援（CSSA）嘅家庭；或",
+    "住戶每月入息不超過「每月住戶入息中位數」（MMDHI）",
+    "收費減免分三級：全額減免、半額減免、三分一減免",
+    "申請減免嘅家長須申報並證明其經濟狀況，並提供證明文件",
+    "⚠️ Needs Manual Review：MMDHI 入息線、各級減免比例及參與服務單位名單以社會福利署最新公布為準"
+  ],
+  "documents": [
+    { "key": "applicant_id", "label": "家長及兒童身份證明", "required": true },
+    { "key": "income_proof", "label": "住戶入息證明", "required": true },
+    { "key": "cssa_proof", "label": "綜援 / WFA / SFO 資助證明（如適用）", "required": false },
+    { "key": "address_proof", "label": "住址證明", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：搵參與「收費減免資助計劃」嘅課餘託管服務單位。" },
+    { "order": 2, "text": "第二步：準備住戶入息證明或綜援 / WFA / SFO 資助證明。" },
+    { "order": 3, "text": "第三步：向服務單位申請收費減免（全免 / 半免 / 三分一減免），申報並證明經濟狀況。" },
+    { "order": 4, "text": "第四步：經審核後，子女以減免收費使用課餘託管服務。" }
+  ],
+  "applicationMethods": ["in_person"],
+  "contactPhone": "2343 2255",
+  "hotline": "2343 2255",
+  "officialUrl": "https://www.swd.gov.hk/en/pubsvc/young/cat_young/ascp/",
+  "sourceUrl": "https://www.swd.gov.hk/en/pubsvc/young/cat_young/ascp/",
+  "lastUpdated": "2026-07-23",
+  "forms": [],
+  "sources": [
+    {
+      "url": "https://www.swd.gov.hk/en/pubsvc/young/cat_young/ascp/",
+      "title": "小學生課餘託管服務（官方頁面）",
+      "titleZh": "小學生課餘託管服務",
+      "titleEn": "After School Care Programme (ASCP) for Primary School Student",
+      "publisher": "Social Welfare Department",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.swd.gov.hk/storage/asset/section/177/en/ASCP%20Centre%20List%20(Eng)%20(Oct%2025).doc",
+      "title": "課餘託管收費減免資助計劃 — 參與服務單位名單（官方文件）",
+      "titleZh": "課餘託管收費減免資助計劃 — 服務單位名單",
+      "titleEn": "List of Service Units Providing Fee-waiving Subsidy Scheme under ASCP",
+      "publisher": "Social Welfare Department",
+      "sourceType": "guidance_note",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": true,
+    "income_tested": true,
+    "asset_tested": false,
+    "student": false,
+    "elderly": false,
+    "disability": false,
+    "tags": ["family", "child", "after_school_care", "fee_waiver", "low_income"]
+  },
+  "relatedSlugs": ["working-family-allowance", "kindergarten-fee-remission"],
+  "knownUncertainty": [
+    "「每月住戶入息中位數」（MMDHI）入息線、各級減免比例及參與服務單位名單須以社會福利署最新公布為準。"
+  ],
+  "researchNotes": "來源：SWD ASCP 主頁、收費減免服務單位名單（2026-07-23 讀取）。NGO 自負盈虧營辦；SWD 提供全免 / 半免 / 三分一減免；合資格：SFO 資助 / WFA / CSSA 家庭或住戶入息 ≤ MMDHI；須申報並證明經濟狀況。入息線未寫入。待人手覆核後可升為 verified。",
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

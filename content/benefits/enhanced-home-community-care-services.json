@@ -1,0 +1,89 @@
+{
+  "id": "d2000000-0000-0000-0000-00000000000e",
+  "slug": "enhanced-home-community-care-services",
+  "nameZh": "改善家居及社區照顧服務",
+  "nameEn": "Enhanced Home and Community Care Services (EHCCS)",
+  "department": "社會福利署",
+  "categoryCode": "elderly",
+  "schemeType": "subsidised_service",
+  "aliases": ["EHCCS", "改善家居"],
+  "lifeEvents": ["long_term_care", "retirement"],
+  "audience": ["elderly"],
+  "matchRule": {
+    "requiresElderly": true
+  },
+  "purpose": "為身體機能達中度或嚴重程度缺損嘅體弱長者，提供家居及社區照顧服務，協助佢哋居家安老、留在熟悉嘅社區生活，並支援照顧者。",
+  "targetBeneficiaries": "經「安老服務統一評估機制」評估為中度或嚴重程度缺損嘅體弱長者。",
+  "summary": "改善家居及社區照顧服務（EHCCS）為經「安老服務統一評估機制」評估為中度或嚴重程度缺損嘅體弱長者，提供一系列家居及社區照顧服務，讓佢哋居家安老。服務包括基本及特別護理、復康運動、家居環境風險評估、個人照顧、長者暫託，以及照顧者培訓及支援等，並支援照顧者以加強家庭凝聚力。",
+  "suitableFor": "身體機能中度至嚴重缺損、需要家居 / 社區照顧以留在社區生活嘅體弱長者。",
+  "notSuitableFor": "未經統一評估、或評估未達中度 / 嚴重缺損程度嘅長者。",
+  "eligibility": [
+    "須為體弱長者，並經社會福利署「安老服務統一評估機制」評估為中度或嚴重程度缺損",
+    "服務目標為協助長者居家安老、留在熟悉嘅社區生活",
+    "服務包括基本及特別護理、復康運動、家居環境風險評估、個人照顧、長者暫託、照顧者培訓及支援等",
+    "可經綜合家庭服務中心 / 綜合服務中心、醫務社會服務部、長者地區中心 / 長者鄰舍中心或長者社區中心轉介，並安排統一評估",
+    "⚠️ Needs Manual Review：收費 / 資助安排及輪候情況以社會福利署最新公布為準"
+  ],
+  "documents": [
+    { "key": "applicant_id", "label": "長者身份證", "required": true },
+    { "label": "統一評估結果 / 轉介證明", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：聯絡綜合家庭服務中心、長者中心或醫務社工要求轉介。" },
+    { "order": 2, "text": "第二步：接受「安老服務統一評估機制」評估，確定缺損程度。" },
+    { "order": 3, "text": "第三步：獲配對改善家居及社區照顧服務隊。" },
+    { "order": 4, "text": "第四步：接受護理、復康、個人照顧、暫託等服務。" },
+    { "order": 5, "text": "第五步：照顧者可獲培訓及支援。" }
+  ],
+  "applicationMethods": ["in_person"],
+  "contactPhone": "2343 2255",
+  "hotline": "2343 2255",
+  "officialUrl": "https://www.swd.gov.hk/en/pubsvc/elderly/cat_commcare/homebase_ccs/index.html",
+  "sourceUrl": "https://www.swd.gov.hk/en/pubsvc/elderly/cat_commcare/homebase_ccs/index.html",
+  "lastUpdated": "2026-07-23",
+  "forms": [],
+  "sources": [
+    {
+      "url": "https://www.swd.gov.hk/en/pubsvc/elderly/cat_commcare/homebase_ccs/index.html",
+      "title": "家居為本社區照顧及支援服務（官方頁面）",
+      "titleZh": "家居為本社區照顧及支援服務",
+      "titleEn": "Home-based Community Care and Support Services",
+      "publisher": "Social Welfare Department",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://elderlyinfo.swd.gov.hk/sites/ltc-swd/files/EHCCS(Nov2015).pdf",
+      "title": "改善家居及社區照顧服務（官方單張）",
+      "titleZh": "改善家居及社區照顧服務單張",
+      "titleEn": "EHCCS Leaflet",
+      "publisher": "Social Welfare Department",
+      "sourceType": "guidance_note",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "disability": false,
+    "student": false,
+    "elderly": true,
+    "tags": ["elderly", "community_care", "home_care", "long_term_care", "carer_support"]
+  },
+  "relatedSlugs": ["home-care-services", "community-care-service-voucher", "residential-care-service-voucher"],
+  "knownUncertainty": [
+    "收費 / 資助安排、服務名額及輪候情況須以社會福利署最新公布為準。",
+    "熱線號碼（2343 2255，社署熱線）待人手核實是否適用於 EHCCS 查詢。"
+  ],
+  "researchNotes": "來源：SWD 家居為本社區照顧頁、EHCCS 單張 PDF（2026-07-23 讀取）。體弱長者、統一評估中度 / 嚴重缺損；護理 / 復康 / 個人照顧 / 暫託 / 照顧者支援；經中心 / 醫務社工轉介。待人手覆核收費及輪候後可升為 verified。",
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

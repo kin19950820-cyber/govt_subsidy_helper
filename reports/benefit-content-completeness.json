@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T02:31:45.099Z",
-  "average": 93,
+  "generatedAt": "2026-07-24T03:04:47.503Z",
+  "average": 94,
   "rows": [
     {
       "slug": "child-development-fund",
@@ -419,6 +419,21 @@
       "documentInfoCoverage": 1
     },
     {
+      "slug": "after-school-care-fee-waiving",
+      "nameZh": "課餘託管服務收費減免計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 97,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
       "slug": "criminal-law-enforcement-injuries-compensation",
       "nameZh": "暴力及執法傷亡賠償計劃",
       "status": "needs_review",
@@ -451,6 +466,21 @@
     {
       "slug": "employment-programme-elderly-middle-aged",
       "nameZh": "中高齡就業計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 97,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "enhanced-home-community-care-services",
+      "nameZh": "改善家居及社區照顧服務",
       "status": "needs_review",
       "archived": false,
       "score": 97,

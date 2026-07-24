@@ -1,8 +1,11 @@
 # Source Change / Audit Report
 
-Generated: 2026-07-24T02:31:45.183Z
+Generated: 2026-07-24T03:04:47.582Z
 
 Allowlist domains: 21 · error-level issues: 0
+
+## after-school-care-fee-waiving
+- **warn** duplicate_source — https://www.swd.gov.hk/en/pubsvc/young/cat_young/ascp/
 
 ## child-development-fund
 - **warn** duplicate_source — https://www.cdf.gov.hk/tc/
@@ -54,6 +57,9 @@ Allowlist domains: 21 · error-level issues: 0
 
 ## employment-programme-elderly-middle-aged
 - **warn** duplicate_source — https://www.labour.gov.hk/eng/service/content.htm
+
+## enhanced-home-community-care-services
+- **warn** duplicate_source — https://www.swd.gov.hk/en/pubsvc/elderly/cat_commcare/homebase_ccs/index.html
 
 ## erb-training
 - **warn** duplicate_source — https://www.erb.org/tc/
