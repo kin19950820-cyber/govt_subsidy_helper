@@ -1,6 +1,6 @@
 # Benefit Content Completeness
 
-Generated: 2026-07-24T02:10:51.469Z · benefits: 25 · average score: 93/100
+Generated: 2026-07-24T02:13:38.973Z · benefits: 26 · average score: 93/100
 
 Critical fields: officialName, department, officialSource, eligibilitySummary, structuredEligibility, applicationMethod, lastVerified, verificationStatus, disclaimer
 
@@ -30,6 +30,7 @@ Critical fields: officialName, department, officialSource, eligibilitySummary, s
 | 92 | needs_review | student-travel-subsidy | — | faq, typedSources |
 | 92 | needs_review | working-family-allowance | — | faq, typedSources |
 | 94 | needs_review | samaritan-fund | — | contact, faq |
+| 97 | needs_review | cssa-scheme | — | faq |
 | 97 | needs_review | employment-programme-elderly-middle-aged | — | faq |
 | 97 | needs_review | nlsft-tertiary-loan | — | faq |
 | 97 | needs_review | tsfs-postsecondary | — | faq |

@@ -1,6 +1,6 @@
 # Source Change / Audit Report
 
-Generated: 2026-07-24T02:10:51.555Z
+Generated: 2026-07-24T02:13:39.058Z
 
 Allowlist domains: 21 · error-level issues: 0
 
@@ -21,6 +21,9 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/cef/tc/index.htm
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/cef/tc/index.htm
 - **warn** missing_source_type — https://www.wfsfaa.gov.hk/cef/tc/index.htm
+
+## cssa-scheme
+- **warn** duplicate_source — https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/
 
 ## cssa-student-support
 - **warn** duplicate_source — https://www.swd.gov.hk/tc/pubsvc/socsecu/comprehens/cssa/

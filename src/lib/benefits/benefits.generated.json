@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T02:11:07.198Z",
+  "generatedAt": "2026-07-24T02:13:51.333Z",
   "categories": [
     {
       "code": "student_assistance",
@@ -556,6 +556,174 @@
         ]
       },
       "relatedSlugs": [],
+      "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+      "status": "needs_review",
+      "active": true
+    },
+    {
+      "id": "d2000000-0000-0000-0000-000000000005",
+      "slug": "cssa-scheme",
+      "nameZh": "綜合社會保障援助（綜援）計劃",
+      "nameEn": "Comprehensive Social Security Assistance (CSSA) Scheme",
+      "department": "社會福利署（社會保障）",
+      "categoryCode": "social_security",
+      "schemeType": "cash_allowance",
+      "aliases": [
+        "綜援",
+        "CSSA"
+      ],
+      "lifeEvents": [
+        "low_income",
+        "unemployed",
+        "single_parent"
+      ],
+      "audience": [
+        "low_income",
+        "elderly",
+        "disability"
+      ],
+      "matchRule": {
+        "meansTested": true,
+        "maxIncomeBand": "below_10k",
+        "maxAssetBand": "low"
+      },
+      "purpose": "透過入息及資產審查嘅現金援助，為經濟上無法自給嘅個人及家庭提供安全網，應付生活基本需要。",
+      "targetBeneficiaries": "香港居民中，個人或家庭經濟上無法自給、並通過入息及資產審查者（包括長者、殘疾人士、單親、失業、低收入等）。",
+      "summary": "綜合社會保障援助（綜援）計劃以入息及資產審查方式，為經濟上無法自給嘅個人及家庭提供現金援助，應付生活基本需要。援助一般包括標準金額（按不同類別，如長者、殘疾、健全成人及兒童）、各項補助金及特別津貼。與家人同住者須以「住戶」為單位申請，計算全部家庭成員嘅入息及資產。",
+      "suitableFor": "經濟上無法自給、通過入息及資產審查嘅香港居民及其家庭。",
+      "notSuitableFor": "受《入境規例》第 115A 章逗留條件限制人士（如輸入勞工、訪客）不合資格；資產或入息超出上限者。",
+      "eligibility": [
+        "須符合居港規定（一般申請人須符合居港年期要求；未滿 18 歲嘅香港居民獲豁免居港規定）",
+        "須同時通過入息審查及資產審查",
+        "與其他家庭成員同住者，須以「住戶」為單位申請，計算全部同住家庭成員嘅入息及資產",
+        "受《入境規例》（第 115A 章）逗留條件限制人士（例如輸入勞工、訪客）不合資格",
+        "在特殊情況下，社會福利署署長可酌情向未符合居港規定人士批出綜援",
+        "援助包括標準金額、補助金及特別津貼等（實際金額按類別及個別情況而定）",
+        "⚠️ Needs Manual Review：各類標準金額、補助金、特別津貼、入息及資產限額每年調整，以官方最新公布為準"
+      ],
+      "documents": [
+        {
+          "key": "applicant_id",
+          "label": "申請人及同住家庭成員身份證",
+          "required": true
+        },
+        {
+          "key": "address_proof",
+          "label": "住址證明",
+          "required": true
+        },
+        {
+          "key": "income_proof",
+          "label": "住戶入息證明",
+          "required": true
+        },
+        {
+          "key": "asset_proof",
+          "label": "資產證明（銀行結單等）",
+          "required": true
+        },
+        {
+          "key": "bank_account",
+          "label": "銀行戶口資料",
+          "required": true
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": "第一步：初步了解你 / 你嘅住戶入息及資產是否可能通過審查。"
+        },
+        {
+          "order": 2,
+          "text": "第二步：準備所有同住家庭成員嘅身份證、住址、入息及資產證明。"
+        },
+        {
+          "order": 3,
+          "text": "第三步：聯絡居住地區嘅社會保障辦事處（可電話、傳真、電郵、郵寄、網上表格或親身）遞交申請。"
+        },
+        {
+          "order": 4,
+          "text": "第四步：接受入息及資產審查及面談（如需要）。"
+        },
+        {
+          "order": 5,
+          "text": "第五步：批核後按月領取援助金。"
+        }
+      ],
+      "applicationMethods": [
+        "in_person",
+        "by_post",
+        "online",
+        "phone"
+      ],
+      "contactPhone": "2343 2255",
+      "hotline": "2343 2255",
+      "officialUrl": "https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/",
+      "sourceUrl": "https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/",
+      "lastUpdated": "2026-07-23",
+      "forms": [],
+      "sources": [
+        {
+          "url": "https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/",
+          "title": "綜合社會保障援助（綜援）計劃（官方頁面）",
+          "titleZh": "綜合社會保障援助（綜援）計劃",
+          "titleEn": "Comprehensive Social Security Assistance (CSSA) Scheme",
+          "publisher": "Social Welfare Department",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/cssa_ec/cssa_ec_rr/index.html",
+          "title": "綜援 — 居港規定（官方頁面）",
+          "titleZh": "綜援 — 居港規定",
+          "titleEn": "CSSA — Residence Requirement",
+          "publisher": "Social Welfare Department",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.swd.gov.hk/storage/asset/section/179/en/CSSAG102023(Eng).pdf",
+          "title": "綜援計劃指南（官方指引）",
+          "titleZh": "綜合社會保障援助計劃指南",
+          "titleEn": "A Guide to Comprehensive Social Security Assistance",
+          "publisher": "Social Welfare Department",
+          "sourceType": "guidance_note",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        }
+      ],
+      "faq": [],
+      "rules": [],
+      "facets": {
+        "means_tested": true,
+        "income_tested": true,
+        "asset_tested": true,
+        "disability": false,
+        "student": false,
+        "elderly": false,
+        "tags": [
+          "social_security",
+          "low_income",
+          "safety_net"
+        ]
+      },
+      "relatedSlugs": [
+        "working-family-allowance",
+        "cssa-student-support"
+      ],
+      "overlappingBenefits": [
+        "working-family-allowance"
+      ],
+      "knownUncertainty": [
+        "各類標準金額、補助金、特別津貼及入息／資產限額須以社會福利署最新公布為準。",
+        "居港年期具體要求及豁免情形以官方居港規定頁面為準。"
+      ],
+      "researchNotes": "來源：SWD CSSA 主頁、居港規定頁、CSSA 指南 PDF（2026-07-23 讀取）。住戶為單位、入息+資產審查；受《入境規例》Cap.115A 逗留條件限制者不合資格；未滿 18 歲居民豁免居港規定；署長可酌情處理。金額未寫入固定數字。熱線 2343 2255（社會保障辦事處）。待人手覆核後可升為 verified。",
       "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
       "status": "needs_review",
       "active": true

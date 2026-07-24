@@ -1,15 +1,18 @@
 # Source Change / Monitor Report
 
-Generated: 2026-07-24T02:10:51.656Z
+Generated: 2026-07-24T02:13:39.139Z
 
-Baseline sources: 0 · canonical sources: 30 · added: 30 · removed: 0 · hash-changed: 0
+Baseline sources: 0 · canonical sources: 33 · added: 33 · removed: 0 · hash-changed: 0
 
 > ⚠️ 變更只作提示，**永不自動更新資格規則或金額**。偵測到變更後，由人手依 `docs/RESEARCH_AND_VERIFICATION.md` 覆核官方來源再修改 canonical 記錄。
 
-## Added sources (in canonical, not in baseline) (30)
+## Added sources (in canonical, not in baseline) (33)
 - `child-development-fund` — https://www.cdf.gov.hk/tc/
 - `community-care-service-voucher` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/psccsv/
 - `continuing-education-fund` — https://www.wfsfaa.gov.hk/cef/tc/index.htm
+- `cssa-scheme` — https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/
+- `cssa-scheme` — https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/cssa_ec/cssa_ec_rr/index.html
+- `cssa-scheme` — https://www.swd.gov.hk/storage/asset/section/179/en/CSSAG102023(Eng).pdf
 - `cssa-student-support` — https://www.swd.gov.hk/tc/pubsvc/socsecu/comprehens/cssa/
 - `disability-allowance` — https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_nda/index.html
 - `elderly-dental-assistance` — https://www.communitycarefund.hk/
