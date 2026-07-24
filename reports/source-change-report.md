@@ -1,12 +1,12 @@
 # Source Change / Monitor Report
 
-Generated: 2026-07-23T11:12:10.372Z
+Generated: 2026-07-24T02:10:51.656Z
 
-Baseline sources: 0 · canonical sources: 25 · added: 25 · removed: 0 · hash-changed: 0
+Baseline sources: 0 · canonical sources: 30 · added: 30 · removed: 0 · hash-changed: 0
 
 > ⚠️ 變更只作提示，**永不自動更新資格規則或金額**。偵測到變更後，由人手依 `docs/RESEARCH_AND_VERIFICATION.md` 覆核官方來源再修改 canonical 記錄。
 
-## Added sources (in canonical, not in baseline) (25)
+## Added sources (in canonical, not in baseline) (30)
 - `child-development-fund` — https://www.cdf.gov.hk/tc/
 - `community-care-service-voucher` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/psccsv/
 - `continuing-education-fund` — https://www.wfsfaa.gov.hk/cef/tc/index.htm
@@ -14,12 +14,17 @@ Baseline sources: 0 · canonical sources: 25 · added: 25 · removed: 0 · hash-
 - `disability-allowance` — https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_nda/index.html
 - `elderly-dental-assistance` — https://www.communitycarefund.hk/
 - `elderly-health-care-voucher` — https://www.hcv.gov.hk/tc/hcvs/background.html
+- `employment-programme-elderly-middle-aged` — https://www.labour.gov.hk/eng/public/pdf/eip/EPM_ER.pdf
+- `employment-programme-elderly-middle-aged` — https://www.labour.gov.hk/eng/service/content.htm
 - `erb-training` — https://www.erb.org/tc/
 - `guangdong-fujian-scheme` — https://www.swd.gov.hk/gds/index.html
 - `home-care-services` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html
 - `personal-emergency-link` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/
 - `internet-access-subsidy` — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/sia.php
 - `kindergarten-fee-remission` — https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php
+- `nlsft-tertiary-loan` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/overview.php
+- `nlsft-tertiary-loan` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/eligibility.php
+- `nlsft-tertiary-loan` — https://www.wfsfaa.gov.hk/sfo/en/postsecondary/nlsft/general/loan_limit.htm
 - `old-age-allowance` — https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_oaa/index.html
 - `old-age-living-allowance` — https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_oala/index.html
 - `public-rental-housing` — https://www.housingauthority.gov.hk/tc/public-housing/index.html

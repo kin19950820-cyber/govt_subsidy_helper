@@ -1,6 +1,6 @@
 # Source Change / Audit Report
 
-Generated: 2026-07-23T11:12:10.303Z
+Generated: 2026-07-24T02:10:51.555Z
 
 Allowlist domains: 21 · error-level issues: 0
 
@@ -44,6 +44,9 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.hcv.gov.hk/tc/hcvs/target_group.html
 - **warn** missing_source_type — https://www.hcv.gov.hk/tc/hcvs/background.html
 
+## employment-programme-elderly-middle-aged
+- **warn** duplicate_source — https://www.labour.gov.hk/eng/service/content.htm
+
 ## erb-training
 - **warn** duplicate_source — https://www.erb.org/tc/
 - **warn** duplicate_source — https://www.erb.org/tc/
@@ -76,6 +79,10 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/procedures.php
 - **warn** missing_source_type — https://www.wfsfaa.gov.hk/tc/sfo/preprimary/kcfr/overview.php
+
+## nlsft-tertiary-loan
+- **warn** duplicate_source — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/overview.php
+- **warn** duplicate_source — https://www.wfsfaa.gov.hk/sfo/en/postsecondary/nlsft/application/forms.htm
 
 ## old-age-allowance
 - **warn** duplicate_source — https://www.swd.gov.hk/tc/pubsvc/socsecu/ssallowance/ssaec/ssaec_oaa/index.html

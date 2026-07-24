@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T11:12:19.805Z",
+  "generatedAt": "2026-07-24T02:11:07.198Z",
   "categories": [
     {
       "code": "student_assistance",
@@ -1006,6 +1006,128 @@
       "knowledgeDoc": "elderly_health_care_voucher.md"
     },
     {
+      "id": "d2000000-0000-0000-0000-000000000004",
+      "slug": "employment-programme-elderly-middle-aged",
+      "nameZh": "中高齡就業計劃",
+      "nameEn": "Employment Programme for the Elderly and Middle-aged (EPEM)",
+      "department": "勞工處",
+      "categoryCode": "employment",
+      "schemeType": "service",
+      "aliases": [
+        "EPEM"
+      ],
+      "lifeEvents": [
+        "job_seeking",
+        "unemployed"
+      ],
+      "audience": [
+        "other"
+      ],
+      "matchRule": {
+        "meansTested": false
+      },
+      "purpose": "鼓勵僱主聘用 40 歲或以上求職人士並提供在職培訓（OJT），協助中高齡人士就業。在職培訓津貼由勞工處發放予僱主；求職人士則透過受僱及培訓受惠。",
+      "targetBeneficiaries": "40 歲或以上、正在求職嘅中高齡人士；以及願意聘用及培訓佢哋嘅僱主。",
+      "summary": "中高齡就業計劃（EPEM）由勞工處推行，鼓勵僱主聘用 40 歲或以上求職人士並提供在職培訓。津貼發放對象為僱主：聘用每名 60 歲或以上、失業或已離開職場嘅求職者，僱主可獲最高每月 $5,000、為期 6 至 12 個月嘅在職培訓津貼；聘用每名 40 至 59 歲失業求職者，可獲最高每月 $4,000、為期 3 至 6 個月。計劃涵蓋全職及兼職職位。",
+      "suitableFor": "40 歲或以上正在求職嘅人士（透過受僱及在職培訓受惠）；有意聘用中高齡員工嘅僱主。",
+      "notSuitableFor": "在職培訓津貼並非直接發放予求職人士，而係發放予符合條件嘅僱主；40 歲以下人士。",
+      "eligibility": [
+        "求職人士須年滿 40 歲或以上",
+        "僱主聘用每名 40 至 59 歲失業求職者：最高每月 $4,000 在職培訓津貼，為期 3 至 6 個月",
+        "僱主聘用每名 60 歲或以上失業／已離開職場求職者：最高每月 $5,000 在職培訓津貼，為期 6 至 12 個月",
+        "在職培訓期經勞工處批准，個別合適個案可分別延長至最多 6 個月及 12 個月",
+        "計劃涵蓋全職及兼職職位",
+        "⚠️ Needs Manual Review：津貼金額、培訓期、僱主及僱員資格條件以勞工處最新公布為準"
+      ],
+      "documents": [
+        {
+          "key": "applicant_id",
+          "label": "求職人士身份證",
+          "required": true
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": "第一步：40 歲或以上求職人士可透過勞工處就業中心 / 互動就業服務登記求職。"
+        },
+        {
+          "order": 2,
+          "text": "第二步：經勞工處配對合適職位（包括參與 EPEM 嘅僱主職位）。"
+        },
+        {
+          "order": 3,
+          "text": "第三步：獲聘後由僱主提供在職培訓；僱主向勞工處申領在職培訓津貼。"
+        },
+        {
+          "order": 4,
+          "text": "第四步：完成培訓期，穩定就業。"
+        }
+      ],
+      "applicationMethods": [
+        "in_person",
+        "online"
+      ],
+      "contactPhone": "2969 0888",
+      "hotline": "2969 0888",
+      "officialUrl": "https://www.labour.gov.hk/eng/service/content.htm",
+      "sourceUrl": "https://www.labour.gov.hk/eng/public/pdf/eip/EPM_ER.pdf",
+      "lastUpdated": "2026-07-23",
+      "forms": [],
+      "sources": [
+        {
+          "url": "https://www.labour.gov.hk/eng/public/pdf/eip/EPM_ER.pdf",
+          "title": "中高齡就業計劃 — 僱主資料（官方單張）",
+          "titleZh": "中高齡就業計劃 — 僱主須知",
+          "titleEn": "Employment Programme for the Elderly and Middle-aged — For Employers",
+          "publisher": "Labour Department",
+          "sourceType": "guidance_note",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.labour.gov.hk/eng/service/content.htm",
+          "title": "勞工處 — 就業服務（官方頁面）",
+          "titleZh": "勞工處 — 就業服務",
+          "titleEn": "Labour Department — Employment Services",
+          "publisher": "Labour Department",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        }
+      ],
+      "faq": [],
+      "rules": [],
+      "facets": {
+        "means_tested": false,
+        "income_tested": false,
+        "asset_tested": false,
+        "age_min": 40,
+        "disability": false,
+        "student": false,
+        "elderly": false,
+        "tags": [
+          "employment",
+          "middle_aged",
+          "elderly",
+          "job_seeking"
+        ]
+      },
+      "relatedSlugs": [
+        "erb-training"
+      ],
+      "knownUncertainty": [
+        "在職培訓津貼發放對象為僱主，並非直接發放予求職人士；金額、培訓期及資格以勞工處最新公布為準。",
+        "查詢熱線號碼待人手於勞工處官方頁面核實。"
+      ],
+      "researchNotes": "來源：Labour Dept EPM_ER.pdf、就業服務頁（2026-07-23 讀取）。津貼：40-59 歲每月最高 $4,000（3-6 個月）；60 歲或以上每月最高 $5,000（6-12 個月），可延長。涵蓋全職及兼職。津貼付予僱主。熱線 2969 0888 為勞工處互動就業服務熱線，待覆核。待人手覆核後可升為 verified。",
+      "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+      "status": "needs_review",
+      "active": true
+    },
+    {
       "id": "c1000000-0000-0000-0000-000000000003",
       "slug": "erb-training",
       "nameZh": "僱員再培訓局課程",
@@ -1717,6 +1839,169 @@
       "status": "needs_review",
       "active": true,
       "knowledgeDoc": "kindergarten_fee_remission.md"
+    },
+    {
+      "id": "d2000000-0000-0000-0000-000000000003",
+      "slug": "nlsft-tertiary-loan",
+      "nameZh": "全日制大專學生免入息審查貸款計劃",
+      "nameEn": "Non-means-tested Loan Scheme for Full-time Tertiary Students (NLSFT)",
+      "department": "在職家庭及學生資助事務處（學生資助處）",
+      "categoryCode": "postsecondary",
+      "schemeType": "loan",
+      "aliases": [
+        "NLSFT"
+      ],
+      "lifeEvents": [
+        "university",
+        "adult_study"
+      ],
+      "audience": [
+        "student",
+        "other"
+      ],
+      "matchRule": {
+        "meansTested": false
+      },
+      "purpose": "為修讀認可全日制專上課程嘅學生提供「免入息審查」貸款，用嚟繳付學費。與資助專上課程學生資助計劃（TSFS）互補。以全數成本收回方式運作，須付利息及行政費。",
+      "targetBeneficiaries": "修讀認可全日制公帑資助專上課程、需要貸款繳付學費、但不想或不需要接受入息審查嘅學生。",
+      "summary": "全日制大專學生免入息審查貸款計劃（NLSFT）為合資格全日制專上課程學生提供免入息審查貸款以繳付學費，與 TSFS 互補。貸款以「全數成本收回」方式運作：借款人須按提取貸款時嘅適用利率繳付利息，並須就每份申請及每個貸款戶口每學年繳付行政費，直至貸款及利息全數清還。設有終身貸款上限（與 NLSPS 合併計算）。",
+      "suitableFor": "修讀認可全日制專上課程、需要學費貸款嘅學生（不設入息審查）。",
+      "notSuitableFor": "想申請助學金（不用還款）者應考慮 TSFS；未符合居港年期或註冊要求者。",
+      "eligibility": [
+        "須於相關學年（例：2026/27）註冊為認可院校全日制專上課程學生，並修讀完全由公帑資助嘅學額",
+        "須擁有香港特別行政區居留權，或在課程開始前已連續居港滿三整年",
+        "不設入息審查（Non-means-tested）",
+        "貸款額最高可達該學年應繳學費總額，但受 NLSFT 與 NLSPS 合併終身貸款上限限制",
+        "以「全數成本收回」運作：須繳付按提取時適用利率累計嘅利息",
+        "每份申請及每個貸款戶口每學年須繳付行政費，直至貸款及利息全數清還",
+        "⚠️ Needs Manual Review：每學年申請截止日期、利率、行政費及終身貸款上限以官方最新公布為準"
+      ],
+      "documents": [
+        {
+          "key": "applicant_id",
+          "label": "申請人身份證",
+          "required": true
+        },
+        {
+          "key": "student_proof",
+          "label": "學生身份 / 課程註冊證明",
+          "required": true
+        },
+        {
+          "key": "address_proof",
+          "label": "住址 / 居港年期證明（如適用）",
+          "required": true
+        },
+        {
+          "key": "bank_account",
+          "label": "銀行戶口資料",
+          "required": true
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": "第一步：確認你係認可院校全日制公帑資助課程嘅註冊學生。"
+        },
+        {
+          "order": 2,
+          "text": "第二步：睇清楚利息、行政費同終身貸款上限等條款。"
+        },
+        {
+          "order": 3,
+          "text": "第三步：於學生資助處遞交 NLSFT 申請（留意每學年截止日期）。"
+        },
+        {
+          "order": 4,
+          "text": "第四步：等候批核及提取貸款繳付學費。"
+        },
+        {
+          "order": 5,
+          "text": "第五步：按計劃還款，直至貸款及利息全數清還。"
+        }
+      ],
+      "applicationMethods": [
+        "online",
+        "by_post"
+      ],
+      "formUrl": "https://www.wfsfaa.gov.hk/sfo/en/postsecondary/nlsft/application/forms.htm",
+      "contactPhone": "2152 9000",
+      "hotline": "2152 9000",
+      "officialUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/overview.php",
+      "sourceUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/overview.php",
+      "lastUpdated": "2026-07-23",
+      "forms": [
+        {
+          "name": "NLSFT 申請連結、表格及下載",
+          "type": "link",
+          "url": "https://www.wfsfaa.gov.hk/sfo/en/postsecondary/nlsft/application/forms.htm"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/overview.php",
+          "title": "NLSFT 概覽（官方頁面）",
+          "titleZh": "全日制大專學生免入息審查貸款計劃 — 概覽",
+          "titleEn": "NLSFT — Overview",
+          "publisher": "Working Family and Student Financial Assistance Agency",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/nlsft/eligibility.php",
+          "title": "NLSFT 申請資格（官方頁面）",
+          "titleZh": "全日制大專學生免入息審查貸款計劃 — 申請資格",
+          "titleEn": "NLSFT — Eligibility",
+          "publisher": "Working Family and Student Financial Assistance Agency",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.wfsfaa.gov.hk/sfo/en/postsecondary/nlsft/general/loan_limit.htm",
+          "title": "NLSFT 最高貸款額及終身貸款上限（官方頁面）",
+          "titleZh": "全日制大專學生免入息審查貸款計劃 — 最高貸款額及終身貸款上限",
+          "titleEn": "NLSFT — Maximum Level of Loan Amount and Life-time Loan Limit",
+          "publisher": "Working Family and Student Financial Assistance Agency",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        }
+      ],
+      "faq": [],
+      "rules": [],
+      "facets": {
+        "means_tested": false,
+        "income_tested": false,
+        "asset_tested": false,
+        "disability": false,
+        "student": true,
+        "elderly": false,
+        "tags": [
+          "student",
+          "postsecondary",
+          "loan"
+        ]
+      },
+      "relatedSlugs": [
+        "tsfs-postsecondary"
+      ],
+      "conflictingBenefits": [],
+      "overlappingBenefits": [
+        "tsfs-postsecondary"
+      ],
+      "knownUncertainty": [
+        "每學年申請截止日期、適用利率、行政費金額及 NLSFT/NLSPS 合併終身貸款上限須以官方最新公布為準。",
+        "計劃官方中文名稱及查詢熱線待人手於官方中文頁面核實。"
+      ],
+      "researchNotes": "來源：WFSFAA NLSFT overview.php / eligibility.php / loan_limit.htm、application deadlines（2026-07-23 讀取）。不設入息審查、全數成本收回、有利息及行政費。截止日期例：2026/27 學年為 2026-12-31。熱線沿用學生資助處 2152 9000。待人手覆核官方中文頁面後可升為 verified。",
+      "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+      "status": "needs_review",
+      "active": true
     },
     {
       "id": "88888888-8888-8888-8888-888888888888",

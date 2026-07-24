@@ -1,0 +1,89 @@
+{
+  "id": "d2000000-0000-0000-0000-000000000004",
+  "slug": "employment-programme-elderly-middle-aged",
+  "nameZh": "中高齡就業計劃",
+  "nameEn": "Employment Programme for the Elderly and Middle-aged (EPEM)",
+  "department": "勞工處",
+  "categoryCode": "employment",
+  "schemeType": "service",
+  "aliases": ["EPEM"],
+  "lifeEvents": ["job_seeking", "unemployed"],
+  "audience": ["other"],
+  "matchRule": {
+    "meansTested": false
+  },
+  "purpose": "鼓勵僱主聘用 40 歲或以上求職人士並提供在職培訓（OJT），協助中高齡人士就業。在職培訓津貼由勞工處發放予僱主；求職人士則透過受僱及培訓受惠。",
+  "targetBeneficiaries": "40 歲或以上、正在求職嘅中高齡人士；以及願意聘用及培訓佢哋嘅僱主。",
+  "summary": "中高齡就業計劃（EPEM）由勞工處推行，鼓勵僱主聘用 40 歲或以上求職人士並提供在職培訓。津貼發放對象為僱主：聘用每名 60 歲或以上、失業或已離開職場嘅求職者，僱主可獲最高每月 $5,000、為期 6 至 12 個月嘅在職培訓津貼；聘用每名 40 至 59 歲失業求職者，可獲最高每月 $4,000、為期 3 至 6 個月。計劃涵蓋全職及兼職職位。",
+  "suitableFor": "40 歲或以上正在求職嘅人士（透過受僱及在職培訓受惠）；有意聘用中高齡員工嘅僱主。",
+  "notSuitableFor": "在職培訓津貼並非直接發放予求職人士，而係發放予符合條件嘅僱主；40 歲以下人士。",
+  "eligibility": [
+    "求職人士須年滿 40 歲或以上",
+    "僱主聘用每名 40 至 59 歲失業求職者：最高每月 $4,000 在職培訓津貼，為期 3 至 6 個月",
+    "僱主聘用每名 60 歲或以上失業／已離開職場求職者：最高每月 $5,000 在職培訓津貼，為期 6 至 12 個月",
+    "在職培訓期經勞工處批准，個別合適個案可分別延長至最多 6 個月及 12 個月",
+    "計劃涵蓋全職及兼職職位",
+    "⚠️ Needs Manual Review：津貼金額、培訓期、僱主及僱員資格條件以勞工處最新公布為準"
+  ],
+  "documents": [
+    { "key": "applicant_id", "label": "求職人士身份證", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：40 歲或以上求職人士可透過勞工處就業中心 / 互動就業服務登記求職。" },
+    { "order": 2, "text": "第二步：經勞工處配對合適職位（包括參與 EPEM 嘅僱主職位）。" },
+    { "order": 3, "text": "第三步：獲聘後由僱主提供在職培訓；僱主向勞工處申領在職培訓津貼。" },
+    { "order": 4, "text": "第四步：完成培訓期，穩定就業。" }
+  ],
+  "applicationMethods": ["in_person", "online"],
+  "contactPhone": "2969 0888",
+  "hotline": "2969 0888",
+  "officialUrl": "https://www.labour.gov.hk/eng/service/content.htm",
+  "sourceUrl": "https://www.labour.gov.hk/eng/public/pdf/eip/EPM_ER.pdf",
+  "lastUpdated": "2026-07-23",
+  "forms": [],
+  "sources": [
+    {
+      "url": "https://www.labour.gov.hk/eng/public/pdf/eip/EPM_ER.pdf",
+      "title": "中高齡就業計劃 — 僱主資料（官方單張）",
+      "titleZh": "中高齡就業計劃 — 僱主須知",
+      "titleEn": "Employment Programme for the Elderly and Middle-aged — For Employers",
+      "publisher": "Labour Department",
+      "sourceType": "guidance_note",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.labour.gov.hk/eng/service/content.htm",
+      "title": "勞工處 — 就業服務（官方頁面）",
+      "titleZh": "勞工處 — 就業服務",
+      "titleEn": "Labour Department — Employment Services",
+      "publisher": "Labour Department",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": false,
+    "income_tested": false,
+    "asset_tested": false,
+    "age_min": 40,
+    "disability": false,
+    "student": false,
+    "elderly": false,
+    "tags": ["employment", "middle_aged", "elderly", "job_seeking"]
+  },
+  "relatedSlugs": ["erb-training"],
+  "knownUncertainty": [
+    "在職培訓津貼發放對象為僱主，並非直接發放予求職人士；金額、培訓期及資格以勞工處最新公布為準。",
+    "查詢熱線號碼待人手於勞工處官方頁面核實。"
+  ],
+  "researchNotes": "來源：Labour Dept EPM_ER.pdf、就業服務頁（2026-07-23 讀取）。津貼：40-59 歲每月最高 $4,000（3-6 個月）；60 歲或以上每月最高 $5,000（6-12 個月），可延長。涵蓋全職及兼職。津貼付予僱主。熱線 2969 0888 為勞工處互動就業服務熱線，待覆核。待人手覆核後可升為 verified。",
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}
