@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T02:19:46.267Z",
+  "generatedAt": "2026-07-24T02:29:06.287Z",
   "average": 93,
   "rows": [
     {
@@ -387,6 +387,21 @@
       "documentInfoCoverage": 1
     },
     {
+      "slug": "criminal-law-enforcement-injuries-compensation",
+      "nameZh": "暴力及執法傷亡賠償計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 97,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
       "slug": "cssa-scheme",
       "nameZh": "綜合社會保障援助（綜援）計劃",
       "status": "needs_review",
@@ -404,6 +419,21 @@
     {
       "slug": "employment-programme-elderly-middle-aged",
       "nameZh": "中高齡就業計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 97,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "fasp-postsecondary",
+      "nameZh": "專上學生資助計劃",
       "status": "needs_review",
       "archived": false,
       "score": 97,

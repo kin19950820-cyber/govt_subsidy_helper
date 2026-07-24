@@ -1,0 +1,110 @@
+{
+  "id": "d2000000-0000-0000-0000-00000000000a",
+  "slug": "fasp-postsecondary",
+  "nameZh": "專上學生資助計劃",
+  "nameEn": "Financial Assistance Scheme for Post-secondary Students (FASP)",
+  "department": "在職家庭及學生資助事務處（學生資助處）",
+  "categoryCode": "postsecondary",
+  "aliases": ["FASP", "專上學生資助"],
+  "lifeEvents": ["university", "adult_study", "low_income"],
+  "audience": ["student", "low_income"],
+  "matchRule": {
+    "meansTested": true,
+    "maxIncomeBand": "20k_30k"
+  },
+  "purpose": "為修讀本地認可、自資專上課程（副學位或學位程度）嘅全日制學生提供入息審查資助（助學金及／或貸款）。",
+  "targetBeneficiaries": "修讀本地認可自資副學士 / 高級文憑 / 學士課程、並通過入息及資產審查嘅全日制學生。",
+  "summary": "專上學生資助計劃（FASP）以入息審查方式，向修讀本地認可、自資專上課程（副學士、高級文憑或學士學位程度）嘅全日制學生提供助學金及／或貸款。資助水平由「入息審查」及「資產審查」兩層審查決定，按相應百分比計算最高助學金及貸款額。與資助專上課程（TSFS）不同：FASP 對象係自資課程學生。",
+  "suitableFor": "修讀本地認可自資副學位 / 學位全日制課程、家庭入息及資產通過審查嘅學生。",
+  "notSuitableFor": "修讀公帑資助課程者（應用 TSFS）；同一學年就同一課程已接受其他公帑資助學生資助者；未符合居港年期者。",
+  "eligibility": [
+    "修讀本地認可、自資嘅全日制專上課程（副學士 / 高級文憑等副學位，或學士學位程度）",
+    "「全日制」：面授課程每年不少於 450 課堂時數，或每年最少 30 學分（1 學分＝15 課堂時數）；非面授課程每年不少於 1,350 學習時數",
+    "須擁有香港居留權，或在課程開始前已連續居港滿三整年",
+    "同一學年就申請所涵蓋嘅課程，不得已接受其他公帑資助學生資助計劃嘅資助",
+    "資助額由「入息審查」及「資產審查」兩層means test 決定",
+    "⚠️ Needs Manual Review：每學年最高助學金 / 貸款額及審查機制以官方「資助額」頁面為準"
+  ],
+  "documents": [
+    { "key": "applicant_id", "label": "申請人身份證", "required": true },
+    { "key": "student_proof", "label": "自資課程學生身份 / 課程證明", "required": true },
+    { "key": "income_proof", "label": "家庭成員入息證明", "required": true },
+    { "key": "asset_proof", "label": "資產證明", "required": true },
+    { "key": "bank_account", "label": "銀行戶口資料", "required": true }
+  ],
+  "steps": [
+    { "order": 1, "text": "第一步：確認你修讀嘅係本地認可自資全日制專上課程。" },
+    { "order": 2, "text": "第二步：準備身份證、課程證明、家庭入息及資產資料。" },
+    { "order": 3, "text": "第三步：向學生資助處遞交 FASP 申請。" },
+    { "order": 4, "text": "第四步：接受兩層入息及資產審查（一般於學生資助處確認收妥申請後約 2 個月內獲通知結果）。" },
+    { "order": 5, "text": "第五步：批出後領取助學金及／或貸款。" }
+  ],
+  "applicationMethods": ["online", "by_post"],
+  "formUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/forms.php",
+  "contactPhone": "2152 9000",
+  "hotline": "2152 9000",
+  "officialUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php",
+  "sourceUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php",
+  "lastUpdated": "2026-07-23",
+  "forms": [
+    {
+      "name": "FASP 申請連結、表格及下載",
+      "type": "link",
+      "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/forms.php"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php",
+      "title": "FASP 概覽（官方頁面）",
+      "titleZh": "專上學生資助計劃 — 概覽",
+      "titleEn": "FASP — Overview",
+      "publisher": "Working Family and Student Financial Assistance Agency",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/eligibility.php",
+      "title": "FASP 申請資格（官方頁面）",
+      "titleZh": "專上學生資助計劃 — 申請資格",
+      "titleEn": "FASP — Eligibility",
+      "publisher": "Working Family and Student Financial Assistance Agency",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    },
+    {
+      "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/level.php",
+      "title": "FASP 資助額（官方頁面）",
+      "titleZh": "專上學生資助計劃 — 資助額",
+      "titleEn": "FASP — Level of Financial Assistance",
+      "publisher": "Working Family and Student Financial Assistance Agency",
+      "sourceType": "official_page",
+      "retrievedAt": "2026-07-23",
+      "lastCheckedAt": "2026-07-23",
+      "status": "active"
+    }
+  ],
+  "faq": [],
+  "rules": [],
+  "facets": {
+    "means_tested": true,
+    "income_tested": true,
+    "asset_tested": true,
+    "disability": false,
+    "student": true,
+    "elderly": false,
+    "tags": ["student", "postsecondary", "self_financing", "low_income"]
+  },
+  "relatedSlugs": ["tsfs-postsecondary", "nlsft-tertiary-loan"],
+  "knownUncertainty": [
+    "每學年最高助學金及貸款額、兩層審查（入息 / 資產）計算方法須以官方最新公布為準。"
+  ],
+  "researchNotes": "來源：WFSFAA FASP overview.php / eligibility.php / level.php（2026-07-23 讀取）。自資副學位 / 學位全日制；兩層means test；居港權或連續居港三年；同學年不得就同一課程重複領公帑資助。全日制定義 450 課堂時數 / 30 學分 / 1350 學習時數。金額未寫入。熱線 2152 9000。待人手覆核後可升為 verified。",
+  "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+  "status": "needs_review",
+  "active": true
+}

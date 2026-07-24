@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T02:20:07.644Z",
+  "generatedAt": "2026-07-24T02:29:30.081Z",
   "categories": [
     {
       "code": "student_assistance",
@@ -556,6 +556,167 @@
         ]
       },
       "relatedSlugs": [],
+      "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+      "status": "needs_review",
+      "active": true
+    },
+    {
+      "id": "d2000000-0000-0000-0000-00000000000b",
+      "slug": "criminal-law-enforcement-injuries-compensation",
+      "nameZh": "暴力及執法傷亡賠償計劃",
+      "nameEn": "Criminal and Law Enforcement Injuries Compensation Scheme (CLEIC)",
+      "department": "社會福利署（社會保障）",
+      "categoryCode": "social_security",
+      "schemeType": "cash_allowance",
+      "aliases": [
+        "CLEIC",
+        "暴力及執法傷亡賠償"
+      ],
+      "lifeEvents": [
+        "hospital_discharge",
+        "disability_diagnosed"
+      ],
+      "audience": [
+        "other",
+        "disability"
+      ],
+      "matchRule": {
+        "meansTested": false
+      },
+      "purpose": "為因暴力罪行受傷，或因執法人員執行職務時使用武器而受傷嘅人士（或死亡個案嘅受養人）提供經濟援助（無須經濟審查）。",
+      "targetBeneficiaries": "因暴力罪行或執法人員執行職務使用武器而受傷嘅人士，或有關死者嘅受養人。",
+      "summary": "暴力及執法傷亡賠償計劃（CLEIC）為因暴力罪行受傷、或因執法人員（值勤警務人員或其他公職人員）執行職務使用武器而受傷嘅人士（或死亡個案嘅受養人）提供經濟援助，屬「無須經濟審查」計劃。每宗申請須符合：事件曾進行刑事法律程序，或已在無不合理延誤下向警方報案；傷者於事件發生時合法獲准留港；於事件發生後 3 年內提出申請；並因事件死亡、永久傷殘，或所受傷勢經註冊醫生 / 註冊中醫師證明須住院或病假不少於 3 天。",
+      "suitableFor": "因暴力罪行或執法使用武器受傷嘅人士，或有關死者受養人（無須經濟審查）。",
+      "notSuitableFor": "未曾報案 / 無刑事程序、逾 3 年申請期、事件發生時非合法留港，或傷勢未達門檻者。",
+      "eligibility": [
+        "受傷須因暴力罪行，或因執法人員（值勤警務人員或其他公職人員）執行職務時使用武器所致",
+        "事件曾成為刑事法律程序主題，或已在無不合理延誤下向警方報案",
+        "傷者於事件發生時須合法獲准留港",
+        "須於事件發生後 3 年內提出申請",
+        "傷者因事件死亡或永久傷殘；或傷勢經註冊醫生 / 註冊中醫師證明須住院或病假不少於 3 天",
+        "屬「無須經濟審查」計劃",
+        "⚠️ Needs Manual Review：賠償金額及各項細則以社會福利署最新公布為準"
+      ],
+      "documents": [
+        {
+          "key": "applicant_id",
+          "label": "申請人身份證",
+          "required": true
+        },
+        {
+          "label": "醫生 / 中醫證明書（住院或病假證明）",
+          "required": true
+        },
+        {
+          "label": "報案 / 刑事程序證明",
+          "required": true
+        },
+        {
+          "key": "bank_account",
+          "label": "銀行戶口資料",
+          "required": true
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": "第一步：確認事件已報案或有刑事程序，並在 3 年申請期內。"
+        },
+        {
+          "order": 2,
+          "text": "第二步：準備醫生／中醫證明及報案證明。"
+        },
+        {
+          "order": 3,
+          "text": "第三步：於社署網頁下載並填妥 CLEIC 申請表（或用網上表格）。"
+        },
+        {
+          "order": 4,
+          "text": "第四步：將申請交予暴力及執法傷亡賠償組（CLEIC Section）。"
+        },
+        {
+          "order": 5,
+          "text": "第五步：接受審核，批核後領取賠償。"
+        }
+      ],
+      "applicationMethods": [
+        "online",
+        "by_post",
+        "in_person"
+      ],
+      "formUrl": "https://www.sssof.swd.gov.hk/eForm/eApplyCLEIC/Start?lang=en_US",
+      "contactPhone": "2343 2255",
+      "hotline": "2343 2255",
+      "officialUrl": "https://www.swd.gov.hk/en/pubsvc/socsecu/criminalan/",
+      "sourceUrl": "https://www.swd.gov.hk/en/pubsvc/socsecu/criminalan/",
+      "lastUpdated": "2026-07-23",
+      "forms": [
+        {
+          "name": "CLEIC 網上申請表",
+          "type": "link",
+          "url": "https://www.sssof.swd.gov.hk/eForm/eApplyCLEIC/Start?lang=en_US"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.swd.gov.hk/en/pubsvc/socsecu/criminalan/",
+          "title": "暴力及執法傷亡賠償計劃（官方頁面）",
+          "titleZh": "暴力及執法傷亡賠償計劃",
+          "titleEn": "Criminal and Law Enforcement Injuries Compensation Scheme",
+          "publisher": "Social Welfare Department",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.swd.gov.hk/en/pubsvc/socsecu/ss_info/quickfind/qf_cleics/qf_cleics_ec/index.html",
+          "title": "CLEIC — 資格準則（官方頁面）",
+          "titleZh": "暴力及執法傷亡賠償計劃 — 資格準則",
+          "titleEn": "CLEIC — Eligibility Criteria",
+          "publisher": "Social Welfare Department",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.sssof.swd.gov.hk/eForm/eApplyCLEIC/Start?lang=en_US",
+          "title": "CLEIC 網上申請表（官方申請頁面）",
+          "titleZh": "暴力及執法傷亡賠償計劃 網上申請表",
+          "titleEn": "CLEIC Application Form",
+          "publisher": "Social Welfare Department",
+          "sourceType": "application_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        }
+      ],
+      "faq": [],
+      "rules": [],
+      "facets": {
+        "means_tested": false,
+        "income_tested": false,
+        "asset_tested": false,
+        "disability": true,
+        "student": false,
+        "elderly": false,
+        "tags": [
+          "social_security",
+          "injury",
+          "compensation",
+          "non_means_tested"
+        ]
+      },
+      "relatedSlugs": [
+        "traffic-accident-victims-assistance",
+        "disability-allowance"
+      ],
+      "knownUncertainty": [
+        "賠償金額及具體細則須以社會福利署最新公布為準。",
+        "熱線號碼（2343 2255）待人手核實是否適用於 CLEIC 查詢。"
+      ],
+      "researchNotes": "來源：SWD CLEIC 主頁、資格準則頁、網上申請表（2026-07-23 讀取）。無須經濟審查；暴力罪行或執法使用武器致傷；須報案 / 刑事程序；合法留港；3 年內申請；死亡／永久傷殘或住院/病假≥3 天。金額未寫入。與 TAVA 為姊妹計劃。待人手覆核後可升為 verified。",
       "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
       "status": "needs_review",
       "active": true
@@ -1403,6 +1564,172 @@
       "relatedSlugs": [
         "working-family-allowance"
       ],
+      "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
+      "status": "needs_review",
+      "active": true
+    },
+    {
+      "id": "d2000000-0000-0000-0000-00000000000a",
+      "slug": "fasp-postsecondary",
+      "nameZh": "專上學生資助計劃",
+      "nameEn": "Financial Assistance Scheme for Post-secondary Students (FASP)",
+      "department": "在職家庭及學生資助事務處（學生資助處）",
+      "categoryCode": "postsecondary",
+      "aliases": [
+        "FASP",
+        "專上學生資助"
+      ],
+      "lifeEvents": [
+        "university",
+        "adult_study",
+        "low_income"
+      ],
+      "audience": [
+        "student",
+        "low_income"
+      ],
+      "matchRule": {
+        "meansTested": true,
+        "maxIncomeBand": "20k_30k"
+      },
+      "purpose": "為修讀本地認可、自資專上課程（副學位或學位程度）嘅全日制學生提供入息審查資助（助學金及／或貸款）。",
+      "targetBeneficiaries": "修讀本地認可自資副學士 / 高級文憑 / 學士課程、並通過入息及資產審查嘅全日制學生。",
+      "summary": "專上學生資助計劃（FASP）以入息審查方式，向修讀本地認可、自資專上課程（副學士、高級文憑或學士學位程度）嘅全日制學生提供助學金及／或貸款。資助水平由「入息審查」及「資產審查」兩層審查決定，按相應百分比計算最高助學金及貸款額。與資助專上課程（TSFS）不同：FASP 對象係自資課程學生。",
+      "suitableFor": "修讀本地認可自資副學位 / 學位全日制課程、家庭入息及資產通過審查嘅學生。",
+      "notSuitableFor": "修讀公帑資助課程者（應用 TSFS）；同一學年就同一課程已接受其他公帑資助學生資助者；未符合居港年期者。",
+      "eligibility": [
+        "修讀本地認可、自資嘅全日制專上課程（副學士 / 高級文憑等副學位，或學士學位程度）",
+        "「全日制」：面授課程每年不少於 450 課堂時數，或每年最少 30 學分（1 學分＝15 課堂時數）；非面授課程每年不少於 1,350 學習時數",
+        "須擁有香港居留權，或在課程開始前已連續居港滿三整年",
+        "同一學年就申請所涵蓋嘅課程，不得已接受其他公帑資助學生資助計劃嘅資助",
+        "資助額由「入息審查」及「資產審查」兩層means test 決定",
+        "⚠️ Needs Manual Review：每學年最高助學金 / 貸款額及審查機制以官方「資助額」頁面為準"
+      ],
+      "documents": [
+        {
+          "key": "applicant_id",
+          "label": "申請人身份證",
+          "required": true
+        },
+        {
+          "key": "student_proof",
+          "label": "自資課程學生身份 / 課程證明",
+          "required": true
+        },
+        {
+          "key": "income_proof",
+          "label": "家庭成員入息證明",
+          "required": true
+        },
+        {
+          "key": "asset_proof",
+          "label": "資產證明",
+          "required": true
+        },
+        {
+          "key": "bank_account",
+          "label": "銀行戶口資料",
+          "required": true
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "text": "第一步：確認你修讀嘅係本地認可自資全日制專上課程。"
+        },
+        {
+          "order": 2,
+          "text": "第二步：準備身份證、課程證明、家庭入息及資產資料。"
+        },
+        {
+          "order": 3,
+          "text": "第三步：向學生資助處遞交 FASP 申請。"
+        },
+        {
+          "order": 4,
+          "text": "第四步：接受兩層入息及資產審查（一般於學生資助處確認收妥申請後約 2 個月內獲通知結果）。"
+        },
+        {
+          "order": 5,
+          "text": "第五步：批出後領取助學金及／或貸款。"
+        }
+      ],
+      "applicationMethods": [
+        "online",
+        "by_post"
+      ],
+      "formUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/forms.php",
+      "contactPhone": "2152 9000",
+      "hotline": "2152 9000",
+      "officialUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php",
+      "sourceUrl": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php",
+      "lastUpdated": "2026-07-23",
+      "forms": [
+        {
+          "name": "FASP 申請連結、表格及下載",
+          "type": "link",
+          "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/forms.php"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php",
+          "title": "FASP 概覽（官方頁面）",
+          "titleZh": "專上學生資助計劃 — 概覽",
+          "titleEn": "FASP — Overview",
+          "publisher": "Working Family and Student Financial Assistance Agency",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/eligibility.php",
+          "title": "FASP 申請資格（官方頁面）",
+          "titleZh": "專上學生資助計劃 — 申請資格",
+          "titleEn": "FASP — Eligibility",
+          "publisher": "Working Family and Student Financial Assistance Agency",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        },
+        {
+          "url": "https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/level.php",
+          "title": "FASP 資助額（官方頁面）",
+          "titleZh": "專上學生資助計劃 — 資助額",
+          "titleEn": "FASP — Level of Financial Assistance",
+          "publisher": "Working Family and Student Financial Assistance Agency",
+          "sourceType": "official_page",
+          "retrievedAt": "2026-07-23",
+          "lastCheckedAt": "2026-07-23",
+          "status": "active"
+        }
+      ],
+      "faq": [],
+      "rules": [],
+      "facets": {
+        "means_tested": true,
+        "income_tested": true,
+        "asset_tested": true,
+        "disability": false,
+        "student": true,
+        "elderly": false,
+        "tags": [
+          "student",
+          "postsecondary",
+          "self_financing",
+          "low_income"
+        ]
+      },
+      "relatedSlugs": [
+        "tsfs-postsecondary",
+        "nlsft-tertiary-loan"
+      ],
+      "knownUncertainty": [
+        "每學年最高助學金及貸款額、兩層審查（入息 / 資產）計算方法須以官方最新公布為準。"
+      ],
+      "researchNotes": "來源：WFSFAA FASP overview.php / eligibility.php / level.php（2026-07-23 讀取）。自資副學位 / 學位全日制；兩層means test；居港權或連續居港三年；同學年不得就同一課程重複領公帑資助。全日制定義 450 課堂時數 / 30 學分 / 1350 學習時數。金額未寫入。熱線 2152 9000。待人手覆核後可升為 verified。",
       "disclaimer": "本系統只幫你整理資料及估計，不代表政府已批准申請。最終批核以政府部門公佈為準。請以官方連結最新資料為準。",
       "status": "needs_review",
       "active": true

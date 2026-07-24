@@ -1,6 +1,6 @@
 # Source Change / Audit Report
 
-Generated: 2026-07-24T02:19:46.341Z
+Generated: 2026-07-24T02:29:06.371Z
 
 Allowlist domains: 21 · error-level issues: 0
 
@@ -21,6 +21,11 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/cef/tc/index.htm
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/cef/tc/index.htm
 - **warn** missing_source_type — https://www.wfsfaa.gov.hk/cef/tc/index.htm
+
+## criminal-law-enforcement-injuries-compensation
+- **warn** duplicate_source — https://www.swd.gov.hk/en/pubsvc/socsecu/criminalan/
+- **warn** duplicate_source — https://www.sssof.swd.gov.hk/eForm/eApplyCLEIC/Start?lang=en_US
+- **warn** duplicate_source — https://www.sssof.swd.gov.hk/eForm/eApplyCLEIC/Start?lang=en_US
 
 ## cssa-scheme
 - **warn** duplicate_source — https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/
@@ -55,6 +60,10 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.erb.org/tc/
 - **warn** duplicate_source — https://www.erb.org/tc/
 - **warn** missing_source_type — https://www.erb.org/tc/
+
+## fasp-postsecondary
+- **warn** duplicate_source — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php
+- **warn** duplicate_source — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/forms.php
 
 ## guangdong-fujian-scheme
 - **warn** duplicate_source — https://www.swd.gov.hk/gds/index.html

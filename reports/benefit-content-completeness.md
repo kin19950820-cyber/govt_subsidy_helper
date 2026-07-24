@@ -1,6 +1,6 @@
 # Benefit Content Completeness
 
-Generated: 2026-07-24T02:19:46.269Z · benefits: 30 · average score: 93/100
+Generated: 2026-07-24T02:29:06.288Z · benefits: 32 · average score: 93/100
 
 Critical fields: officialName, department, officialSource, eligibilitySummary, structuredEligibility, applicationMethod, lastVerified, verificationStatus, disclaimer
 
@@ -32,8 +32,10 @@ Critical fields: officialName, department, officialSource, eligibilitySummary, s
 | 94 | needs_review | home-ownership-scheme | — | contact, faq |
 | 94 | needs_review | residential-care-service-voucher | — | contact, faq |
 | 94 | needs_review | samaritan-fund | — | contact, faq |
+| 97 | needs_review | criminal-law-enforcement-injuries-compensation | — | faq |
 | 97 | needs_review | cssa-scheme | — | faq |
 | 97 | needs_review | employment-programme-elderly-middle-aged | — | faq |
+| 97 | needs_review | fasp-postsecondary | — | faq |
 | 97 | needs_review | nlsft-tertiary-loan | — | faq |
 | 97 | needs_review | salaries-tax-allowances-deductions | — | faq |
 | 97 | needs_review | traffic-accident-victims-assistance | — | faq |

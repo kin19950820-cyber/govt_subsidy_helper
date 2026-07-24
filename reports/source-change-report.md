@@ -1,15 +1,18 @@
 # Source Change / Monitor Report
 
-Generated: 2026-07-24T02:19:46.414Z
+Generated: 2026-07-24T02:29:06.451Z
 
-Baseline sources: 0 · canonical sources: 41 · added: 41 · removed: 0 · hash-changed: 0
+Baseline sources: 0 · canonical sources: 47 · added: 47 · removed: 0 · hash-changed: 0
 
 > ⚠️ 變更只作提示，**永不自動更新資格規則或金額**。偵測到變更後，由人手依 `docs/RESEARCH_AND_VERIFICATION.md` 覆核官方來源再修改 canonical 記錄。
 
-## Added sources (in canonical, not in baseline) (41)
+## Added sources (in canonical, not in baseline) (47)
 - `child-development-fund` — https://www.cdf.gov.hk/tc/
 - `community-care-service-voucher` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/psccsv/
 - `continuing-education-fund` — https://www.wfsfaa.gov.hk/cef/tc/index.htm
+- `criminal-law-enforcement-injuries-compensation` — https://www.swd.gov.hk/en/pubsvc/socsecu/criminalan/
+- `criminal-law-enforcement-injuries-compensation` — https://www.swd.gov.hk/en/pubsvc/socsecu/ss_info/quickfind/qf_cleics/qf_cleics_ec/index.html
+- `criminal-law-enforcement-injuries-compensation` — https://www.sssof.swd.gov.hk/eForm/eApplyCLEIC/Start?lang=en_US
 - `cssa-scheme` — https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/
 - `cssa-scheme` — https://www.swd.gov.hk/en/pubsvc/socsecu/comprehens/cssa/cssa_ec/cssa_ec_rr/index.html
 - `cssa-scheme` — https://www.swd.gov.hk/storage/asset/section/179/en/CSSAG102023(Eng).pdf
@@ -20,6 +23,9 @@ Baseline sources: 0 · canonical sources: 41 · added: 41 · removed: 0 · hash-
 - `employment-programme-elderly-middle-aged` — https://www.labour.gov.hk/eng/public/pdf/eip/EPM_ER.pdf
 - `employment-programme-elderly-middle-aged` — https://www.labour.gov.hk/eng/service/content.htm
 - `erb-training` — https://www.erb.org/tc/
+- `fasp-postsecondary` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php
+- `fasp-postsecondary` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/eligibility.php
+- `fasp-postsecondary` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/level.php
 - `guangdong-fujian-scheme` — https://www.swd.gov.hk/gds/index.html
 - `home-care-services` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html
 - `home-ownership-scheme` — https://www.housingauthority.gov.hk/en/home-ownership/hos-flats/eligibility/index.html
