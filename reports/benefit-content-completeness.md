@@ -1,6 +1,6 @@
 # Benefit Content Completeness
 
-Generated: 2026-07-24T02:29:06.288Z · benefits: 32 · average score: 93/100
+Generated: 2026-07-24T02:31:45.100Z · benefits: 34 · average score: 93/100
 
 Critical fields: officialName, department, officialSource, eligibilitySummary, structuredEligibility, applicationMethod, lastVerified, verificationStatus, disclaimer
 
@@ -29,9 +29,11 @@ Critical fields: officialName, department, officialSource, eligibilitySummary, s
 | 92 | needs_review | school-textbook-assistance | — | faq, typedSources |
 | 92 | needs_review | student-travel-subsidy | — | faq, typedSources |
 | 92 | needs_review | working-family-allowance | — | faq, typedSources |
+| 94 | needs_review | green-form-subsidised-home-ownership | — | contact, faq |
 | 94 | needs_review | home-ownership-scheme | — | contact, faq |
 | 94 | needs_review | residential-care-service-voucher | — | contact, faq |
 | 94 | needs_review | samaritan-fund | — | contact, faq |
+| 94 | needs_review | youth-employment-training-programme | — | contact, faq |
 | 97 | needs_review | criminal-law-enforcement-injuries-compensation | — | faq |
 | 97 | needs_review | cssa-scheme | — | faq |
 | 97 | needs_review | employment-programme-elderly-middle-aged | — | faq |

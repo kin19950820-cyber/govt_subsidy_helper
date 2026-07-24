@@ -1,6 +1,6 @@
 # Source Change / Audit Report
 
-Generated: 2026-07-24T02:29:06.371Z
+Generated: 2026-07-24T02:31:45.183Z
 
 Allowlist domains: 21 · error-level issues: 0
 
@@ -64,6 +64,9 @@ Allowlist domains: 21 · error-level issues: 0
 ## fasp-postsecondary
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/forms.php
+
+## green-form-subsidised-home-ownership
+- **warn** duplicate_source — https://www.housingauthority.gov.hk/en/home-ownership/gsh-ownership/eligibility-gsh/index.html
 
 ## guangdong-fujian-scheme
 - **warn** duplicate_source — https://www.swd.gov.hk/gds/index.html
@@ -156,4 +159,8 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/wfao/tc/index.htm
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/wfao/tc/application/forms.htm
 - **warn** missing_source_type — https://www.wfsfaa.gov.hk/wfao/tc/index.htm
+
+## youth-employment-training-programme
+- **warn** duplicate_source — https://www.yes.labour.gov.hk/Home
+- **warn** duplicate_source — https://www.yes.labour.gov.hk/aboutus/ToApply
 

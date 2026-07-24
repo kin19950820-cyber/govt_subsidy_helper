@@ -1,12 +1,12 @@
 # Source Change / Monitor Report
 
-Generated: 2026-07-24T02:29:06.451Z
+Generated: 2026-07-24T02:31:45.264Z
 
-Baseline sources: 0 · canonical sources: 47 · added: 47 · removed: 0 · hash-changed: 0
+Baseline sources: 0 · canonical sources: 53 · added: 53 · removed: 0 · hash-changed: 0
 
 > ⚠️ 變更只作提示，**永不自動更新資格規則或金額**。偵測到變更後，由人手依 `docs/RESEARCH_AND_VERIFICATION.md` 覆核官方來源再修改 canonical 記錄。
 
-## Added sources (in canonical, not in baseline) (47)
+## Added sources (in canonical, not in baseline) (53)
 - `child-development-fund` — https://www.cdf.gov.hk/tc/
 - `community-care-service-voucher` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/psccsv/
 - `continuing-education-fund` — https://www.wfsfaa.gov.hk/cef/tc/index.htm
@@ -26,6 +26,9 @@ Baseline sources: 0 · canonical sources: 47 · added: 47 · removed: 0 · hash-
 - `fasp-postsecondary` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/overview.php
 - `fasp-postsecondary` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/eligibility.php
 - `fasp-postsecondary` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/fasp/level.php
+- `green-form-subsidised-home-ownership` — https://www.housingauthority.gov.hk/en/home-ownership/gsh-ownership/index.html
+- `green-form-subsidised-home-ownership` — https://www.housingauthority.gov.hk/en/home-ownership/gsh-ownership/eligibility-gsh/index.html
+- `green-form-subsidised-home-ownership` — https://www.housingauthority.gov.hk/en/common/pdf/about-us/policy-focus/policies-on-public-housing/A07/A07.pdf
 - `guangdong-fujian-scheme` — https://www.swd.gov.hk/gds/index.html
 - `home-care-services` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/homebase_ccs/index.html
 - `home-ownership-scheme` — https://www.housingauthority.gov.hk/en/home-ownership/hos-flats/eligibility/index.html
@@ -54,6 +57,9 @@ Baseline sources: 0 · canonical sources: 47 · added: 47 · removed: 0 · hash-
 - `tsfs-postsecondary` — https://www.wfsfaa.gov.hk/sfo/en/postsecondary/tsfs/general/level.htm
 - `tsfs-postsecondary` — https://www.wfsfaa.gov.hk/sfo/en/postsecondary/tsfs/application/procedures.htm
 - `working-family-allowance` — https://www.wfsfaa.gov.hk/wfao/tc/index.htm
+- `youth-employment-training-programme` — https://www.yes.labour.gov.hk/Home
+- `youth-employment-training-programme` — https://www.yes.labour.gov.hk/aboutus/ToApply
+- `youth-employment-training-programme` — https://www.labour.gov.hk/eng/service/content6.htm
 
 ## Removed sources (in baseline, no longer in canonical) (0)
 - none

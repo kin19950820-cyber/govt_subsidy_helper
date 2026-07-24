@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T02:29:06.287Z",
+  "generatedAt": "2026-07-24T02:31:45.099Z",
   "average": 93,
   "rows": [
     {
@@ -339,6 +339,22 @@
       "documentInfoCoverage": 1
     },
     {
+      "slug": "green-form-subsidised-home-ownership",
+      "nameZh": "綠表置居計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 94,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "contact",
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
       "slug": "home-ownership-scheme",
       "nameZh": "居者有其屋計劃",
       "status": "needs_review",
@@ -373,6 +389,22 @@
     {
       "slug": "samaritan-fund",
       "nameZh": "撒瑪利亞基金",
+      "status": "needs_review",
+      "archived": false,
+      "score": 94,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "contact",
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "youth-employment-training-programme",
+      "nameZh": "展翅青見計劃",
       "status": "needs_review",
       "archived": false,
       "score": 94,
