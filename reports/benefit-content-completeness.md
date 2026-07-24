@@ -1,6 +1,6 @@
 # Benefit Content Completeness
 
-Generated: 2026-07-24T02:13:38.973Z · benefits: 26 · average score: 93/100
+Generated: 2026-07-24T02:15:36.734Z · benefits: 27 · average score: 93/100
 
 Critical fields: officialName, department, officialSource, eligibilitySummary, structuredEligibility, applicationMethod, lastVerified, verificationStatus, disclaimer
 
@@ -33,4 +33,5 @@ Critical fields: officialName, department, officialSource, eligibilitySummary, s
 | 97 | needs_review | cssa-scheme | — | faq |
 | 97 | needs_review | employment-programme-elderly-middle-aged | — | faq |
 | 97 | needs_review | nlsft-tertiary-loan | — | faq |
+| 97 | needs_review | traffic-accident-victims-assistance | — | faq |
 | 97 | needs_review | tsfs-postsecondary | — | faq |

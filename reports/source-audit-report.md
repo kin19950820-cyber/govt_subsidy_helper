@@ -1,6 +1,6 @@
 # Source Change / Audit Report
 
-Generated: 2026-07-24T02:13:39.058Z
+Generated: 2026-07-24T02:15:36.824Z
 
 Allowlist domains: 21 · error-level issues: 0
 
@@ -124,6 +124,11 @@ Allowlist domains: 21 · error-level issues: 0
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/overview.php
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/procedures.php
 - **warn** missing_source_type — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/overview.php
+
+## traffic-accident-victims-assistance
+- **warn** duplicate_source — https://www.swd.gov.hk/en/pubsvc/socsecu/trafficacc/
+- **warn** duplicate_source — https://www.sssof.swd.gov.hk/eForm/eApplyTAVA/Start?lang=en_US
+- **warn** duplicate_source — https://www.sssof.swd.gov.hk/eForm/eApplyTAVA/Start?lang=en_US
 
 ## tsfs-postsecondary
 - **warn** duplicate_source — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/tsfs/overview.php

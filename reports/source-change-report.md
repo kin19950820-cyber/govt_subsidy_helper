@@ -1,12 +1,12 @@
 # Source Change / Monitor Report
 
-Generated: 2026-07-24T02:13:39.139Z
+Generated: 2026-07-24T02:15:36.913Z
 
-Baseline sources: 0 · canonical sources: 33 · added: 33 · removed: 0 · hash-changed: 0
+Baseline sources: 0 · canonical sources: 36 · added: 36 · removed: 0 · hash-changed: 0
 
 > ⚠️ 變更只作提示，**永不自動更新資格規則或金額**。偵測到變更後，由人手依 `docs/RESEARCH_AND_VERIFICATION.md` 覆核官方來源再修改 canonical 記錄。
 
-## Added sources (in canonical, not in baseline) (33)
+## Added sources (in canonical, not in baseline) (36)
 - `child-development-fund` — https://www.cdf.gov.hk/tc/
 - `community-care-service-voucher` — https://www.swd.gov.hk/tc/pubsvc/elderly/cat_commcare/psccsv/
 - `continuing-education-fund` — https://www.wfsfaa.gov.hk/cef/tc/index.htm
@@ -36,6 +36,9 @@ Baseline sources: 0 · canonical sources: 33 · added: 33 · removed: 0 · hash-
 - `samaritan-fund` — https://www.ha.org.hk/visitor/ha_visitor_index.asp?Content_ID=10048&Lang=ENG
 - `samaritan-fund` — https://www.ha.org.hk/haho/ho/sf/fa_en.htm
 - `student-travel-subsidy` — https://www.wfsfaa.gov.hk/tc/sfo/primarysecondary/tt/overview.php
+- `traffic-accident-victims-assistance` — https://www.swd.gov.hk/en/pubsvc/socsecu/trafficacc/
+- `traffic-accident-victims-assistance` — https://www.swd.gov.hk/storage/asset/section/179/en/TAVA_Brief_Eng_201403.pdf
+- `traffic-accident-victims-assistance` — https://www.sssof.swd.gov.hk/eForm/eApplyTAVA/Start?lang=en_US
 - `tsfs-postsecondary` — https://www.wfsfaa.gov.hk/en/sfo/postsecondary/tsfs/overview.php
 - `tsfs-postsecondary` — https://www.wfsfaa.gov.hk/sfo/en/postsecondary/tsfs/general/level.htm
 - `tsfs-postsecondary` — https://www.wfsfaa.gov.hk/sfo/en/postsecondary/tsfs/application/procedures.htm

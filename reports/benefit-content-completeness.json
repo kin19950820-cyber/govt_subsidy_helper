@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T02:13:38.973Z",
+  "generatedAt": "2026-07-24T02:15:36.733Z",
   "average": 93,
   "rows": [
     {
@@ -387,6 +387,21 @@
     {
       "slug": "nlsft-tertiary-loan",
       "nameZh": "全日制大專學生免入息審查貸款計劃",
+      "status": "needs_review",
+      "archived": false,
+      "score": 97,
+      "criticalMissing": [],
+      "recommendedMissing": [
+        "faq"
+      ],
+      "sourceCoverage": 1,
+      "eligibilityRuleCoverage": 1,
+      "applicationInfoCoverage": 1,
+      "documentInfoCoverage": 1
+    },
+    {
+      "slug": "traffic-accident-victims-assistance",
+      "nameZh": "交通意外傷亡援助計劃",
       "status": "needs_review",
       "archived": false,
       "score": 97,
